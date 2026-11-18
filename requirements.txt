@@ -1,0 +1,11 @@
+# Local use: rebuild the figures (figures/code/build_figures.py), rebuild the pages (tools/build_site.py),
+# re-check the numbers (code/recheck_numbers.py) and run the small tests (code/modules/test_1h_check.py).
+# Python 3.13 (3.8 or later is enough for tools/ and code/recheck_numbers.py; the figure script was run with 3.13).
+#
+# TESTED = the version used when this repository was packaged (the original figure run logged only matplotlib 3.11.2).
+numpy==2.5.3        # TESTED; tools/, recheck_numbers.py and the check module need only numpy
+pandas==3.0.5       # TESTED; figures/code
+matplotlib==3.11.2  # pinned: the version that built the published figures (logged in figures/code build log)
+pillow==12.3.0      # TESTED; figure checks and compare_with_published.py
+# The check tests also import (test_1h_check.py):
+openpyxl            # UNPINNED (version not recorded in the run files)

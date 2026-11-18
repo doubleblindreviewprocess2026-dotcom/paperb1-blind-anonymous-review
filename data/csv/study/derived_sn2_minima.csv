@@ -1,0 +1,5 @@
+reaction,method,vertex_cx_A,vertex_energy_kcal,b3lyp_ts_cx_A,energy_at_b3lyp_ts_kcal,ref_ccsdt_dmp2_kcal,literature_kcal,error_vertex_vs_ccsdt,error_vertex_vs_lit,fit_points_A
+sn2_clcl,Skala-1.1,2.4229,9.532,2.3483,10.287,13.6094,13.41,-4.078,-3.878,2.348;2.448;2.548
+sn2_clcl,wB97M-V,2.316,13.34,2.3483,13.506,13.6094,13.41,-0.27,-0.07,2.248;2.298;2.348
+sn2_ff,Skala-1.1,1.8137,14.885,1.8563,15.28,13.6045,13.38,1.28,1.505,1.756;1.806;1.856
+sn2_ff,wB97M-V,1.8267,12.347,1.8563,12.554,13.6045,13.38,-1.258,-1.033,1.756;1.806;1.856

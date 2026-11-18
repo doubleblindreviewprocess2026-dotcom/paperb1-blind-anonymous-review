@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About | Paper B1 companion</title>
+<meta name="description" content="How to cite the study, licences, software versions and limitations.">
+<meta name="color-scheme" content="light dark">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27%3E%3Crect width=%2716%27 height=%2716%27 rx=%273%27 fill=%27%230b5f78%27/%3E%3Cpath d=%27M2 12 C5 12 6 3 8 3 S11 12 14 12%27 fill=%27none%27 stroke=%27white%27 stroke-width=%271.6%27/%3E%3C/svg%3E">
+<script>try{var t=localStorage.getItem("b1-theme");if(t==="dark"||t==="light")document.documentElement.setAttribute("data-theme",t);}catch(e){}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to the content</a>
+<header class="site"><div class="in">
+<a class="brand" href="../index.html">Paper B1 companion</a>
+<nav aria-label="Main"><a href="../index.html">Home</a><a href="../results/index.html">Results</a><a href="../demos/index.html">Demos</a><a href="../figures/index.html">Figures</a><a href="../data/index.html">Data</a><a href="../code/index.html">Code</a><a href="../checks/index.html">Checks</a><a href="../about/index.html" aria-current="page">About</a></nav>
+<button type="button" class="theme" aria-label="Switch theme">Dark theme</button>
+</div></header>
+<main id="main">
+<h1>About</h1>
+<div data-cfg-warning class="note warn hide"><p>Some values in <code>js/config.js</code> (repository, DOI, contact, copyright holder) are still placeholders. Replace them before you publish; see README.md.</p></div>
+<h2 id="cite">How to cite</h2>
+<div class="panel cite"><pre id="citation" data-citation></pre><button type="button" class="btn alt" data-copy="#citation">Copy</button></div>
+<p class="small">The archive entry (DOI) is a copy of the same files; if the website and the archive ever differ, the archive is the one to cite.</p>
+<h2 id="licence">Licence</h2>
+<ul><li><b>Code</b> (the Python modules, notebooks and the scripts in <code>tools/</code>, <code>code/</code> and <code>figures/code/</code>, and the site code in <code>js/</code> and <code>css/</code>): MIT licence, file <a href="../LICENSE">LICENSE</a>.</li>
+<li><b>Data, figures and tables</b> (everything in <code>data/</code> and <code>figures/</code> except the scripts in <code>figures/code/</code>): Creative Commons Attribution 4.0 International (CC BY 4.0), file <a href="../LICENSE-DATA.txt">LICENSE-DATA.txt</a>. You may reuse and adapt them, also commercially, if you give credit.</li></ul>
+<h2 id="versions">Software versions</h2>
+<div class="tablewrap" tabindex="0" role="region" aria-label="Software versions">
+<table class="compact">
+<thead><tr><th scope="col">Item</th><th scope="col">Setting</th></tr></thead>
+<tbody>
+<tr><td>Skala</td><td>skala 2026.9 (PyPI, August 2026); GPU build skala-cuda12x 2026.9</td></tr>
+<tr><td>Skala weights</td><td>microsoft/skala-1.1, Hugging Face revision <code>99b5ed87e5f69d9216e1f9e30148b922eaea1241</code></td></tr>
+<tr><td>Skala weights SHA-256</td><td><code>7f3e8622e1eb520ccd88a55464c3e359ac4d7e5ccbd1fb77a26afa1e1c20a5cd</code></td></tr>
+<tr><td>PySCF</td><td>2.12.1 (GPU notebook), 2.15.0 (CPU notebook and geometry pack)</td></tr>
+<tr><td>GPU4PySCF</td><td>gpu4pyscf-cuda12x 1.8.1 with cupy-cuda12x 14.2.0</td></tr>
+<tr><td>Dispersion</td><td>pyscf-dispersion 1.7.0 (D3(BJ))</td></tr>
+<tr><td>Geometry optimiser</td><td>geomeTRIC 1.1.1</td></tr>
+<tr><td>GFN2-xTB</td><td>tblite 0.8.0</td></tr>
+<tr><td>Python</td><td>3.13</td></tr>
+<tr><td>Geometry pack SHA-256</td><td><code>81e4533319f5fc593cc3e81daf93e6e4db4998df01eea275b3c813fc87dafae6</code></td></tr>
+</tbody></table></div>
+<p class="small">Hardware: CPU notebook Intel Xeon 2.20 GHz, 2 cores, 13 GB; GPU notebook Intel Xeon 2.00 GHz, 8 cores, 51 GB with a Tesla T4. Full list: <a href="../data/csv/tables/tableS6_software_hardware.csv">tableS6_software_hardware.csv</a>, <a href="../data/records/phase10_timing.json">phase10_timing.json</a>.</p>
+<h2 id="limits">Limitations</h2>
+<ul><li><b>Five reactions.</b> The headline statistics rest on n = 5 reactions (n = 3 at the larger basis, n = 4 for CCSD(T)). The 95 % bootstrap interval of the Skala-1.1 mean absolute error is 0.66 to 2.42 kcal/mol; differences between functionals of a few tenths of a kcal/mol are not resolved.</li><li><b>One geometry protocol.</b> All headline energies are single points at B3LYP-D3(BJ) geometries. GFN2-xTB geometries were used only in the scout test, and Skala-1.1-relaxed geometries were not computed.</li><li><b>An unexplained ωB97M-V value.</b> ωB97M-V underestimates the HCN → HNC barrier by 3.5 kcal/mol (and the HCN → HNC reaction energy by 2.7). We did not find the cause. It dominates the ωB97M-V mean absolute error: without HCN it is 0.46 instead of 1.08.</li><li><b>References.</b> The five literature values of the headline set were checked in their sources (the H₂CO value from the abstract of the paper); the H₂CO value includes zero-point energy, which was corrected with a B3LYP harmonic zero-point difference (−4.99 kcal/mol) for every method. The CH₃NC value could not be verified and is in no statistic. Our CCSD(T) is unusable for H₂CO (unstable reference at the transition state).</li><li><b>No stability analysis of the DFT solutions.</b> Convergence of each SCF was recorded, but no test whether a lower-energy solution exists. The Cl⁻ + CH₃Cl transition state with Skala-1.1 converged only with density fitting.</li><li><b>Skala-1.1 without D3</b> is the same SCF with the D3 energy removed, not a separate optimisation of the functional without D3.</li><li><b>Paths.</b> The HCN path reference has 8 of 11 points; the H₂CO path is a failed path and supports no conclusion.</li><li><b>Timings</b> come from one run on Colab-class hardware and are not a benchmark.</li><li><b>Not on this site:</b> the text of the manuscript and any correspondence. This site is the data, code and views behind it.</li></ul>
+<h2 id="contact">Contact</h2>
+<p data-hide-anon>Questions and corrections: <span data-cfg="contact"></span>. Please say which page and which file you mean.</p>
+<p data-show-anon>Contact details are withheld in this anonymous copy.</p>
+<h2>How this site is made</h2>
+<p>The pages are plain HTML, CSS and JavaScript with no external libraries, fonts or services. <code>tools/build_site.py</code> rebuilds every page and JSON file from the CSV files in <code>data/</code>; <code>tools/sync_sources.py</code> copies the sources into this folder. The site stores nothing about you except your choice of light or dark theme, kept in your browser.</p>
+
+</main>
+<footer class="site"><div class="in">
+<p>Companion website and data for a study of reaction barriers and reaction paths with Skala-1.1. Code: MIT licence. Data and figures: CC BY 4.0 (see <a href="../about/index.html#licence">About</a>).</p>
+<p data-hide-anon>&copy; <span data-cfg="year"></span> <span data-cfg="holder"></span>. Questions: <span data-cfg="contact"></span>.</p>
+<p data-show-anon>Anonymous copy for review.</p>
+<p>The pages use no external services and set no cookies. The data files are static: every number on this site comes from a CSV file in <a href="../data/index.html">data</a>.</p>
+</div></footer>
+<noscript><div class="note warn" style="max-width:1088px;margin:0 auto 20px"><p>JavaScript is off. The tables and numbers on the pages still show, but the interactive views (sorting, filters, demos) need JavaScript.</p></div></noscript>
+<script src="../js/config.js"></script>
+<script src="../js/common.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+ "design": "1h",
+ "smoke": false,
+ "basis_override": {},
+ "started": "2026-11-16T15:23:37",
+ "reactions": [
+  "hcn",
+  "nh3",
+  "h2co",
+  "ch3nc",
+  "sn2_ff",
+  "sn2_clcl"
+ ],
+ "headline_family": "own",
+ "own_geometries_for_all": true,
+ "deadline_min": 50.0,
+ "extension": null,
+ "rebuild_geoms": false
+}

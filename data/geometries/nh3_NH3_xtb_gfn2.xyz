@@ -1,0 +1,6 @@
+4
+nh3_NH3_xtb_gfn2 charge=0 {"species": "NH3", "kind": "min", "level": "xtb_gfn2", "opt_converged": true, "basis": "def2-TZVP", "from_pack": true, "
+N  -0.00002841  0.00000000 -0.00913436
+H   0.94383913  0.00000000 -0.37594601
+H  -0.47194910  0.81740568 -0.37597982
+H  -0.47194910 -0.81740568 -0.37597982

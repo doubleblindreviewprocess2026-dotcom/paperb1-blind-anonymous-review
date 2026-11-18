@@ -1,0 +1,6 @@
+4
+nh3_NH3_own_b3lyp charge=0 {"species": "NH3", "kind": "min", "level": "own_b3lyp", "opt_converged": true, "basis": "def2-TZVP", "from_pack": true, 
+N  -0.00002925  0.00000000 -0.00468626
+H   0.94271322  0.00000000 -0.37742893
+H  -0.47138573  0.81643129 -0.37746241
+H  -0.47138573 -0.81643129 -0.37746241

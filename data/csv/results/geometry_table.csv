@@ -1,0 +1,7 @@
+system,key,coordinate,own_b3lyp,own_scanpeak,db_qcisd_mg3,xtb_gfn2,skala_relaxed,xtb_minus_b3lyp
+HCN to HNC,hcn,H-C-N angle (deg),71.5178,,,66.7895,,-4.7283
+NH3 inversion,nh3,N-H1-H2-H3 dihedral (deg),0.0,,,-0.0074,,-0.0074
+H2CO to H2 + CO,h2co,H...H distance (A),1.3114,,,1.3114,,0.0
+CH3NC to CH3CN,ch3nc,C-N-C angle (deg),69.024,,,60.1671,,-8.8569
+F- + CH3F,sn2_ff,C...F(attacking) distance (A),1.8563,,,1.7571,,-0.0992
+Cl- + CH3Cl,sn2_clcl,C...Cl(attacking) distance (A),2.3483,,,2.2012,,-0.1471

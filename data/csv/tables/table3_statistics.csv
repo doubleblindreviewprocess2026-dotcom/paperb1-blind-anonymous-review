@@ -1,0 +1,17 @@
+block,method,n,MAE,MSE,MaxAE
+"(i) literature reference, def2-TZVP(D)",Skala-1.1,5,1.443,0.194,3.122
+"(i) literature reference, def2-TZVP(D)",Skala-1.1 without D3,5,1.442,0.327,2.788
+"(i) literature reference, def2-TZVP(D)",ωB97M-V,5,1.079,-0.87,3.535
+"(i) literature reference, def2-TZVP(D)",B3LYP-D3(BJ),5,2.262,-2.262,4.617
+"(i) literature reference, def2-TZVP(D)",r²SCAN,5,3.292,-3.292,5.359
+"(i) literature reference, def2-TZVP(D)",PBE,5,4.52,-4.52,8.155
+"(i) literature reference, def2-TZVP(D)",CCSD(T) + MP2 corr.,4,0.291,0.085,0.412
+"(ii) internal CCSD(T)+MP2 reference, with CH3NC, H2CO excluded",Skala-1.1,5,1.28826,-0.04049999999999994,3.3219
+"(ii) internal CCSD(T)+MP2 reference, with CH3NC, H2CO excluded",Skala-1.1 without D3,5,1.23414,0.03917999999999999,2.9874
+"(ii) internal CCSD(T)+MP2 reference, with CH3NC, H2CO excluded",ωB97M-V,5,1.2855199999999998,-1.2855199999999998,3.1237
+"(ii) internal CCSD(T)+MP2 reference, with CH3NC, H2CO excluded",B3LYP-D3(BJ),5,2.0154199999999998,-1.6251799999999998,4.8163
+"(ii) internal CCSD(T)+MP2 reference, with CH3NC, H2CO excluded",r²SCAN,5,2.57846,-2.57846,5.5586
+"(ii) internal CCSD(T)+MP2 reference, with CH3NC, H2CO excluded",PBE,5,3.1981,-3.1981,6.2754
+"(iii) def2-QZVPP, HCN, NH3, H2CO, literature reference",Skala-1.1,3,0.765,-0.061,1.24
+"(iii) def2-QZVPP, HCN, NH3, H2CO, literature reference",Skala-1.1 without D3,3,0.678,0.021,0.985
+"(iii) def2-QZVPP, HCN, NH3, H2CO, literature reference",ωB97M-V,3,1.5,-1.326,3.793

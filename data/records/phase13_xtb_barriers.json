@@ -1,0 +1,12 @@
+{
+ "unit": "kcal/mol",
+ "barrier_TS_minus_reactant_or_complex": {
+  "hcn": 73.194,
+  "nh3": 6.11,
+  "h2co": null,
+  "ch3nc": 64.716,
+  "sn2_ff": 3.721,
+  "sn2_clcl": 10.588
+ },
+ "note": "GFN2-xTB energies at GFN2-xTB geometries (from the geometry pack); null = no xTB peak or missing"
+}

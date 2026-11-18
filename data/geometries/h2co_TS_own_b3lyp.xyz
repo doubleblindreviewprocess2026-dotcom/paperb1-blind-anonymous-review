@@ -1,0 +1,6 @@
+4
+h2co_TS_own_b3lyp charge=0 {"species": "TS", "kind": "ts", "level": "own_b3lyp", "opt_converged": true, "basis": "def2-TZVP", "from_pack": true, "p
+C  -0.13093024 -0.00000000 -0.01526061
+O  -0.22432865 -0.00000000  1.13898182
+H   1.46921325  0.00000000 -0.54376388
+H   0.25462723  0.00000000 -1.03823928

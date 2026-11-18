@@ -1,0 +1,2 @@
+system,point_id,coordinate,geometry_level,method,basis,energy_hartree,converged,t1,imaginary_modes,seconds,hardware,versions,extra
+hcn_nb4,nb4_00,"0.0,1.6749999999999998",v4_nb4,v4-ccsd_t,def2-TZVP,-93.31333514565814,1,0.01236,,9.76,"Intel(R) Xeon(R) CPU @ 2.20GHz, 2 cores, 13 GB RAM",pyscf=2.15.0;numpy=2.4.6;scipy=1.16.3;pandas=2.2.3;torch=2.14.1+cpu;huggingface_hub=1.33.0;pyscf-dispersion=1.7.0;python=3.13.18,"{""e_ccsd_corr"": -0.38506612023310116, ""e_scf"": -92.91014842233434, ""e_t"": -0.018120603090694666, ""frozen_core"": false, ""n_frozen"": 0, ""nbf"": 68}"

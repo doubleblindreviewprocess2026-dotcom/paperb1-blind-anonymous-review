@@ -1,0 +1,6 @@
+4
+nh3_TS_own_b3lyp charge=0 {"species": "TS", "kind": "ts", "level": "own_b3lyp", "opt_converged": true, "basis": "def2-TZVP", "from_pack": true, "p
+N   0.00570524 -0.00000000 -0.00000000
+H   1.00313396  0.00000000 -0.00000000
+H  -0.49300878  0.86379925 -0.00000000
+H  -0.49300878 -0.86379925 -0.00000000

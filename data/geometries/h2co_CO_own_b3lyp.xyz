@@ -1,0 +1,4 @@
+2
+h2co_CO_own_b3lyp charge=0 {"species": "CO", "kind": "min", "level": "own_b3lyp", "opt_converged": true, "basis": "def2-TZVP", "from_pack": true, "
+C   0.00000000 -0.00000000  0.00178850
+O  -0.00000000  0.00000000  1.12668713

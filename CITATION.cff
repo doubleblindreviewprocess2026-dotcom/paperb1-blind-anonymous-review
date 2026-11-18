@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this repository, its data or its code, please cite it as below (and the paper once published)."
+title: "Companion repository and website for: Reaction barriers and reaction paths of five small molecules with the learned Skala-1.1 functional: per-reaction errors against coupled-cluster references"
+type: software
+authors:
+  - name: "AUTHORS_PLACEHOLDER"
+repository-code: "https://github.com/REPO_PLACEHOLDER"
+url: "PAGES_URL_PLACEHOLDER"
+license: MIT
+abstract: "Code, data, figures and a companion website for a study of reaction barriers and reaction paths of five small molecules with the Skala-1.1 density functional, compared with coupled-cluster references. The code is MIT-licensed; data, tables and figures are CC BY 4.0 (see LICENSE-DATA.txt)."
+keywords:
+  - density functional theory
+  - Skala
+  - reaction barriers
+  - reproducibility
+# Fill in after acceptance, then delete the lines you do not use:
+# doi: "DOI_PLACEHOLDER"
+# version: "1.0.0"
+# date-released: "YYYY-MM-DD"
+# preferred-citation:
+#   type: article
+#   title: "..."
+#   authors: [...]
+#   journal: "..."
+#   year: 2027
+#   doi: "..."

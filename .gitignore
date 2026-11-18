@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+# output of figures/code/build_figures.py (the published figures are in figures/png, pdf and svg)
+figures_rebuilt/
+# scratch files of the notebooks and the tests
+b1v5_work/
+*.log
+# operating-system files
+.DS_Store
+Thumbs.db

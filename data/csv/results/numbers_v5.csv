@@ -1,0 +1,1136 @@
+table,system,quantity,method,basis,geometry_level,value,reference,error,unit,note
+table2,hcn,barrier_fwd L1,Skala-1.1,def2-TZVP,own_b3lyp,48.3733,48.07,0.3033,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,hcn,barrier_rev L2,Skala-1.1,def2-TZVP,own_b3lyp,33.4142,32.82,0.5942,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,hcn,reaction_energy L3,Skala-1.1,def2-TZVP,own_b3lyp,14.9591,15.25,-0.2909,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,nh3,barrier_fwd L4,Skala-1.1,def2-TZVP,own_b3lyp,5.9272,5.12,0.8072,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,h2co,barrier_fwd L5,Skala-1.1,def2-TZVP,own_b3lyp,82.9767,81.9,1.0767,kcal/mol,zero-point difference -4.99 added
+table2,ch3nc,barrier_fwd L6,Skala-1.1,def2-TZVP,own_b3lyp,40.1605,38.25,1.9105,kcal/mol,"zero-point convention unknown: electronic value shown, not s"
+table2,sn2_ff,barrier_fwd L7,Skala-1.1,def2-TZVPD,own_b3lyp,1.4705,-0.34,1.8105,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,sn2_ff,barrier_fwd_cplx L8,Skala-1.1,def2-TZVPD,own_b3lyp,15.2873,13.38,1.9073,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,sn2_clcl,barrier_fwd L9,Skala-1.1,def2-TZVPD,own_b3lyp,-0.011,3.1,-3.111,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,sn2_clcl,barrier_fwd_cplx L10,Skala-1.1,def2-TZVPD,own_b3lyp,10.2875,13.41,-3.1225,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,hcn,barrier_fwd L1,Skala-1.1,def2-QZVPP,own_b3lyp,48.1501,48.07,0.0801,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,hcn,barrier_rev L2,Skala-1.1,def2-QZVPP,own_b3lyp,33.4758,32.82,0.6558,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,hcn,reaction_energy L3,Skala-1.1,def2-QZVPP,own_b3lyp,14.6743,15.25,-0.5757,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,nh3,barrier_fwd L4,Skala-1.1,def2-QZVPP,own_b3lyp,6.0958,5.12,0.9758,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,h2co,barrier_fwd L5,Skala-1.1,def2-QZVPP,own_b3lyp,80.6605,81.9,-1.2395,kcal/mol,zero-point difference -4.99 added
+table2,hcn,barrier_fwd L1,Skala-1.1-noD3,def2-TZVP,own_b3lyp,48.3673,48.07,0.2973,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,hcn,barrier_rev L2,Skala-1.1-noD3,def2-TZVP,own_b3lyp,33.3127,32.82,0.4927,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,hcn,reaction_energy L3,Skala-1.1-noD3,def2-TZVP,own_b3lyp,15.0546,15.25,-0.1954,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,nh3,barrier_fwd L4,Skala-1.1-noD3,def2-TZVP,own_b3lyp,5.9254,5.12,0.8054,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,h2co,barrier_fwd L5,Skala-1.1-noD3,def2-TZVP,own_b3lyp,83.2309,81.9,1.3309,kcal/mol,zero-point difference -4.99 added
+table2,ch3nc,barrier_fwd L6,Skala-1.1-noD3,def2-TZVP,own_b3lyp,40.152,38.25,1.902,kcal/mol,"zero-point convention unknown: electronic value shown, not s"
+table2,sn2_ff,barrier_fwd L7,Skala-1.1-noD3,def2-TZVPD,own_b3lyp,2.1631,-0.34,2.5031,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,sn2_ff,barrier_fwd_cplx L8,Skala-1.1-noD3,def2-TZVPD,own_b3lyp,15.3675,13.38,1.9875,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,sn2_clcl,barrier_fwd L9,Skala-1.1-noD3,def2-TZVPD,own_b3lyp,1.6681,3.1,-1.4319,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,sn2_clcl,barrier_fwd_cplx L10,Skala-1.1-noD3,def2-TZVPD,own_b3lyp,10.622,13.41,-2.788,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,hcn,barrier_fwd L1,Skala-1.1-noD3,def2-QZVPP,own_b3lyp,48.1442,48.07,0.0742,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,hcn,barrier_rev L2,Skala-1.1-noD3,def2-QZVPP,own_b3lyp,33.3743,32.82,0.5543,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,hcn,reaction_energy L3,Skala-1.1-noD3,def2-QZVPP,own_b3lyp,14.7699,15.25,-0.4801,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,nh3,barrier_fwd L4,Skala-1.1-noD3,def2-QZVPP,own_b3lyp,6.0941,5.12,0.9741,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,h2co,barrier_fwd L5,Skala-1.1-noD3,def2-QZVPP,own_b3lyp,80.9147,81.9,-0.9853,kcal/mol,zero-point difference -4.99 added
+table2,hcn,barrier_fwd L1,wB97M-V,def2-TZVP,own_b3lyp,44.5348,48.07,-3.5352,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,hcn,barrier_rev L2,wB97M-V,def2-TZVP,own_b3lyp,31.9685,32.82,-0.8515,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,hcn,reaction_energy L3,wB97M-V,def2-TZVP,own_b3lyp,12.5663,15.25,-2.6837,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,nh3,barrier_fwd L4,wB97M-V,def2-TZVP,own_b3lyp,4.6069,5.12,-0.5131,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,h2co,barrier_fwd L5,wB97M-V,def2-TZVP,own_b3lyp,82.3271,81.9,0.4271,kcal/mol,zero-point difference -4.99 added
+table2,ch3nc,barrier_fwd L6,wB97M-V,def2-TZVP,own_b3lyp,38.6103,38.25,0.3603,kcal/mol,"zero-point convention unknown: electronic value shown, not s"
+table2,sn2_ff,barrier_fwd L7,wB97M-V,def2-TZVPD,own_b3lyp,-0.9523,-0.34,-0.6123,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,sn2_ff,barrier_fwd_cplx L8,wB97M-V,def2-TZVPD,own_b3lyp,12.5555,13.38,-0.8245,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,sn2_clcl,barrier_fwd L9,wB97M-V,def2-TZVPD,own_b3lyp,2.9639,3.1,-0.1361,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,sn2_clcl,barrier_fwd_cplx L10,wB97M-V,def2-TZVPD,own_b3lyp,13.5032,13.41,0.0932,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,hcn,barrier_fwd L1,wB97M-V,def2-QZVPP,own_b3lyp,44.2766,48.07,-3.7934,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,hcn,barrier_rev L2,wB97M-V,def2-QZVPP,own_b3lyp,31.9166,32.82,-0.9034,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,hcn,reaction_energy L3,wB97M-V,def2-QZVPP,own_b3lyp,12.36,15.25,-2.89,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,nh3,barrier_fwd L4,wB97M-V,def2-QZVPP,own_b3lyp,4.6747,5.12,-0.4453,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,h2co,barrier_fwd L5,wB97M-V,def2-QZVPP,own_b3lyp,82.1617,81.9,0.2617,kcal/mol,zero-point difference -4.99 added
+table2,hcn,barrier_fwd L1,B3LYP-D3BJ,def2-TZVP,own_b3lyp,47.6767,48.07,-0.3933,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,hcn,barrier_rev L2,B3LYP-D3BJ,def2-TZVP,own_b3lyp,33.5099,32.82,0.6899,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,hcn,reaction_energy L3,B3LYP-D3BJ,def2-TZVP,own_b3lyp,14.1668,15.25,-1.0832,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,nh3,barrier_fwd L4,B3LYP-D3BJ,def2-TZVP,own_b3lyp,4.5228,5.12,-0.5972,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,h2co,barrier_fwd L5,B3LYP-D3BJ,def2-TZVP,own_b3lyp,79.3293,81.9,-2.5707,kcal/mol,zero-point difference -4.99 added
+table2,ch3nc,barrier_fwd L6,B3LYP-D3BJ,def2-TZVP,own_b3lyp,40.8739,38.25,2.6239,kcal/mol,"zero-point convention unknown: electronic value shown, not s"
+table2,sn2_ff,barrier_fwd L7,B3LYP-D3BJ,def2-TZVPD,own_b3lyp,-2.8688,-0.34,-2.5288,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,sn2_ff,barrier_fwd_cplx L8,B3LYP-D3BJ,def2-TZVPD,own_b3lyp,10.2459,13.38,-3.1341,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,sn2_clcl,barrier_fwd L9,B3LYP-D3BJ,def2-TZVPD,own_b3lyp,-1.9914,3.1,-5.0914,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,sn2_clcl,barrier_fwd_cplx L10,B3LYP-D3BJ,def2-TZVPD,own_b3lyp,8.7931,13.41,-4.6169,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,hcn,barrier_fwd L1,r2SCAN,def2-TZVP,own_b3lyp,46.5646,48.07,-1.5054,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,hcn,barrier_rev L2,r2SCAN,def2-TZVP,own_b3lyp,31.8635,32.82,-0.9565,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,hcn,reaction_energy L3,r2SCAN,def2-TZVP,own_b3lyp,14.7011,15.25,-0.5489,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,nh3,barrier_fwd L4,r2SCAN,def2-TZVP,own_b3lyp,4.8929,5.12,-0.2271,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,h2co,barrier_fwd L5,r2SCAN,def2-TZVP,own_b3lyp,77.339,81.9,-4.561,kcal/mol,zero-point difference -4.99 added
+table2,ch3nc,barrier_fwd L6,r2SCAN,def2-TZVP,own_b3lyp,39.2671,38.25,1.0171,kcal/mol,"zero-point convention unknown: electronic value shown, not s"
+table2,sn2_ff,barrier_fwd L7,r2SCAN,def2-TZVPD,own_b3lyp,-5.6464,-0.34,-5.3064,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,sn2_ff,barrier_fwd_cplx L8,r2SCAN,def2-TZVPD,own_b3lyp,8.5706,13.38,-4.8094,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,sn2_clcl,barrier_fwd L9,r2SCAN,def2-TZVPD,own_b3lyp,-3.1318,3.1,-6.2318,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,sn2_clcl,barrier_fwd_cplx L10,r2SCAN,def2-TZVPD,own_b3lyp,8.0508,13.41,-5.3592,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,hcn,barrier_fwd L1,PBE,def2-TZVP,own_b3lyp,45.9378,48.07,-2.1322,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,hcn,barrier_rev L2,PBE,def2-TZVP,own_b3lyp,30.7069,32.82,-2.1131,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,hcn,reaction_energy L3,PBE,def2-TZVP,own_b3lyp,15.231,15.25,-0.019,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,nh3,barrier_fwd L4,PBE,def2-TZVP,own_b3lyp,4.932,5.12,-0.188,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,h2co,barrier_fwd L5,PBE,def2-TZVP,own_b3lyp,73.7455,81.9,-8.1545,kcal/mol,zero-point difference -4.99 added
+table2,ch3nc,barrier_fwd L6,PBE,def2-TZVP,own_b3lyp,38.7113,38.25,0.4613,kcal/mol,"zero-point convention unknown: electronic value shown, not s"
+table2,sn2_ff,barrier_fwd L7,PBE,def2-TZVPD,own_b3lyp,-5.7797,-0.34,-5.4397,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,sn2_ff,barrier_fwd_cplx L8,PBE,def2-TZVPD,own_b3lyp,7.3327,13.38,-6.0473,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,sn2_clcl,barrier_fwd L9,PBE,def2-TZVPD,own_b3lyp,-3.2097,3.1,-6.3097,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,sn2_clcl,barrier_fwd_cplx L10,PBE,def2-TZVPD,own_b3lyp,7.334,13.41,-6.076,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,hcn,barrier_fwd L1,CCSD(T)+dMP2,def2-TZVP,own_b3lyp,47.6585,48.07,-0.4115,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,hcn,barrier_rev L2,CCSD(T)+dMP2,def2-TZVP,own_b3lyp,33.0019,32.82,0.1819,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,hcn,reaction_energy L3,CCSD(T)+dMP2,def2-TZVP,own_b3lyp,14.6566,15.25,-0.5934,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,nh3,barrier_fwd L4,CCSD(T)+dMP2,def2-TZVP,own_b3lyp,5.4494,5.12,0.3294,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,ch3nc,barrier_fwd L6,CCSD(T)+dMP2,def2-TZVP,own_b3lyp,39.9165,38.25,1.6665,kcal/mol,"zero-point convention unknown: electronic value shown, not s"
+table2,sn2_ff,barrier_fwd L7,CCSD(T)+dMP2,def2-TZVPD,own_b3lyp,-0.0222,-0.34,0.3178,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,sn2_ff,barrier_fwd_cplx L8,CCSD(T)+dMP2,def2-TZVPD,own_b3lyp,13.6045,13.38,0.2245,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,sn2_clcl,barrier_fwd L9,CCSD(T)+dMP2,def2-TZVPD,own_b3lyp,2.9323,3.1,-0.1677,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,sn2_clcl,barrier_fwd_cplx L10,CCSD(T)+dMP2,def2-TZVPD,own_b3lyp,13.6094,13.41,0.1994,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,hcn,barrier_fwd L1,CCSD(T)-fc,def2-TZVP,own_b3lyp,48.0987,48.07,0.0287,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,hcn,barrier_rev L2,CCSD(T)-fc,def2-TZVP,own_b3lyp,32.6996,32.82,-0.1204,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,hcn,reaction_energy L3,CCSD(T)-fc,def2-TZVP,own_b3lyp,15.3991,15.25,0.1491,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,nh3,barrier_fwd L4,CCSD(T)-fc,def2-TZVP,own_b3lyp,5.4678,5.12,0.3478,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,ch3nc,barrier_fwd L6,CCSD(T)-fc,def2-TZVP,own_b3lyp,39.9686,38.25,1.7186,kcal/mol,"zero-point convention unknown: electronic value shown, not s"
+table2,sn2_ff,barrier_fwd L7,CCSD(T)-fc,def2-TZVPD,own_b3lyp,0.6044,-0.34,0.9444,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,sn2_ff,barrier_fwd_cplx L8,CCSD(T)-fc,def2-TZVPD,own_b3lyp,13.8005,13.38,0.4205,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,sn2_clcl,barrier_fwd L9,CCSD(T)-fc,def2-TZVPD,own_b3lyp,2.9735,3.1,-0.1265,kcal/mol,electronic energy vs zero-point-excluded reference
+table2,sn2_clcl,barrier_fwd_cplx L10,CCSD(T)-fc,def2-TZVPD,own_b3lyp,13.5345,13.41,0.1245,kcal/mol,electronic energy vs zero-point-excluded reference
+table3,hcn,barrier_fwd,Skala-1.1,def2-TZVP,reference geometry,48.3733,48.07,0.3033,kcal/mol,
+table3,hcn,barrier_fwd,Skala-1.1,def2-TZVP,xTB geometry,48.4935,48.07,0.4235,kcal/mol,
+table3,hcn,barrier_fwd,Skala-1.1-noD3,def2-TZVP,reference geometry,48.3673,48.07,0.2973,kcal/mol,
+table3,hcn,barrier_fwd,Skala-1.1-noD3,def2-TZVP,xTB geometry,48.4694,48.07,0.3994,kcal/mol,
+table3,hcn,barrier_fwd,wB97M-V,def2-TZVP,reference geometry,44.5348,48.07,-3.5352,kcal/mol,
+table3,hcn,barrier_fwd,wB97M-V,def2-TZVP,xTB geometry,44.8418,48.07,-3.2282,kcal/mol,
+table3,hcn,barrier_fwd,B3LYP-D3BJ,def2-TZVP,reference geometry,47.6767,48.07,-0.3933,kcal/mol,
+table3,hcn,barrier_fwd,B3LYP-D3BJ,def2-TZVP,xTB geometry,48.2904,48.07,0.2204,kcal/mol,
+table3,hcn,barrier_fwd,r2SCAN,def2-TZVP,reference geometry,46.5646,48.07,-1.5054,kcal/mol,
+table3,hcn,barrier_fwd,PBE,def2-TZVP,reference geometry,45.9378,48.07,-2.1322,kcal/mol,
+table3,nh3,barrier_fwd,Skala-1.1,def2-TZVP,reference geometry,5.9272,5.12,0.8072,kcal/mol,
+table3,nh3,barrier_fwd,Skala-1.1,def2-TZVP,xTB geometry,5.9072,5.12,0.7872,kcal/mol,
+table3,nh3,barrier_fwd,Skala-1.1-noD3,def2-TZVP,reference geometry,5.9254,5.12,0.8054,kcal/mol,
+table3,nh3,barrier_fwd,Skala-1.1-noD3,def2-TZVP,xTB geometry,5.9056,5.12,0.7856,kcal/mol,
+table3,nh3,barrier_fwd,wB97M-V,def2-TZVP,reference geometry,4.6069,5.12,-0.5131,kcal/mol,
+table3,nh3,barrier_fwd,wB97M-V,def2-TZVP,xTB geometry,4.6279,5.12,-0.4921,kcal/mol,
+table3,nh3,barrier_fwd,B3LYP-D3BJ,def2-TZVP,reference geometry,4.5228,5.12,-0.5972,kcal/mol,
+table3,nh3,barrier_fwd,B3LYP-D3BJ,def2-TZVP,xTB geometry,4.5568,5.12,-0.5632,kcal/mol,
+table3,nh3,barrier_fwd,r2SCAN,def2-TZVP,reference geometry,4.8929,5.12,-0.2271,kcal/mol,
+table3,nh3,barrier_fwd,PBE,def2-TZVP,reference geometry,4.932,5.12,-0.188,kcal/mol,
+table3,h2co,barrier_fwd,Skala-1.1,def2-TZVP,reference geometry,87.9652,81.9,6.0652,kcal/mol,
+table3,h2co,barrier_fwd,Skala-1.1,def2-TZVP,xTB geometry,87.8847,81.9,5.9847,kcal/mol,
+table3,h2co,barrier_fwd,Skala-1.1-noD3,def2-TZVP,reference geometry,88.2194,81.9,6.3194,kcal/mol,
+table3,h2co,barrier_fwd,Skala-1.1-noD3,def2-TZVP,xTB geometry,88.1386,81.9,6.2386,kcal/mol,
+table3,h2co,barrier_fwd,wB97M-V,def2-TZVP,reference geometry,87.3156,81.9,5.4156,kcal/mol,
+table3,h2co,barrier_fwd,wB97M-V,def2-TZVP,xTB geometry,87.2352,81.9,5.3352,kcal/mol,
+table3,h2co,barrier_fwd,B3LYP-D3BJ,def2-TZVP,reference geometry,84.3178,81.9,2.4178,kcal/mol,
+table3,h2co,barrier_fwd,B3LYP-D3BJ,def2-TZVP,xTB geometry,84.2189,81.9,2.3189,kcal/mol,
+table3,h2co,barrier_fwd,r2SCAN,def2-TZVP,reference geometry,82.3275,81.9,0.4275,kcal/mol,
+table3,h2co,barrier_fwd,PBE,def2-TZVP,reference geometry,78.7339,81.9,-3.1661,kcal/mol,
+table3,ch3nc,barrier_fwd,Skala-1.1,def2-TZVP,reference geometry,40.1605,,,kcal/mol,
+table3,ch3nc,barrier_fwd,Skala-1.1,def2-TZVP,xTB geometry,43.2785,,,kcal/mol,
+table3,ch3nc,barrier_fwd,Skala-1.1-noD3,def2-TZVP,reference geometry,40.152,,,kcal/mol,
+table3,ch3nc,barrier_fwd,Skala-1.1-noD3,def2-TZVP,xTB geometry,43.2645,,,kcal/mol,
+table3,ch3nc,barrier_fwd,wB97M-V,def2-TZVP,reference geometry,38.6103,,,kcal/mol,
+table3,ch3nc,barrier_fwd,wB97M-V,def2-TZVP,xTB geometry,42.3756,,,kcal/mol,
+table3,ch3nc,barrier_fwd,B3LYP-D3BJ,def2-TZVP,reference geometry,40.8739,,,kcal/mol,
+table3,ch3nc,barrier_fwd,B3LYP-D3BJ,def2-TZVP,xTB geometry,44.4992,,,kcal/mol,
+table3,ch3nc,barrier_fwd,r2SCAN,def2-TZVP,reference geometry,39.2671,,,kcal/mol,
+table3,ch3nc,barrier_fwd,PBE,def2-TZVP,reference geometry,38.7113,,,kcal/mol,
+table3,sn2_ff,barrier_fwd_cplx,Skala-1.1,def2-TZVPD,reference geometry,15.2873,13.38,1.9073,kcal/mol,
+table3,sn2_ff,barrier_fwd_cplx,Skala-1.1,def2-TZVPD,xTB geometry,13.9496,13.38,0.5696,kcal/mol,
+table3,sn2_ff,barrier_fwd_cplx,Skala-1.1-noD3,def2-TZVPD,reference geometry,15.3675,13.38,1.9875,kcal/mol,
+table3,sn2_ff,barrier_fwd_cplx,Skala-1.1-noD3,def2-TZVPD,xTB geometry,13.9933,13.38,0.6133,kcal/mol,
+table3,sn2_ff,barrier_fwd_cplx,wB97M-V,def2-TZVPD,reference geometry,12.5555,13.38,-0.8245,kcal/mol,
+table3,sn2_ff,barrier_fwd_cplx,wB97M-V,def2-TZVPD,xTB geometry,11.3699,13.38,-2.0101,kcal/mol,
+table3,sn2_ff,barrier_fwd_cplx,B3LYP-D3BJ,def2-TZVPD,reference geometry,10.2459,13.38,-3.1341,kcal/mol,
+table3,sn2_ff,barrier_fwd_cplx,B3LYP-D3BJ,def2-TZVPD,xTB geometry,9.2511,13.38,-4.1289,kcal/mol,
+table3,sn2_ff,barrier_fwd_cplx,r2SCAN,def2-TZVPD,reference geometry,8.5706,13.38,-4.8094,kcal/mol,
+table3,sn2_ff,barrier_fwd_cplx,PBE,def2-TZVPD,reference geometry,7.3327,13.38,-6.0473,kcal/mol,
+table3,sn2_clcl,barrier_fwd_cplx,Skala-1.1,def2-TZVPD,reference geometry,10.2875,13.41,-3.1225,kcal/mol,
+table3,sn2_clcl,barrier_fwd_cplx,Skala-1.1,def2-TZVPD,xTB geometry,15.9711,13.41,2.5611,kcal/mol,
+table3,sn2_clcl,barrier_fwd_cplx,Skala-1.1-noD3,def2-TZVPD,reference geometry,10.622,13.41,-2.788,kcal/mol,
+table3,sn2_clcl,barrier_fwd_cplx,Skala-1.1-noD3,def2-TZVPD,xTB geometry,16.223,13.41,2.813,kcal/mol,
+table3,sn2_clcl,barrier_fwd_cplx,wB97M-V,def2-TZVPD,reference geometry,13.5032,13.41,0.0932,kcal/mol,
+table3,sn2_clcl,barrier_fwd_cplx,wB97M-V,def2-TZVPD,xTB geometry,13.7122,13.41,0.3022,kcal/mol,
+table3,sn2_clcl,barrier_fwd_cplx,B3LYP-D3BJ,def2-TZVPD,reference geometry,8.7931,13.41,-4.6169,kcal/mol,
+table3,sn2_clcl,barrier_fwd_cplx,B3LYP-D3BJ,def2-TZVPD,xTB geometry,9.6878,13.41,-3.7222,kcal/mol,
+table3,sn2_clcl,barrier_fwd_cplx,r2SCAN,def2-TZVPD,reference geometry,8.0508,13.41,-5.3592,kcal/mol,
+table3,sn2_clcl,barrier_fwd_cplx,PBE,def2-TZVPD,reference geometry,7.334,13.41,-6.076,kcal/mol,
+table3,,seconds per point,B3LYP-D3BJ,, Tesla T4,14.5,,,kcal/mol,"63 points, unit seconds"
+table3,,seconds per point,CCSD(T)-fc,,CPU,24.0,,,kcal/mol,"8 points, unit seconds"
+table3,,seconds per point,PBE,, Tesla T4,3.08,,,kcal/mol,"20 points, unit seconds"
+table3,,seconds per point,Skala-1.1,, Tesla T4,14.2,,,kcal/mol,"75 points, unit seconds"
+table3,,seconds per point,r2SCAN,, Tesla T4,3.41,,,kcal/mol,"20 points, unit seconds"
+table3,,seconds per point,wB97M-V,, Tesla T4,30.32,,,kcal/mol,"72 points, unit seconds"
+skala_d3,hcn,barrier_fwd,Skala-1.1,def2-TZVP,own_b3lyp,48.3733,48.07,0.3033,kcal/mol,
+skala_d3,hcn,barrier_fwd,Skala-1.1-noD3,def2-TZVP,own_b3lyp,48.3673,48.07,0.2973,kcal/mol,
+skala_d3,nh3,barrier_fwd,Skala-1.1,def2-TZVP,own_b3lyp,5.9272,5.12,0.8072,kcal/mol,
+skala_d3,nh3,barrier_fwd,Skala-1.1-noD3,def2-TZVP,own_b3lyp,5.9254,5.12,0.8054,kcal/mol,
+skala_d3,h2co,barrier_fwd,Skala-1.1,def2-TZVP,own_b3lyp,87.9652,81.9,6.0652,kcal/mol,
+skala_d3,h2co,barrier_fwd,Skala-1.1-noD3,def2-TZVP,own_b3lyp,88.2194,81.9,6.3194,kcal/mol,
+skala_d3,ch3nc,barrier_fwd,Skala-1.1,def2-TZVP,own_b3lyp,40.1605,,,kcal/mol,
+skala_d3,ch3nc,barrier_fwd,Skala-1.1-noD3,def2-TZVP,own_b3lyp,40.152,,,kcal/mol,
+skala_d3,sn2_ff,barrier_fwd_cplx,Skala-1.1,def2-TZVPD,own_b3lyp,15.2873,13.38,1.9073,kcal/mol,
+skala_d3,sn2_ff,barrier_fwd_cplx,Skala-1.1-noD3,def2-TZVPD,own_b3lyp,15.3675,13.38,1.9875,kcal/mol,
+skala_d3,sn2_clcl,barrier_fwd_cplx,Skala-1.1,def2-TZVPD,own_b3lyp,10.2875,13.41,-3.1225,kcal/mol,
+skala_d3,sn2_clcl,barrier_fwd_cplx,Skala-1.1-noD3,def2-TZVPD,own_b3lyp,10.622,13.41,-2.788,kcal/mol,
+fig1,hcn,rows saved: stationary energies,,,,18.0,,,kcal/mol,
+fig1,hcn,rows saved: path energies,,,,44.0,,,kcal/mol,
+fig1,hcn,rows saved: CCSD(T) rows,,,,18.0,,,kcal/mol,
+fig1,hcn,rows saved: MP2 basis correction,,,,28.0,,,kcal/mol,
+fig1,hcn,rows saved: basis check,,,,9.0,,,kcal/mol,
+fig1,hcn,rows saved: xTB scout (G3),,,,8.0,,,kcal/mol,
+fig1,hcn,rows saved: Skala- relaxed (G4),,,,0.0,,,kcal/mol,
+fig1,nh3,rows saved: stationary energies,,,,12.0,,,kcal/mol,
+fig1,nh3,rows saved: path energies,,,,36.0,,,kcal/mol,
+fig1,nh3,rows saved: CCSD(T) rows,,,,13.0,,,kcal/mol,
+fig1,nh3,rows saved: MP2 basis correction,,,,22.0,,,kcal/mol,
+fig1,nh3,rows saved: basis check,,,,6.0,,,kcal/mol,
+fig1,nh3,rows saved: xTB scout (G3),,,,8.0,,,kcal/mol,
+fig1,nh3,rows saved: Skala- relaxed (G4),,,,0.0,,,kcal/mol,
+fig1,h2co,rows saved: stationary energies,,,,24.0,,,kcal/mol,
+fig1,h2co,rows saved: path energies,,,,44.0,,,kcal/mol,
+fig1,h2co,rows saved: CCSD(T) rows,,,,17.0,,,kcal/mol,
+fig1,h2co,rows saved: MP2 basis correction,,,,30.0,,,kcal/mol,
+fig1,h2co,rows saved: basis check,,,,12.0,,,kcal/mol,
+fig1,h2co,rows saved: xTB scout (G3),,,,8.0,,,kcal/mol,
+fig1,h2co,rows saved: Skala- relaxed (G4),,,,0.0,,,kcal/mol,
+fig1,ch3nc,rows saved: stationary energies,,,,18.0,,,kcal/mol,
+fig1,ch3nc,rows saved: path energies,,,,0.0,,,kcal/mol,
+fig1,ch3nc,rows saved: CCSD(T) rows,,,,5.0,,,kcal/mol,
+fig1,ch3nc,rows saved: MP2 basis correction,,,,6.0,,,kcal/mol,
+fig1,ch3nc,rows saved: basis check,,,,0.0,,,kcal/mol,
+fig1,ch3nc,rows saved: xTB scout (G3),,,,8.0,,,kcal/mol,
+fig1,ch3nc,rows saved: Skala- relaxed (G4),,,,0.0,,,kcal/mol,
+fig1,sn2_ff,rows saved: stationary energies,,,,24.0,,,kcal/mol,
+fig1,sn2_ff,rows saved: path energies,,,,0.0,,,kcal/mol,
+fig1,sn2_ff,rows saved: CCSD(T) rows,,,,4.0,,,kcal/mol,
+fig1,sn2_ff,rows saved: MP2 basis correction,,,,8.0,,,kcal/mol,
+fig1,sn2_ff,rows saved: basis check,,,,0.0,,,kcal/mol,
+fig1,sn2_ff,rows saved: xTB scout (G3),,,,8.0,,,kcal/mol,
+fig1,sn2_ff,rows saved: Skala- relaxed (G4),,,,0.0,,,kcal/mol,
+fig1,sn2_clcl,rows saved: stationary energies,,,,31.0,,,kcal/mol,
+fig1,sn2_clcl,rows saved: path energies,,,,0.0,,,kcal/mol,
+fig1,sn2_clcl,rows saved: CCSD(T) rows,,,,4.0,,,kcal/mol,
+fig1,sn2_clcl,rows saved: MP2 basis correction,,,,8.0,,,kcal/mol,
+fig1,sn2_clcl,rows saved: basis check,,,,0.0,,,kcal/mol,
+fig1,sn2_clcl,rows saved: xTB scout (G3),,,,8.0,,,kcal/mol,
+fig1,sn2_clcl,rows saved: Skala- relaxed (G4),,,,0.0,,,kcal/mol,
+fig1,ch4,rows saved: stationary energies,,,,0.0,,,kcal/mol,
+fig1,ch4,rows saved: path energies,,,,0.0,,,kcal/mol,
+fig1,ch4,rows saved: CCSD(T) rows,,,,10.0,,,kcal/mol,
+fig1,ch4,rows saved: MP2 basis correction,,,,0.0,,,kcal/mol,
+fig1,ch4,rows saved: basis check,,,,0.0,,,kcal/mol,
+fig1,ch4,rows saved: xTB scout (G3),,,,0.0,,,kcal/mol,
+fig1,ch4,rows saved: Skala- relaxed (G4),,,,0.0,,,kcal/mol,
+fig2,hcn,barrier_fwd error vs L1,Skala-1.1,def2-TZVP,preferred,48.3733,48.07,0.3033,kcal/mol,
+fig2,hcn,barrier_fwd error vs L1,Skala-1.1-noD3,def2-TZVP,preferred,48.3673,48.07,0.2973,kcal/mol,
+fig2,hcn,barrier_fwd error vs L1,wB97M-V,def2-TZVP,preferred,44.5348,48.07,-3.5352,kcal/mol,
+fig2,hcn,barrier_fwd error vs L1,B3LYP-D3BJ,def2-TZVP,preferred,47.6767,48.07,-0.3933,kcal/mol,
+fig2,hcn,barrier_fwd error vs L1,r2SCAN,def2-TZVP,preferred,46.5646,48.07,-1.5054,kcal/mol,
+fig2,hcn,barrier_fwd error vs L1,PBE,def2-TZVP,preferred,45.9378,48.07,-2.1322,kcal/mol,
+fig2,hcn,barrier_fwd error vs L1,CCSD(T)+dMP2,def2-TZVP,preferred,47.6585,48.07,-0.4115,kcal/mol,
+fig2,nh3,barrier_fwd error vs L4,Skala-1.1,def2-TZVP,preferred,5.9272,5.12,0.8072,kcal/mol,
+fig2,nh3,barrier_fwd error vs L4,Skala-1.1-noD3,def2-TZVP,preferred,5.9254,5.12,0.8054,kcal/mol,
+fig2,nh3,barrier_fwd error vs L4,wB97M-V,def2-TZVP,preferred,4.6069,5.12,-0.5131,kcal/mol,
+fig2,nh3,barrier_fwd error vs L4,B3LYP-D3BJ,def2-TZVP,preferred,4.5228,5.12,-0.5972,kcal/mol,
+fig2,nh3,barrier_fwd error vs L4,r2SCAN,def2-TZVP,preferred,4.8929,5.12,-0.2271,kcal/mol,
+fig2,nh3,barrier_fwd error vs L4,PBE,def2-TZVP,preferred,4.932,5.12,-0.188,kcal/mol,
+fig2,nh3,barrier_fwd error vs L4,CCSD(T)+dMP2,def2-TZVP,preferred,5.4494,5.12,0.3294,kcal/mol,
+fig2,h2co,barrier_fwd error vs L5,Skala-1.1,def2-TZVP,preferred,82.9767,81.9,1.0767,kcal/mol,
+fig2,h2co,barrier_fwd error vs L5,Skala-1.1-noD3,def2-TZVP,preferred,83.2309,81.9,1.3309,kcal/mol,
+fig2,h2co,barrier_fwd error vs L5,wB97M-V,def2-TZVP,preferred,82.3271,81.9,0.4271,kcal/mol,
+fig2,h2co,barrier_fwd error vs L5,B3LYP-D3BJ,def2-TZVP,preferred,79.3293,81.9,-2.5707,kcal/mol,
+fig2,h2co,barrier_fwd error vs L5,r2SCAN,def2-TZVP,preferred,77.339,81.9,-4.561,kcal/mol,
+fig2,h2co,barrier_fwd error vs L5,PBE,def2-TZVP,preferred,73.7455,81.9,-8.1545,kcal/mol,
+fig2,sn2_ff,barrier_fwd_cplx error vs L8,Skala-1.1,def2-TZVPD,preferred,15.2873,13.38,1.9073,kcal/mol,
+fig2,sn2_ff,barrier_fwd_cplx error vs L8,Skala-1.1-noD3,def2-TZVPD,preferred,15.3675,13.38,1.9875,kcal/mol,
+fig2,sn2_ff,barrier_fwd_cplx error vs L8,wB97M-V,def2-TZVPD,preferred,12.5555,13.38,-0.8245,kcal/mol,
+fig2,sn2_ff,barrier_fwd_cplx error vs L8,B3LYP-D3BJ,def2-TZVPD,preferred,10.2459,13.38,-3.1341,kcal/mol,
+fig2,sn2_ff,barrier_fwd_cplx error vs L8,r2SCAN,def2-TZVPD,preferred,8.5706,13.38,-4.8094,kcal/mol,
+fig2,sn2_ff,barrier_fwd_cplx error vs L8,PBE,def2-TZVPD,preferred,7.3327,13.38,-6.0473,kcal/mol,
+fig2,sn2_ff,barrier_fwd_cplx error vs L8,CCSD(T)+dMP2,def2-TZVPD,preferred,13.6045,13.38,0.2245,kcal/mol,
+fig2,sn2_clcl,barrier_fwd_cplx error vs L10,Skala-1.1,def2-TZVPD,preferred,10.2875,13.41,-3.1225,kcal/mol,
+fig2,sn2_clcl,barrier_fwd_cplx error vs L10,Skala-1.1-noD3,def2-TZVPD,preferred,10.622,13.41,-2.788,kcal/mol,
+fig2,sn2_clcl,barrier_fwd_cplx error vs L10,wB97M-V,def2-TZVPD,preferred,13.5032,13.41,0.0932,kcal/mol,
+fig2,sn2_clcl,barrier_fwd_cplx error vs L10,B3LYP-D3BJ,def2-TZVPD,preferred,8.7931,13.41,-4.6169,kcal/mol,
+fig2,sn2_clcl,barrier_fwd_cplx error vs L10,r2SCAN,def2-TZVPD,preferred,8.0508,13.41,-5.3592,kcal/mol,
+fig2,sn2_clcl,barrier_fwd_cplx error vs L10,PBE,def2-TZVPD,preferred,7.334,13.41,-6.076,kcal/mol,
+fig2,sn2_clcl,barrier_fwd_cplx error vs L10,CCSD(T)+dMP2,def2-TZVPD,preferred,13.6094,13.41,0.1994,kcal/mol,
+fig3,hcn,path error p00,Skala-1.1,def2-TZVP,own_scan,0.0,0.0,0.0,kcal/mol,coordinate 180.000; relative to first common point
+fig3,hcn,path error p01,Skala-1.1,def2-TZVP,own_scan,0.0598,0.0,0.0598,kcal/mol,coordinate 171.000; relative to first common point
+fig3,hcn,path error p02,Skala-1.1,def2-TZVP,own_scan,0.3179,0.0,0.3179,kcal/mol,coordinate 150.375; relative to first common point
+fig3,hcn,path error p06,Skala-1.1,def2-TZVP,own_scan,0.7507,0.0,0.7507,kcal/mol,coordinate 71.518; relative to first common point
+fig3,hcn,path error p07,Skala-1.1,def2-TZVP,own_scan,0.7474,0.0,0.7474,kcal/mol,coordinate 67.875; relative to first common point
+fig3,hcn,path error p08,Skala-1.1,def2-TZVP,own_scan,0.2767,0.0,0.2767,kcal/mol,coordinate 47.250; relative to first common point
+fig3,hcn,path error p09,Skala-1.1,def2-TZVP,own_scan,1.0618,0.0,1.0618,kcal/mol,coordinate 26.625; relative to first common point
+fig3,hcn,path error p10,Skala-1.1,def2-TZVP,own_scan,0.2963,0.0,0.2963,kcal/mol,coordinate 6.000; relative to first common point
+fig3,hcn,path error p00,Skala-1.1-noD3,def2-TZVP,own_scan,0.0,0.0,0.0,kcal/mol,coordinate 180.000; relative to first common point
+fig3,hcn,path error p01,Skala-1.1-noD3,def2-TZVP,own_scan,0.0601,0.0,0.0601,kcal/mol,coordinate 171.000; relative to first common point
+fig3,hcn,path error p02,Skala-1.1-noD3,def2-TZVP,own_scan,0.3205,0.0,0.3205,kcal/mol,coordinate 150.375; relative to first common point
+fig3,hcn,path error p06,Skala-1.1-noD3,def2-TZVP,own_scan,0.7447,0.0,0.7447,kcal/mol,coordinate 71.518; relative to first common point
+fig3,hcn,path error p07,Skala-1.1-noD3,def2-TZVP,own_scan,0.7303,0.0,0.7303,kcal/mol,coordinate 67.875; relative to first common point
+fig3,hcn,path error p08,Skala-1.1-noD3,def2-TZVP,own_scan,0.357,0.0,0.357,kcal/mol,coordinate 47.250; relative to first common point
+fig3,hcn,path error p09,Skala-1.1-noD3,def2-TZVP,own_scan,1.1645,0.0,1.1645,kcal/mol,coordinate 26.625; relative to first common point
+fig3,hcn,path error p10,Skala-1.1-noD3,def2-TZVP,own_scan,0.3923,0.0,0.3923,kcal/mol,coordinate 6.000; relative to first common point
+fig3,hcn,path error p00,wB97M-V,def2-TZVP,own_scan,0.0,0.0,0.0,kcal/mol,coordinate 180.000; relative to first common point
+fig3,hcn,path error p01,wB97M-V,def2-TZVP,own_scan,0.0642,0.0,0.0642,kcal/mol,coordinate 171.000; relative to first common point
+fig3,hcn,path error p02,wB97M-V,def2-TZVP,own_scan,0.5566,0.0,0.5566,kcal/mol,coordinate 150.375; relative to first common point
+fig3,hcn,path error p06,wB97M-V,def2-TZVP,own_scan,-3.1244,0.0,-3.1244,kcal/mol,coordinate 71.518; relative to first common point
+fig3,hcn,path error p07,wB97M-V,def2-TZVP,own_scan,-3.418,0.0,-3.418,kcal/mol,coordinate 67.875; relative to first common point
+fig3,hcn,path error p08,wB97M-V,def2-TZVP,own_scan,-3.5607,0.0,-3.5607,kcal/mol,coordinate 47.250; relative to first common point
+fig3,hcn,path error p09,wB97M-V,def2-TZVP,own_scan,-2.406,0.0,-2.406,kcal/mol,coordinate 26.625; relative to first common point
+fig3,hcn,path error p10,wB97M-V,def2-TZVP,own_scan,-2.0916,0.0,-2.0916,kcal/mol,coordinate 6.000; relative to first common point
+fig3,hcn,path error p00,B3LYP-D3BJ,def2-TZVP,own_scan,0.0,0.0,0.0,kcal/mol,coordinate 180.000; relative to first common point
+fig3,hcn,path error p01,B3LYP-D3BJ,def2-TZVP,own_scan,0.0556,0.0,0.0556,kcal/mol,coordinate 171.000; relative to first common point
+fig3,hcn,path error p02,B3LYP-D3BJ,def2-TZVP,own_scan,0.4699,0.0,0.4699,kcal/mol,coordinate 150.375; relative to first common point
+fig3,hcn,path error p06,B3LYP-D3BJ,def2-TZVP,own_scan,0.0177,0.0,0.0177,kcal/mol,coordinate 71.518; relative to first common point
+fig3,hcn,path error p07,B3LYP-D3BJ,def2-TZVP,own_scan,0.119,0.0,0.119,kcal/mol,coordinate 67.875; relative to first common point
+fig3,hcn,path error p08,B3LYP-D3BJ,def2-TZVP,own_scan,-0.0487,0.0,-0.0487,kcal/mol,coordinate 47.250; relative to first common point
+fig3,hcn,path error p09,B3LYP-D3BJ,def2-TZVP,own_scan,-0.7464,0.0,-0.7464,kcal/mol,coordinate 26.625; relative to first common point
+fig3,hcn,path error p10,B3LYP-D3BJ,def2-TZVP,own_scan,-0.511,0.0,-0.511,kcal/mol,coordinate 6.000; relative to first common point
+fig3,nh3,path error p00,Skala-1.1,def2-TZVP,own_scan,0.0,0.0,0.0,kcal/mol,coordinate -38.337; relative to first common point
+fig3,nh3,path error p01,Skala-1.1,def2-TZVP,own_scan,0.0345,0.0,0.0345,kcal/mol,coordinate -28.753; relative to first common point
+fig3,nh3,path error p02,Skala-1.1,def2-TZVP,own_scan,0.2014,0.0,0.2014,kcal/mol,coordinate -19.169; relative to first common point
+fig3,nh3,path error p03,Skala-1.1,def2-TZVP,own_scan,0.3931,0.0,0.3931,kcal/mol,coordinate -9.584; relative to first common point
+fig3,nh3,path error p04,Skala-1.1,def2-TZVP,own_scan,0.4778,0.0,0.4778,kcal/mol,coordinate 0.000; relative to first common point
+fig3,nh3,path error p05,Skala-1.1,def2-TZVP,own_scan,0.3936,0.0,0.3936,kcal/mol,coordinate 9.584; relative to first common point
+fig3,nh3,path error p06,Skala-1.1,def2-TZVP,own_scan,0.2046,0.0,0.2046,kcal/mol,coordinate 19.169; relative to first common point
+fig3,nh3,path error p07,Skala-1.1,def2-TZVP,own_scan,0.038,0.0,0.038,kcal/mol,coordinate 28.753; relative to first common point
+fig3,nh3,path error p08,Skala-1.1,def2-TZVP,own_scan,-0.0006,0.0,-0.0006,kcal/mol,coordinate 38.337; relative to first common point
+fig3,nh3,path error p00,Skala-1.1-noD3,def2-TZVP,own_scan,0.0,0.0,0.0,kcal/mol,coordinate -38.337; relative to first common point
+fig3,nh3,path error p01,Skala-1.1-noD3,def2-TZVP,own_scan,0.0337,0.0,0.0337,kcal/mol,coordinate -28.753; relative to first common point
+fig3,nh3,path error p02,Skala-1.1-noD3,def2-TZVP,own_scan,0.2001,0.0,0.2001,kcal/mol,coordinate -19.169; relative to first common point
+fig3,nh3,path error p03,Skala-1.1-noD3,def2-TZVP,own_scan,0.3914,0.0,0.3914,kcal/mol,coordinate -9.584; relative to first common point
+fig3,nh3,path error p04,Skala-1.1-noD3,def2-TZVP,own_scan,0.476,0.0,0.476,kcal/mol,coordinate 0.000; relative to first common point
+fig3,nh3,path error p05,Skala-1.1-noD3,def2-TZVP,own_scan,0.392,0.0,0.392,kcal/mol,coordinate 9.584; relative to first common point
+fig3,nh3,path error p06,Skala-1.1-noD3,def2-TZVP,own_scan,0.2033,0.0,0.2033,kcal/mol,coordinate 19.169; relative to first common point
+fig3,nh3,path error p07,Skala-1.1-noD3,def2-TZVP,own_scan,0.0372,0.0,0.0372,kcal/mol,coordinate 28.753; relative to first common point
+fig3,nh3,path error p08,Skala-1.1-noD3,def2-TZVP,own_scan,-0.0006,0.0,-0.0006,kcal/mol,coordinate 38.337; relative to first common point
+fig3,nh3,path error p00,wB97M-V,def2-TZVP,own_scan,0.0,0.0,0.0,kcal/mol,coordinate -38.337; relative to first common point
+fig3,nh3,path error p01,wB97M-V,def2-TZVP,own_scan,-0.27,0.0,-0.27,kcal/mol,coordinate -28.753; relative to first common point
+fig3,nh3,path error p02,wB97M-V,def2-TZVP,own_scan,-0.5633,0.0,-0.5633,kcal/mol,coordinate -19.169; relative to first common point
+fig3,nh3,path error p03,wB97M-V,def2-TZVP,own_scan,-0.7712,0.0,-0.7712,kcal/mol,coordinate -9.584; relative to first common point
+fig3,nh3,path error p04,wB97M-V,def2-TZVP,own_scan,-0.8425,0.0,-0.8425,kcal/mol,coordinate 0.000; relative to first common point
+fig3,nh3,path error p05,wB97M-V,def2-TZVP,own_scan,-0.7716,0.0,-0.7716,kcal/mol,coordinate 9.584; relative to first common point
+fig3,nh3,path error p06,wB97M-V,def2-TZVP,own_scan,-0.5685,0.0,-0.5685,kcal/mol,coordinate 19.169; relative to first common point
+fig3,nh3,path error p07,wB97M-V,def2-TZVP,own_scan,-0.2841,0.0,-0.2841,kcal/mol,coordinate 28.753; relative to first common point
+fig3,nh3,path error p08,wB97M-V,def2-TZVP,own_scan,-0.0001,0.0,-0.0001,kcal/mol,coordinate 38.337; relative to first common point
+fig3,nh3,path error p00,B3LYP-D3BJ,def2-TZVP,own_scan,0.0,0.0,0.0,kcal/mol,coordinate -38.337; relative to first common point
+fig3,nh3,path error p01,B3LYP-D3BJ,def2-TZVP,own_scan,-0.315,0.0,-0.315,kcal/mol,coordinate -28.753; relative to first common point
+fig3,nh3,path error p02,B3LYP-D3BJ,def2-TZVP,own_scan,-0.6331,0.0,-0.6331,kcal/mol,coordinate -19.169; relative to first common point
+fig3,nh3,path error p03,B3LYP-D3BJ,def2-TZVP,own_scan,-0.8523,0.0,-0.8523,kcal/mol,coordinate -9.584; relative to first common point
+fig3,nh3,path error p04,B3LYP-D3BJ,def2-TZVP,own_scan,-0.9266,0.0,-0.9266,kcal/mol,coordinate 0.000; relative to first common point
+fig3,nh3,path error p05,B3LYP-D3BJ,def2-TZVP,own_scan,-0.8528,0.0,-0.8528,kcal/mol,coordinate 9.584; relative to first common point
+fig3,nh3,path error p06,B3LYP-D3BJ,def2-TZVP,own_scan,-0.6389,0.0,-0.6389,kcal/mol,coordinate 19.169; relative to first common point
+fig3,nh3,path error p07,B3LYP-D3BJ,def2-TZVP,own_scan,-0.3313,0.0,-0.3313,kcal/mol,coordinate 28.753; relative to first common point
+fig3,nh3,path error p08,B3LYP-D3BJ,def2-TZVP,own_scan,0.0003,0.0,0.0003,kcal/mol,coordinate 38.337; relative to first common point
+fig3,h2co,path error p00,Skala-1.1,def2-TZVP,own_scan,0.0,0.0,0.0,kcal/mol,coordinate 1.850; relative to first common point
+fig3,h2co,path error p01,Skala-1.1,def2-TZVP,own_scan,0.0367,0.0,0.0367,kcal/mol,coordinate 1.745; relative to first common point
+fig3,h2co,path error p02,Skala-1.1,def2-TZVP,own_scan,0.0659,0.0,0.0659,kcal/mol,coordinate 1.640; relative to first common point
+fig3,h2co,path error p03,Skala-1.1,def2-TZVP,own_scan,0.0605,0.0,0.0605,kcal/mol,coordinate 1.535; relative to first common point
+fig3,h2co,path error p04,Skala-1.1,def2-TZVP,own_scan,0.0144,0.0,0.0144,kcal/mol,coordinate 1.430; relative to first common point
+fig3,h2co,path error p07,Skala-1.1,def2-TZVP,own_scan,1.7361,0.0,1.7361,kcal/mol,coordinate 1.115; relative to first common point
+fig3,h2co,path error p08,Skala-1.1,def2-TZVP,own_scan,0.8879,0.0,0.8879,kcal/mol,coordinate 1.010; relative to first common point
+fig3,h2co,path error p09,Skala-1.1,def2-TZVP,own_scan,0.3886,0.0,0.3886,kcal/mol,coordinate 0.905; relative to first common point
+fig3,h2co,path error p10,Skala-1.1,def2-TZVP,own_scan,0.2431,0.0,0.2431,kcal/mol,coordinate 0.800; relative to first common point
+fig3,h2co,path error p00,Skala-1.1-noD3,def2-TZVP,own_scan,0.0,0.0,0.0,kcal/mol,coordinate 1.850; relative to first common point
+fig3,h2co,path error p01,Skala-1.1-noD3,def2-TZVP,own_scan,0.0368,0.0,0.0368,kcal/mol,coordinate 1.745; relative to first common point
+fig3,h2co,path error p02,Skala-1.1-noD3,def2-TZVP,own_scan,0.0659,0.0,0.0659,kcal/mol,coordinate 1.640; relative to first common point
+fig3,h2co,path error p03,Skala-1.1-noD3,def2-TZVP,own_scan,0.0601,0.0,0.0601,kcal/mol,coordinate 1.535; relative to first common point
+fig3,h2co,path error p04,Skala-1.1-noD3,def2-TZVP,own_scan,0.0134,0.0,0.0134,kcal/mol,coordinate 1.430; relative to first common point
+fig3,h2co,path error p07,Skala-1.1-noD3,def2-TZVP,own_scan,1.7042,0.0,1.7042,kcal/mol,coordinate 1.115; relative to first common point
+fig3,h2co,path error p08,Skala-1.1-noD3,def2-TZVP,own_scan,0.8432,0.0,0.8432,kcal/mol,coordinate 1.010; relative to first common point
+fig3,h2co,path error p09,Skala-1.1-noD3,def2-TZVP,own_scan,0.2847,0.0,0.2847,kcal/mol,coordinate 0.905; relative to first common point
+fig3,h2co,path error p10,Skala-1.1-noD3,def2-TZVP,own_scan,-0.0955,0.0,-0.0955,kcal/mol,coordinate 0.800; relative to first common point
+fig3,h2co,path error p00,wB97M-V,def2-TZVP,own_scan,0.0,0.0,0.0,kcal/mol,coordinate 1.850; relative to first common point
+fig3,h2co,path error p01,wB97M-V,def2-TZVP,own_scan,0.0256,0.0,0.0256,kcal/mol,coordinate 1.745; relative to first common point
+fig3,h2co,path error p02,wB97M-V,def2-TZVP,own_scan,-0.0028,0.0,-0.0028,kcal/mol,coordinate 1.640; relative to first common point
+fig3,h2co,path error p03,wB97M-V,def2-TZVP,own_scan,-0.0974,0.0,-0.0974,kcal/mol,coordinate 1.535; relative to first common point
+fig3,h2co,path error p04,wB97M-V,def2-TZVP,own_scan,-0.2435,0.0,-0.2435,kcal/mol,coordinate 1.430; relative to first common point
+fig3,h2co,path error p07,wB97M-V,def2-TZVP,own_scan,1.325,0.0,1.325,kcal/mol,coordinate 1.115; relative to first common point
+fig3,h2co,path error p08,wB97M-V,def2-TZVP,own_scan,0.6926,0.0,0.6926,kcal/mol,coordinate 1.010; relative to first common point
+fig3,h2co,path error p09,wB97M-V,def2-TZVP,own_scan,0.3129,0.0,0.3129,kcal/mol,coordinate 0.905; relative to first common point
+fig3,h2co,path error p10,wB97M-V,def2-TZVP,own_scan,0.1482,0.0,0.1482,kcal/mol,coordinate 0.800; relative to first common point
+fig3,h2co,path error p00,B3LYP-D3BJ,def2-TZVP,own_scan,0.0,0.0,0.0,kcal/mol,coordinate 1.850; relative to first common point
+fig3,h2co,path error p01,B3LYP-D3BJ,def2-TZVP,own_scan,0.0309,0.0,0.0309,kcal/mol,coordinate 1.745; relative to first common point
+fig3,h2co,path error p02,B3LYP-D3BJ,def2-TZVP,own_scan,0.0082,0.0,0.0082,kcal/mol,coordinate 1.640; relative to first common point
+fig3,h2co,path error p03,B3LYP-D3BJ,def2-TZVP,own_scan,-0.0761,0.0,-0.0761,kcal/mol,coordinate 1.535; relative to first common point
+fig3,h2co,path error p04,B3LYP-D3BJ,def2-TZVP,own_scan,-0.2018,0.0,-0.2018,kcal/mol,coordinate 1.430; relative to first common point
+fig3,h2co,path error p07,B3LYP-D3BJ,def2-TZVP,own_scan,3.3882,0.0,3.3882,kcal/mol,coordinate 1.115; relative to first common point
+fig3,h2co,path error p08,B3LYP-D3BJ,def2-TZVP,own_scan,2.9473,0.0,2.9473,kcal/mol,coordinate 1.010; relative to first common point
+fig3,h2co,path error p09,B3LYP-D3BJ,def2-TZVP,own_scan,2.8022,0.0,2.8022,kcal/mol,coordinate 0.905; relative to first common point
+fig3,h2co,path error p10,B3LYP-D3BJ,def2-TZVP,own_scan,3.0338,0.0,3.0338,kcal/mol,coordinate 0.800; relative to first common point
+fig4,hcn,basis shift main->large of barrier_fwd,Skala-1.1,def2-TZVP->def2-QZVPP,preferred,-0.2232,,,kcal/mol,
+fig4,nh3,basis shift main->large of barrier_fwd,Skala-1.1,def2-TZVP->def2-QZVPP,preferred,0.1686,,,kcal/mol,
+fig4,h2co,basis shift main->large of barrier_fwd,Skala-1.1,def2-TZVP->def2-QZVPP,preferred,-2.3162,,,kcal/mol,
+fig4,hcn,basis shift main->large of barrier_fwd,Skala-1.1-noD3,def2-TZVP->def2-QZVPP,preferred,-0.2232,,,kcal/mol,
+fig4,nh3,basis shift main->large of barrier_fwd,Skala-1.1-noD3,def2-TZVP->def2-QZVPP,preferred,0.1686,,,kcal/mol,
+fig4,h2co,basis shift main->large of barrier_fwd,Skala-1.1-noD3,def2-TZVP->def2-QZVPP,preferred,-2.3162,,,kcal/mol,
+fig4,hcn,basis shift main->large of barrier_fwd,wB97M-V,def2-TZVP->def2-QZVPP,preferred,-0.2582,,,kcal/mol,
+fig4,nh3,basis shift main->large of barrier_fwd,wB97M-V,def2-TZVP->def2-QZVPP,preferred,0.0678,,,kcal/mol,
+fig4,h2co,basis shift main->large of barrier_fwd,wB97M-V,def2-TZVP->def2-QZVPP,preferred,-0.1654,,,kcal/mol,
+fig5,hcn,barrier_fwd,Skala-1.1,def2-TZVP,preferred,48.3733,48.07,0.3033,kcal/mol,
+fig5,nh3,barrier_fwd,Skala-1.1,def2-TZVP,preferred,5.9272,5.12,0.8072,kcal/mol,
+fig5,h2co,barrier_fwd,Skala-1.1,def2-TZVP,preferred,87.9652,81.9,6.0652,kcal/mol,
+fig5,ch3nc,barrier_fwd,Skala-1.1,def2-TZVP,preferred,40.1605,,,kcal/mol,
+fig5,sn2_ff,barrier_fwd_cplx,Skala-1.1,def2-TZVPD,preferred,15.2873,13.38,1.9073,kcal/mol,
+fig5,sn2_clcl,barrier_fwd_cplx,Skala-1.1,def2-TZVPD,preferred,10.2875,13.41,-3.1225,kcal/mol,
+fig5,hcn,barrier_fwd,Skala-1.1,def2-TZVP,xtb_gfn2,48.4935,48.07,0.4235,kcal/mol,
+fig5,nh3,barrier_fwd,Skala-1.1,def2-TZVP,xtb_gfn2,5.9072,5.12,0.7872,kcal/mol,
+fig5,h2co,barrier_fwd,Skala-1.1,def2-TZVP,xtb_gfn2,87.8847,81.9,5.9847,kcal/mol,
+fig5,ch3nc,barrier_fwd,Skala-1.1,def2-TZVP,xtb_gfn2,43.2785,,,kcal/mol,
+fig5,sn2_ff,barrier_fwd_cplx,Skala-1.1,def2-TZVPD,xtb_gfn2,13.9496,13.38,0.5696,kcal/mol,
+fig5,sn2_clcl,barrier_fwd_cplx,Skala-1.1,def2-TZVPD,xtb_gfn2,15.9711,13.41,2.5611,kcal/mol,
+fig5,hcn,geometry penalty (xTB minus reference geometry),Skala-1.1,def2-TZVP,xtb_gfn2,0.1202,,,kcal/mol,
+fig5,nh3,geometry penalty (xTB minus reference geometry),Skala-1.1,def2-TZVP,xtb_gfn2,-0.02,,,kcal/mol,
+fig5,h2co,geometry penalty (xTB minus reference geometry),Skala-1.1,def2-TZVP,xtb_gfn2,-0.0805,,,kcal/mol,
+fig5,ch3nc,geometry penalty (xTB minus reference geometry),Skala-1.1,def2-TZVP,xtb_gfn2,3.118,,,kcal/mol,
+fig5,sn2_ff,geometry penalty (xTB minus reference geometry),Skala-1.1,def2-TZVPD,xtb_gfn2,-1.3376,,,kcal/mol,
+fig5,sn2_clcl,geometry penalty (xTB minus reference geometry),Skala-1.1,def2-TZVPD,xtb_gfn2,5.6837,,,kcal/mol,
+fig5,hcn,geometry penalty (xTB minus reference geometry),wB97M-V,def2-TZVP,xtb_gfn2,0.307,,,kcal/mol,
+fig5,nh3,geometry penalty (xTB minus reference geometry),wB97M-V,def2-TZVP,xtb_gfn2,0.0211,,,kcal/mol,
+fig5,h2co,geometry penalty (xTB minus reference geometry),wB97M-V,def2-TZVP,xtb_gfn2,-0.0804,,,kcal/mol,
+fig5,ch3nc,geometry penalty (xTB minus reference geometry),wB97M-V,def2-TZVP,xtb_gfn2,3.7653,,,kcal/mol,
+fig5,sn2_ff,geometry penalty (xTB minus reference geometry),wB97M-V,def2-TZVPD,xtb_gfn2,-1.1856,,,kcal/mol,
+fig5,sn2_clcl,geometry penalty (xTB minus reference geometry),wB97M-V,def2-TZVPD,xtb_gfn2,0.209,,,kcal/mol,
+fig5,hcn,geometry penalty (xTB minus reference geometry),B3LYP-D3BJ,def2-TZVP,xtb_gfn2,0.6137,,,kcal/mol,
+fig5,nh3,geometry penalty (xTB minus reference geometry),B3LYP-D3BJ,def2-TZVP,xtb_gfn2,0.034,,,kcal/mol,
+fig5,h2co,geometry penalty (xTB minus reference geometry),B3LYP-D3BJ,def2-TZVP,xtb_gfn2,-0.0989,,,kcal/mol,
+fig5,ch3nc,geometry penalty (xTB minus reference geometry),B3LYP-D3BJ,def2-TZVP,xtb_gfn2,3.6253,,,kcal/mol,
+fig5,sn2_ff,geometry penalty (xTB minus reference geometry),B3LYP-D3BJ,def2-TZVPD,xtb_gfn2,-0.9947,,,kcal/mol,
+fig5,sn2_clcl,geometry penalty (xTB minus reference geometry),B3LYP-D3BJ,def2-TZVPD,xtb_gfn2,0.8947,,,kcal/mol,
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-2.0305,0.0,-2.0305,kcal/mol,"theta 0.0, r 1.363"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.1843,0.0,-1.1843,kcal/mol,"theta 0.0, r 1.441"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.5584,0.0,-0.5584,kcal/mol,"theta 0.0, r 1.519"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.1856,0.0,-0.1856,kcal/mol,"theta 0.0, r 1.597"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.0,0.0,0.0,kcal/mol,"theta 0.0, r 1.675"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.1164,0.0,0.1164,kcal/mol,"theta 0.0, r 1.753"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.2727,0.0,0.2727,kcal/mol,"theta 0.0, r 1.831"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.4275,0.0,0.4275,kcal/mol,"theta 0.0, r 1.909"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.5268,0.0,0.5268,kcal/mol,"theta 0.0, r 1.987"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.5292,0.0,0.5292,kcal/mol,"theta 0.0, r 2.066"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.4663,0.0,0.4663,kcal/mol,"theta 0.0, r 2.144"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.337,0.0,0.337,kcal/mol,"theta 0.0, r 2.222"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.2156,0.0,0.2156,kcal/mol,"theta 0.0, r 2.300"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.9404,0.0,-1.9404,kcal/mol,"theta 7.5, r 1.363"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.0832,0.0,-1.0832,kcal/mol,"theta 7.5, r 1.441"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.4422,0.0,-0.4422,kcal/mol,"theta 7.5, r 1.519"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.0462,0.0,-0.0462,kcal/mol,"theta 7.5, r 1.597"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.1507,0.0,0.1507,kcal/mol,"theta 7.5, r 1.675"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.2722,0.0,0.2722,kcal/mol,"theta 7.5, r 1.753"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.4247,0.0,0.4247,kcal/mol,"theta 7.5, r 1.831"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.5678,0.0,0.5678,kcal/mol,"theta 7.5, r 1.909"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.6433,0.0,0.6433,kcal/mol,"theta 7.5, r 1.987"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.6309,0.0,0.6309,kcal/mol,"theta 7.5, r 2.066"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.5424,0.0,0.5424,kcal/mol,"theta 7.5, r 2.144"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.394,0.0,0.394,kcal/mol,"theta 7.5, r 2.222"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.2686,0.0,0.2686,kcal/mol,"theta 7.5, r 2.300"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.486,0.0,-1.486,kcal/mol,"theta 15.0, r 1.363"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.6513,0.0,-0.6513,kcal/mol,"theta 15.0, r 1.441"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.0718,0.0,-0.0718,kcal/mol,"theta 15.0, r 1.519"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.2712,0.0,0.2712,kcal/mol,"theta 15.0, r 1.597"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.4606,0.0,0.4606,kcal/mol,"theta 15.0, r 1.675"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.6117,0.0,0.6117,kcal/mol,"theta 15.0, r 1.753"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.765,0.0,0.765,kcal/mol,"theta 15.0, r 1.831"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.8834,0.0,0.8834,kcal/mol,"theta 15.0, r 1.909"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.9184,0.0,0.9184,kcal/mol,"theta 15.0, r 1.987"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.8575,0.0,0.8575,kcal/mol,"theta 15.0, r 2.066"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.719,0.0,0.719,kcal/mol,"theta 15.0, r 2.144"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.5495,0.0,0.5495,kcal/mol,"theta 15.0, r 2.222"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.4367,0.0,0.4367,kcal/mol,"theta 15.0, r 2.300"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.7979,0.0,-1.7979,kcal/mol,"theta 22.5, r 1.284"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.8006,0.0,-0.8006,kcal/mol,"theta 22.5, r 1.363"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.0579,0.0,-0.0579,kcal/mol,"theta 22.5, r 1.441"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.3955,0.0,0.3955,kcal/mol,"theta 22.5, r 1.519"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.6392,0.0,0.6392,kcal/mol,"theta 22.5, r 1.597"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.8013,0.0,0.8013,kcal/mol,"theta 22.5, r 1.675"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.9519,0.0,0.9519,kcal/mol,"theta 22.5, r 1.753"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,1.0911,0.0,1.0911,kcal/mol,"theta 22.5, r 1.831"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,1.177,0.0,1.177,kcal/mol,"theta 22.5, r 1.909"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,1.1763,0.0,1.1763,kcal/mol,"theta 22.5, r 1.987"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,1.0817,0.0,1.0817,kcal/mol,"theta 22.5, r 2.066"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.924,0.0,0.924,kcal/mol,"theta 22.5, r 2.144"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.7854,0.0,0.7854,kcal/mol,"theta 22.5, r 2.222"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.7341,0.0,0.7341,kcal/mol,"theta 22.5, r 2.300"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.0502,0.0,-1.0502,kcal/mol,"theta 30.0, r 1.284"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.1914,0.0,-0.1914,kcal/mol,"theta 30.0, r 1.363"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.3821,0.0,0.3821,kcal/mol,"theta 30.0, r 1.441"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.7105,0.0,0.7105,kcal/mol,"theta 30.0, r 1.519"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.9059,0.0,0.9059,kcal/mol,"theta 30.0, r 1.597"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,1.0483,0.0,1.0483,kcal/mol,"theta 30.0, r 1.675"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,1.182,0.0,1.182,kcal/mol,"theta 30.0, r 1.753"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,1.2863,0.0,1.2863,kcal/mol,"theta 30.0, r 1.831"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,1.3215,0.0,1.3215,kcal/mol,"theta 30.0, r 1.909"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,1.277,0.0,1.277,kcal/mol,"theta 30.0, r 1.987"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,1.1706,0.0,1.1706,kcal/mol,"theta 30.0, r 2.066"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,1.0456,0.0,1.0456,kcal/mol,"theta 30.0, r 2.144"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.972,0.0,0.972,kcal/mol,"theta 30.0, r 2.222"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.9578,0.0,0.9578,kcal/mol,"theta 30.0, r 2.300"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.5109,0.0,-1.5109,kcal/mol,"theta 37.5, r 1.206"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.65,0.0,-0.65,kcal/mol,"theta 37.5, r 1.284"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.0235,0.0,-0.0235,kcal/mol,"theta 37.5, r 1.363"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.3861,0.0,0.3861,kcal/mol,"theta 37.5, r 1.441"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.6706,0.0,0.6706,kcal/mol,"theta 37.5, r 1.519"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.8955,0.0,0.8955,kcal/mol,"theta 37.5, r 1.597"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,1.0708,0.0,1.0708,kcal/mol,"theta 37.5, r 1.675"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,1.1874,0.0,1.1874,kcal/mol,"theta 37.5, r 1.753"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,1.2485,0.0,1.2485,kcal/mol,"theta 37.5, r 1.831"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,1.2451,0.0,1.2451,kcal/mol,"theta 37.5, r 1.909"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,1.1807,0.0,1.1807,kcal/mol,"theta 37.5, r 1.987"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,1.1078,0.0,1.1078,kcal/mol,"theta 37.5, r 2.066"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,1.0619,0.0,1.0619,kcal/mol,"theta 37.5, r 2.144"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,1.0602,0.0,1.0602,kcal/mol,"theta 37.5, r 2.222"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,1.1407,0.0,1.1407,kcal/mol,"theta 37.5, r 2.300"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-2.0591,0.0,-2.0591,kcal/mol,"theta 45.0, r 1.128"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.3201,0.0,-1.3201,kcal/mol,"theta 45.0, r 1.206"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.7062,0.0,-0.7062,kcal/mol,"theta 45.0, r 1.284"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.2313,0.0,-0.2313,kcal/mol,"theta 45.0, r 1.363"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.1497,0.0,0.1497,kcal/mol,"theta 45.0, r 1.441"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.4563,0.0,0.4563,kcal/mol,"theta 45.0, r 1.519"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.6853,0.0,0.6853,kcal/mol,"theta 45.0, r 1.597"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.8322,0.0,0.8322,kcal/mol,"theta 45.0, r 1.675"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.9101,0.0,0.9101,kcal/mol,"theta 45.0, r 1.753"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.9342,0.0,0.9342,kcal/mol,"theta 45.0, r 1.831"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.9331,0.0,0.9331,kcal/mol,"theta 45.0, r 1.909"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.92,0.0,0.92,kcal/mol,"theta 45.0, r 1.987"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.9303,0.0,0.9303,kcal/mol,"theta 45.0, r 2.066"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.9781,0.0,0.9781,kcal/mol,"theta 45.0, r 2.144"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,1.1255,0.0,1.1255,kcal/mol,"theta 45.0, r 2.222"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,1.4787,0.0,1.4787,kcal/mol,"theta 45.0, r 2.300"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-2.1691,0.0,-2.1691,kcal/mol,"theta 52.5, r 1.050"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.7312,0.0,-1.7312,kcal/mol,"theta 52.5, r 1.128"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.2816,0.0,-1.2816,kcal/mol,"theta 52.5, r 1.206"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.8527,0.0,-0.8527,kcal/mol,"theta 52.5, r 1.284"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.4518,0.0,-0.4518,kcal/mol,"theta 52.5, r 1.363"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.0977,0.0,-0.0977,kcal/mol,"theta 52.5, r 1.441"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.1786,0.0,0.1786,kcal/mol,"theta 52.5, r 1.519"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.3503,0.0,0.3503,kcal/mol,"theta 52.5, r 1.597"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.4331,0.0,0.4331,kcal/mol,"theta 52.5, r 1.675"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.4468,0.0,0.4468,kcal/mol,"theta 52.5, r 1.753"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.4457,0.0,0.4457,kcal/mol,"theta 52.5, r 1.831"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.4619,0.0,0.4619,kcal/mol,"theta 52.5, r 1.909"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.5237,0.0,0.5237,kcal/mol,"theta 52.5, r 1.987"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.6442,0.0,0.6442,kcal/mol,"theta 52.5, r 2.066"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.8782,0.0,0.8782,kcal/mol,"theta 52.5, r 2.144"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,1.3252,0.0,1.3252,kcal/mol,"theta 52.5, r 2.222"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,2.096,0.0,2.096,kcal/mol,"theta 52.5, r 2.300"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.748,0.0,-1.748,kcal/mol,"theta 60.0, r 1.050"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.5056,0.0,-1.5056,kcal/mol,"theta 60.0, r 1.128"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.1838,0.0,-1.1838,kcal/mol,"theta 60.0, r 1.206"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.8227,0.0,-0.8227,kcal/mol,"theta 60.0, r 1.284"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.4862,0.0,-0.4862,kcal/mol,"theta 60.0, r 1.363"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.2403,0.0,-0.2403,kcal/mol,"theta 60.0, r 1.441"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.1154,0.0,-0.1154,kcal/mol,"theta 60.0, r 1.519"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.1043,0.0,-0.1043,kcal/mol,"theta 60.0, r 1.597"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.162,0.0,-0.162,kcal/mol,"theta 60.0, r 1.675"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.2041,0.0,-0.2041,kcal/mol,"theta 60.0, r 1.753"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.1838,0.0,-0.1838,kcal/mol,"theta 60.0, r 1.831"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.123,0.0,-0.123,kcal/mol,"theta 60.0, r 1.909"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.0517,0.0,0.0517,kcal/mol,"theta 60.0, r 1.987"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.4148,0.0,0.4148,kcal/mol,"theta 60.0, r 2.066"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,1.0716,0.0,1.0716,kcal/mol,"theta 60.0, r 2.144"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,2.0427,0.0,2.0427,kcal/mol,"theta 60.0, r 2.222"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,3.4397,0.0,3.4397,kcal/mol,"theta 60.0, r 2.300"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.5846,0.0,-1.5846,kcal/mol,"theta 67.5, r 1.050"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.3528,0.0,-1.3528,kcal/mol,"theta 67.5, r 1.128"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.0592,0.0,-1.0592,kcal/mol,"theta 67.5, r 1.206"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.7866,0.0,-0.7866,kcal/mol,"theta 67.5, r 1.284"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.6205,0.0,-0.6205,kcal/mol,"theta 67.5, r 1.363"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.6089,0.0,-0.6089,kcal/mol,"theta 67.5, r 1.441"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.7473,0.0,-0.7473,kcal/mol,"theta 67.5, r 1.519"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.9246,0.0,-0.9246,kcal/mol,"theta 67.5, r 1.597"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.0136,0.0,-1.0136,kcal/mol,"theta 67.5, r 1.675"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.9937,0.0,-0.9937,kcal/mol,"theta 67.5, r 1.753"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.8643,0.0,-0.8643,kcal/mol,"theta 67.5, r 1.831"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.5791,0.0,-0.5791,kcal/mol,"theta 67.5, r 1.909"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.0997,0.0,-0.0997,kcal/mol,"theta 67.5, r 1.987"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.6777,0.0,0.6777,kcal/mol,"theta 67.5, r 2.066"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,1.8177,0.0,1.8177,kcal/mol,"theta 67.5, r 2.144"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,3.4019,0.0,3.4019,kcal/mol,"theta 67.5, r 2.222"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,5.4655,0.0,5.4655,kcal/mol,"theta 67.5, r 2.300"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.532,0.0,-1.532,kcal/mol,"theta 75.0, r 1.050"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.3567,0.0,-1.3567,kcal/mol,"theta 75.0, r 1.128"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.1633,0.0,-1.1633,kcal/mol,"theta 75.0, r 1.206"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.0807,0.0,-1.0807,kcal/mol,"theta 75.0, r 1.284"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.1831,0.0,-1.1831,kcal/mol,"theta 75.0, r 1.363"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.4704,0.0,-1.4704,kcal/mol,"theta 75.0, r 1.441"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.7796,0.0,-1.7796,kcal/mol,"theta 75.0, r 1.519"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.9367,0.0,-1.9367,kcal/mol,"theta 75.0, r 1.597"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.94,0.0,-1.94,kcal/mol,"theta 75.0, r 1.675"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.767,0.0,-1.767,kcal/mol,"theta 75.0, r 1.753"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.3942,0.0,-1.3942,kcal/mol,"theta 75.0, r 1.831"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.8158,0.0,-0.8158,kcal/mol,"theta 75.0, r 1.909"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.0214,0.0,0.0214,kcal/mol,"theta 75.0, r 1.987"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,1.1908,0.0,1.1908,kcal/mol,"theta 75.0, r 2.066"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,2.8431,0.0,2.8431,kcal/mol,"theta 75.0, r 2.144"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,5.056,0.0,5.056,kcal/mol,"theta 75.0, r 2.222"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,7.9348,0.0,7.9348,kcal/mol,"theta 75.0, r 2.300"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.5754,0.0,-1.5754,kcal/mol,"theta 82.5, r 1.050"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.4829,0.0,-1.4829,kcal/mol,"theta 82.5, r 1.128"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.4361,0.0,-1.4361,kcal/mol,"theta 82.5, r 1.206"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.564,0.0,-1.564,kcal/mol,"theta 82.5, r 1.284"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.9615,0.0,-1.9615,kcal/mol,"theta 82.5, r 1.363"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-2.4604,0.0,-2.4604,kcal/mol,"theta 82.5, r 1.441"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-2.8457,0.0,-2.8457,kcal/mol,"theta 82.5, r 1.519"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-3.0032,0.0,-3.0032,kcal/mol,"theta 82.5, r 1.597"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-2.961,0.0,-2.961,kcal/mol,"theta 82.5, r 1.675"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-2.6684,0.0,-2.6684,kcal/mol,"theta 82.5, r 1.753"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-2.0973,0.0,-2.0973,kcal/mol,"theta 82.5, r 1.831"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.2406,0.0,-1.2406,kcal/mol,"theta 82.5, r 1.909"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.0387,0.0,-0.0387,kcal/mol,"theta 82.5, r 1.987"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,1.5734,0.0,1.5734,kcal/mol,"theta 82.5, r 2.066"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,3.7346,0.0,3.7346,kcal/mol,"theta 82.5, r 2.144"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.7419,0.0,-1.7419,kcal/mol,"theta 90.0, r 1.050"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.6772,0.0,-1.6772,kcal/mol,"theta 90.0, r 1.128"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.7021,0.0,-1.7021,kcal/mol,"theta 90.0, r 1.206"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-2.0239,0.0,-2.0239,kcal/mol,"theta 90.0, r 1.284"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-2.6392,0.0,-2.6392,kcal/mol,"theta 90.0, r 1.363"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-3.2322,0.0,-3.2322,kcal/mol,"theta 90.0, r 1.441"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-3.6472,0.0,-3.6472,kcal/mol,"theta 90.0, r 1.519"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-3.8027,0.0,-3.8027,kcal/mol,"theta 90.0, r 1.597"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-3.7122,0.0,-3.7122,kcal/mol,"theta 90.0, r 1.675"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-3.3833,0.0,-3.3833,kcal/mol,"theta 90.0, r 1.753"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-2.7421,0.0,-2.7421,kcal/mol,"theta 90.0, r 1.831"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.7656,0.0,-1.7656,kcal/mol,"theta 90.0, r 1.909"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.4026,0.0,-0.4026,kcal/mol,"theta 90.0, r 1.987"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,1.4743,0.0,1.4743,kcal/mol,"theta 90.0, r 2.066"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.9917,0.0,-1.9917,kcal/mol,"theta 97.5, r 1.050"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.9273,0.0,-1.9273,kcal/mol,"theta 97.5, r 1.128"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.9642,0.0,-1.9642,kcal/mol,"theta 97.5, r 1.206"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-2.2968,0.0,-2.2968,kcal/mol,"theta 97.5, r 1.284"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-2.9243,0.0,-2.9243,kcal/mol,"theta 97.5, r 1.363"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-3.5289,0.0,-3.5289,kcal/mol,"theta 97.5, r 1.441"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-3.9295,0.0,-3.9295,kcal/mol,"theta 97.5, r 1.519"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-4.1051,0.0,-4.1051,kcal/mol,"theta 97.5, r 1.597"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-4.0476,0.0,-4.0476,kcal/mol,"theta 97.5, r 1.675"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-3.742,0.0,-3.742,kcal/mol,"theta 97.5, r 1.753"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-3.1415,0.0,-3.1415,kcal/mol,"theta 97.5, r 1.831"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-2.2083,0.0,-2.2083,kcal/mol,"theta 97.5, r 1.909"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.871,0.0,-0.871,kcal/mol,"theta 97.5, r 1.987"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-2.1646,0.0,-2.1646,kcal/mol,"theta 105.0, r 1.050"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-2.1189,0.0,-2.1189,kcal/mol,"theta 105.0, r 1.128"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-2.0997,0.0,-2.0997,kcal/mol,"theta 105.0, r 1.206"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-2.278,0.0,-2.278,kcal/mol,"theta 105.0, r 1.284"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-2.7905,0.0,-2.7905,kcal/mol,"theta 105.0, r 1.363"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-3.4148,0.0,-3.4148,kcal/mol,"theta 105.0, r 1.441"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-3.8441,0.0,-3.8441,kcal/mol,"theta 105.0, r 1.519"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-4.0214,0.0,-4.0214,kcal/mol,"theta 105.0, r 1.597"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-3.9701,0.0,-3.9701,kcal/mol,"theta 105.0, r 1.675"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-3.7188,0.0,-3.7188,kcal/mol,"theta 105.0, r 1.753"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-3.2243,0.0,-3.2243,kcal/mol,"theta 105.0, r 1.831"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-2.4213,0.0,-2.4213,kcal/mol,"theta 105.0, r 1.909"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.2344,0.0,-1.2344,kcal/mol,"theta 105.0, r 1.987"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-2.1751,0.0,-2.1751,kcal/mol,"theta 112.5, r 1.050"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-2.0901,0.0,-2.0901,kcal/mol,"theta 112.5, r 1.128"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-2.0246,0.0,-2.0246,kcal/mol,"theta 112.5, r 1.206"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-2.0374,0.0,-2.0374,kcal/mol,"theta 112.5, r 1.284"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-2.2634,0.0,-2.2634,kcal/mol,"theta 112.5, r 1.363"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-2.7664,0.0,-2.7664,kcal/mol,"theta 112.5, r 1.441"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-3.2854,0.0,-3.2854,kcal/mol,"theta 112.5, r 1.519"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-3.5726,0.0,-3.5726,kcal/mol,"theta 112.5, r 1.597"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-3.6025,0.0,-3.6025,kcal/mol,"theta 112.5, r 1.675"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-3.4285,0.0,-3.4285,kcal/mol,"theta 112.5, r 1.753"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-3.0613,0.0,-3.0613,kcal/mol,"theta 112.5, r 1.831"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-2.4472,0.0,-2.4472,kcal/mol,"theta 112.5, r 1.909"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.5018,0.0,-1.5018,kcal/mol,"theta 112.5, r 1.987"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.0887,0.0,-0.0887,kcal/mol,"theta 112.5, r 2.066"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-2.122,0.0,-2.122,kcal/mol,"theta 120.0, r 1.050"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.9459,0.0,-1.9459,kcal/mol,"theta 120.0, r 1.128"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.8024,0.0,-1.8024,kcal/mol,"theta 120.0, r 1.206"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.7022,0.0,-1.7022,kcal/mol,"theta 120.0, r 1.284"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.6962,0.0,-1.6962,kcal/mol,"theta 120.0, r 1.363"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.8854,0.0,-1.8854,kcal/mol,"theta 120.0, r 1.441"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-2.2903,0.0,-2.2903,kcal/mol,"theta 120.0, r 1.519"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-2.6808,0.0,-2.6808,kcal/mol,"theta 120.0, r 1.597"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-2.8586,0.0,-2.8586,kcal/mol,"theta 120.0, r 1.675"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-2.8074,0.0,-2.8074,kcal/mol,"theta 120.0, r 1.753"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-2.5871,0.0,-2.5871,kcal/mol,"theta 120.0, r 1.831"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-2.1803,0.0,-2.1803,kcal/mol,"theta 120.0, r 1.909"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.5082,0.0,-1.5082,kcal/mol,"theta 120.0, r 1.987"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.4674,0.0,-0.4674,kcal/mol,"theta 120.0, r 2.066"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,1.1297,0.0,1.1297,kcal/mol,"theta 120.0, r 2.144"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-2.163,0.0,-2.163,kcal/mol,"theta 127.5, r 1.050"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.7806,0.0,-1.7806,kcal/mol,"theta 127.5, r 1.128"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.507,0.0,-1.507,kcal/mol,"theta 127.5, r 1.206"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.3134,0.0,-1.3134,kcal/mol,"theta 127.5, r 1.284"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.1794,0.0,-1.1794,kcal/mol,"theta 127.5, r 1.363"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.1611,0.0,-1.1611,kcal/mol,"theta 127.5, r 1.441"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.2981,0.0,-1.2981,kcal/mol,"theta 127.5, r 1.519"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.6153,0.0,-1.6153,kcal/mol,"theta 127.5, r 1.597"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.9136,0.0,-1.9136,kcal/mol,"theta 127.5, r 1.675"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-2.0324,0.0,-2.0324,kcal/mol,"theta 127.5, r 1.753"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.9815,0.0,-1.9815,kcal/mol,"theta 127.5, r 1.831"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.7931,0.0,-1.7931,kcal/mol,"theta 127.5, r 1.909"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.4256,0.0,-1.4256,kcal/mol,"theta 127.5, r 1.987"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.7617,0.0,-0.7617,kcal/mol,"theta 127.5, r 2.066"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.3378,0.0,0.3378,kcal/mol,"theta 127.5, r 2.144"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-2.4316,0.0,-2.4316,kcal/mol,"theta 135.0, r 1.050"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.7097,0.0,-1.7097,kcal/mol,"theta 135.0, r 1.128"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.2286,0.0,-1.2286,kcal/mol,"theta 135.0, r 1.206"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.9231,0.0,-0.9231,kcal/mol,"theta 135.0, r 1.284"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.748,0.0,-0.748,kcal/mol,"theta 135.0, r 1.363"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.6556,0.0,-0.6556,kcal/mol,"theta 135.0, r 1.441"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.6255,0.0,-0.6255,kcal/mol,"theta 135.0, r 1.519"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.7284,0.0,-0.7284,kcal/mol,"theta 135.0, r 1.597"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.9997,0.0,-0.9997,kcal/mol,"theta 135.0, r 1.675"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.2551,0.0,-1.2551,kcal/mol,"theta 135.0, r 1.753"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.3739,0.0,-1.3739,kcal/mol,"theta 135.0, r 1.831"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.3543,0.0,-1.3543,kcal/mol,"theta 135.0, r 1.909"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.2259,0.0,-1.2259,kcal/mol,"theta 135.0, r 1.987"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.9085,0.0,-0.9085,kcal/mol,"theta 135.0, r 2.066"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.2514,0.0,-0.2514,kcal/mol,"theta 135.0, r 2.144"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.905,0.0,0.905,kcal/mol,"theta 135.0, r 2.222"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.8789,0.0,-1.8789,kcal/mol,"theta 142.5, r 1.128"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.0889,0.0,-1.0889,kcal/mol,"theta 142.5, r 1.206"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.6109,0.0,-0.6109,kcal/mol,"theta 142.5, r 1.284"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.3701,0.0,-0.3701,kcal/mol,"theta 142.5, r 1.363"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.2764,0.0,-0.2764,kcal/mol,"theta 142.5, r 1.441"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.2567,0.0,-0.2567,kcal/mol,"theta 142.5, r 1.519"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.2667,0.0,-0.2667,kcal/mol,"theta 142.5, r 1.597"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.3843,0.0,-0.3843,kcal/mol,"theta 142.5, r 1.675"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.6396,0.0,-0.6396,kcal/mol,"theta 142.5, r 1.753"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.9094,0.0,-0.9094,kcal/mol,"theta 142.5, r 1.831"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.0808,0.0,-1.0808,kcal/mol,"theta 142.5, r 1.909"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.1658,0.0,-1.1658,kcal/mol,"theta 142.5, r 1.987"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.1206,0.0,-1.1206,kcal/mol,"theta 142.5, r 2.066"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.8348,0.0,-0.8348,kcal/mol,"theta 142.5, r 2.144"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.1398,0.0,-0.1398,kcal/mol,"theta 142.5, r 2.222"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,1.1583,0.0,1.1583,kcal/mol,"theta 142.5, r 2.300"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.2433,0.0,-1.2433,kcal/mol,"theta 150.0, r 1.206"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.5055,0.0,-0.5055,kcal/mol,"theta 150.0, r 1.284"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.1559,0.0,-0.1559,kcal/mol,"theta 150.0, r 1.363"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.0819,0.0,-0.0819,kcal/mol,"theta 150.0, r 1.441"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.1151,0.0,-0.1151,kcal/mol,"theta 150.0, r 1.519"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.1396,0.0,-0.1396,kcal/mol,"theta 150.0, r 1.597"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.1696,0.0,-0.1696,kcal/mol,"theta 150.0, r 1.675"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.3198,0.0,-0.3198,kcal/mol,"theta 150.0, r 1.753"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.61,0.0,-0.61,kcal/mol,"theta 150.0, r 1.831"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.8957,0.0,-0.8957,kcal/mol,"theta 150.0, r 1.909"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.1095,0.0,-1.1095,kcal/mol,"theta 150.0, r 1.987"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.2534,0.0,-1.2534,kcal/mol,"theta 150.0, r 2.066"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.2081,0.0,-1.2081,kcal/mol,"theta 150.0, r 2.144"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.8475,0.0,-0.8475,kcal/mol,"theta 150.0, r 2.222"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,0.0018,0.0,0.0018,kcal/mol,"theta 150.0, r 2.300"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.725,0.0,-1.725,kcal/mol,"theta 157.5, r 1.206"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.6646,0.0,-0.6646,kcal/mol,"theta 157.5, r 1.284"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.1337,0.0,-0.1337,kcal/mol,"theta 157.5, r 1.363"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.0223,0.0,-0.0223,kcal/mol,"theta 157.5, r 1.441"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.1088,0.0,-0.1088,kcal/mol,"theta 157.5, r 1.519"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.1974,0.0,-0.1974,kcal/mol,"theta 157.5, r 1.597"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.2182,0.0,-0.2182,kcal/mol,"theta 157.5, r 1.675"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.2707,0.0,-0.2707,kcal/mol,"theta 157.5, r 1.753"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.4814,0.0,-0.4814,kcal/mol,"theta 157.5, r 1.831"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.7954,0.0,-0.7954,kcal/mol,"theta 157.5, r 1.909"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.0922,0.0,-1.0922,kcal/mol,"theta 157.5, r 1.987"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.3185,0.0,-1.3185,kcal/mol,"theta 157.5, r 2.066"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.4406,0.0,-1.4406,kcal/mol,"theta 157.5, r 2.144"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.3181,0.0,-1.3181,kcal/mol,"theta 157.5, r 2.222"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.7838,0.0,-0.7838,kcal/mol,"theta 157.5, r 2.300"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.013,0.0,-1.013,kcal/mol,"theta 165.0, r 1.284"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.279,0.0,-0.279,kcal/mol,"theta 165.0, r 1.363"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.0656,0.0,-0.0656,kcal/mol,"theta 165.0, r 1.441"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.1746,0.0,-0.1746,kcal/mol,"theta 165.0, r 1.519"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.3254,0.0,-0.3254,kcal/mol,"theta 165.0, r 1.597"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.3704,0.0,-0.3704,kcal/mol,"theta 165.0, r 1.675"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.3668,0.0,-0.3668,kcal/mol,"theta 165.0, r 1.753"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.4877,0.0,-0.4877,kcal/mol,"theta 165.0, r 1.831"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.8076,0.0,-0.8076,kcal/mol,"theta 165.0, r 1.909"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.1819,0.0,-1.1819,kcal/mol,"theta 165.0, r 1.987"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.5052,0.0,-1.5052,kcal/mol,"theta 165.0, r 2.066"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.7364,0.0,-1.7364,kcal/mol,"theta 165.0, r 2.144"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.7646,0.0,-1.7646,kcal/mol,"theta 165.0, r 2.222"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.4474,0.0,-1.4474,kcal/mol,"theta 165.0, r 2.300"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.3128,0.0,-1.3128,kcal/mol,"theta 172.5, r 1.284"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.4243,0.0,-0.4243,kcal/mol,"theta 172.5, r 1.363"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.1204,0.0,-0.1204,kcal/mol,"theta 172.5, r 1.441"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.227,0.0,-0.227,kcal/mol,"theta 172.5, r 1.519"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.4294,0.0,-0.4294,kcal/mol,"theta 172.5, r 1.597"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.5031,0.0,-0.5031,kcal/mol,"theta 172.5, r 1.675"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.4758,0.0,-0.4758,kcal/mol,"theta 172.5, r 1.753"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.5372,0.0,-0.5372,kcal/mol,"theta 172.5, r 1.831"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.8272,0.0,-0.8272,kcal/mol,"theta 172.5, r 1.909"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.2495,0.0,-1.2495,kcal/mol,"theta 172.5, r 1.987"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.6548,0.0,-1.6548,kcal/mol,"theta 172.5, r 2.066"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.9747,0.0,-1.9747,kcal/mol,"theta 172.5, r 2.144"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-2.1079,0.0,-2.1079,kcal/mol,"theta 172.5, r 2.222"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.9119,0.0,-1.9119,kcal/mol,"theta 172.5, r 2.300"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.4121,0.0,-1.4121,kcal/mol,"theta 180.0, r 1.284"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.4689,0.0,-0.4689,kcal/mol,"theta 180.0, r 1.363"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.14,0.0,-0.14,kcal/mol,"theta 180.0, r 1.441"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.2439,0.0,-0.2439,kcal/mol,"theta 180.0, r 1.519"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.4712,0.0,-0.4712,kcal/mol,"theta 180.0, r 1.597"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.5645,0.0,-0.5645,kcal/mol,"theta 180.0, r 1.675"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.53,0.0,-0.53,kcal/mol,"theta 180.0, r 1.753"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.5693,0.0,-0.5693,kcal/mol,"theta 180.0, r 1.831"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-0.8429,0.0,-0.8429,kcal/mol,"theta 180.0, r 1.909"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.2795,0.0,-1.2795,kcal/mol,"theta 180.0, r 1.987"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-1.7096,0.0,-1.7096,kcal/mol,"theta 180.0, r 2.066"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-2.0639,0.0,-2.0639,kcal/mol,"theta 180.0, r 2.144"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-2.2281,0.0,-2.2281,kcal/mol,"theta 180.0, r 2.222"
+fig6,hcn_grid,map error,Skala,def2-SVP,rigid_grid,-2.0827,0.0,-2.0827,kcal/mol,"theta 180.0, r 2.300"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,0.2062,0.0,0.2062,kcal/mol,"theta 0.0, r 1.363"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,0.5405,0.0,0.5405,kcal/mol,"theta 0.0, r 1.441"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,0.576,0.0,0.576,kcal/mol,"theta 0.0, r 1.519"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,0.3762,0.0,0.3762,kcal/mol,"theta 0.0, r 1.597"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,0.0,0.0,0.0,kcal/mol,"theta 0.0, r 1.675"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.4962,0.0,-0.4962,kcal/mol,"theta 0.0, r 1.753"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.0608,0.0,-1.0608,kcal/mol,"theta 0.0, r 1.831"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.6478,0.0,-1.6478,kcal/mol,"theta 0.0, r 1.909"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.2163,0.0,-2.2163,kcal/mol,"theta 0.0, r 1.987"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.7301,0.0,-2.7301,kcal/mol,"theta 0.0, r 2.066"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.1566,0.0,-3.1566,kcal/mol,"theta 0.0, r 2.144"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.4653,0.0,-3.4653,kcal/mol,"theta 0.0, r 2.222"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.6268,0.0,-3.6268,kcal/mol,"theta 0.0, r 2.300"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,0.3249,0.0,0.3249,kcal/mol,"theta 7.5, r 1.363"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,0.6191,0.0,0.6191,kcal/mol,"theta 7.5, r 1.441"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,0.623,0.0,0.623,kcal/mol,"theta 7.5, r 1.519"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,0.3999,0.0,0.3999,kcal/mol,"theta 7.5, r 1.597"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,0.0082,0.0,0.0082,kcal/mol,"theta 7.5, r 1.675"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.4971,0.0,-0.4971,kcal/mol,"theta 7.5, r 1.753"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.0656,0.0,-1.0656,kcal/mol,"theta 7.5, r 1.831"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.6519,0.0,-1.6519,kcal/mol,"theta 7.5, r 1.909"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.216,0.0,-2.216,kcal/mol,"theta 7.5, r 1.987"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.7225,0.0,-2.7225,kcal/mol,"theta 7.5, r 2.066"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.1389,0.0,-3.1389,kcal/mol,"theta 7.5, r 2.144"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.435,0.0,-3.435,kcal/mol,"theta 7.5, r 2.222"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.5816,0.0,-3.5816,kcal/mol,"theta 7.5, r 2.300"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,0.5915,0.0,0.5915,kcal/mol,"theta 15.0, r 1.363"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,0.7723,0.0,0.7723,kcal/mol,"theta 15.0, r 1.441"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,0.6902,0.0,0.6902,kcal/mol,"theta 15.0, r 1.519"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,0.4048,0.0,0.4048,kcal/mol,"theta 15.0, r 1.597"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.0274,0.0,-0.0274,kcal/mol,"theta 15.0, r 1.675"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.5543,0.0,-0.5543,kcal/mol,"theta 15.0, r 1.753"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.1283,0.0,-1.1283,kcal/mol,"theta 15.0, r 1.831"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.707,0.0,-1.707,kcal/mol,"theta 15.0, r 1.909"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.2526,0.0,-2.2526,kcal/mol,"theta 15.0, r 1.987"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.7313,0.0,-2.7313,kcal/mol,"theta 15.0, r 2.066"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.1122,0.0,-3.1122,kcal/mol,"theta 15.0, r 2.144"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.3648,0.0,-3.3648,kcal/mol,"theta 15.0, r 2.222"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.4602,0.0,-3.4602,kcal/mol,"theta 15.0, r 2.300"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,0.48,0.0,0.48,kcal/mol,"theta 22.5, r 1.284"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,0.7937,0.0,0.7937,kcal/mol,"theta 22.5, r 1.363"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,0.8223,0.0,0.8223,kcal/mol,"theta 22.5, r 1.441"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,0.6272,0.0,0.6272,kcal/mol,"theta 22.5, r 1.519"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,0.2647,0.0,0.2647,kcal/mol,"theta 22.5, r 1.597"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.213,0.0,-0.213,kcal/mol,"theta 22.5, r 1.675"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.7578,0.0,-0.7578,kcal/mol,"theta 22.5, r 1.753"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.3262,0.0,-1.3262,kcal/mol,"theta 22.5, r 1.831"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.879,0.0,-1.879,kcal/mol,"theta 22.5, r 1.909"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.3814,0.0,-2.3814,kcal/mol,"theta 22.5, r 1.987"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.8021,0.0,-2.8021,kcal/mol,"theta 22.5, r 2.066"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.1109,0.0,-3.1109,kcal/mol,"theta 22.5, r 2.144"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.2785,0.0,-3.2785,kcal/mol,"theta 22.5, r 2.222"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.2755,0.0,-3.2755,kcal/mol,"theta 22.5, r 2.300"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,0.6191,0.0,0.6191,kcal/mol,"theta 30.0, r 1.284"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,0.7351,0.0,0.7351,kcal/mol,"theta 30.0, r 1.363"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,0.6168,0.0,0.6168,kcal/mol,"theta 30.0, r 1.441"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,0.3187,0.0,0.3187,kcal/mol,"theta 30.0, r 1.519"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.1071,0.0,-0.1071,kcal/mol,"theta 30.0, r 1.597"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.6127,0.0,-0.6127,kcal/mol,"theta 30.0, r 1.675"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.154,0.0,-1.154,kcal/mol,"theta 30.0, r 1.753"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.6911,0.0,-1.6911,kcal/mol,"theta 30.0, r 1.831"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.1885,0.0,-2.1885,kcal/mol,"theta 30.0, r 1.909"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.614,0.0,-2.614,kcal/mol,"theta 30.0, r 1.987"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.9377,0.0,-2.9377,kcal/mol,"theta 30.0, r 2.066"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.1302,0.0,-3.1302,kcal/mol,"theta 30.0, r 2.144"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.1619,0.0,-3.1619,kcal/mol,"theta 30.0, r 2.222"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.0037,0.0,-3.0037,kcal/mol,"theta 30.0, r 2.300"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,0.1831,0.0,0.1831,kcal/mol,"theta 37.5, r 1.206"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,0.3719,0.0,0.3719,kcal/mol,"theta 37.5, r 1.284"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,0.3242,0.0,0.3242,kcal/mol,"theta 37.5, r 1.363"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,0.0915,0.0,0.0915,kcal/mol,"theta 37.5, r 1.441"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.2762,0.0,-0.2762,kcal/mol,"theta 37.5, r 1.519"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.7322,0.0,-0.7322,kcal/mol,"theta 37.5, r 1.597"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.2323,0.0,-1.2323,kcal/mol,"theta 37.5, r 1.675"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.7359,0.0,-1.7359,kcal/mol,"theta 37.5, r 1.753"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.2066,0.0,-2.2066,kcal/mol,"theta 37.5, r 1.831"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.6108,0.0,-2.6108,kcal/mol,"theta 37.5, r 1.909"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.9183,0.0,-2.9183,kcal/mol,"theta 37.5, r 1.987"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.0989,0.0,-3.0989,kcal/mol,"theta 37.5, r 2.066"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.1227,0.0,-3.1227,kcal/mol,"theta 37.5, r 2.144"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.9595,0.0,-2.9595,kcal/mol,"theta 37.5, r 2.222"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.5804,0.0,-2.5804,kcal/mol,"theta 37.5, r 2.300"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.52,0.0,-0.52,kcal/mol,"theta 45.0, r 1.128"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.2794,0.0,-0.2794,kcal/mol,"theta 45.0, r 1.206"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.2633,0.0,-0.2633,kcal/mol,"theta 45.0, r 1.284"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.4295,0.0,-0.4295,kcal/mol,"theta 45.0, r 1.363"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.7334,0.0,-0.7334,kcal/mol,"theta 45.0, r 1.441"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.1304,0.0,-1.1304,kcal/mol,"theta 45.0, r 1.519"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.5773,0.0,-1.5773,kcal/mol,"theta 45.0, r 1.597"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.0335,0.0,-2.0335,kcal/mol,"theta 45.0, r 1.675"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.4612,0.0,-2.4612,kcal/mol,"theta 45.0, r 1.753"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.8262,0.0,-2.8262,kcal/mol,"theta 45.0, r 1.831"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.0958,0.0,-3.0958,kcal/mol,"theta 45.0, r 1.909"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.2388,0.0,-3.2388,kcal/mol,"theta 45.0, r 1.987"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.2238,0.0,-3.2238,kcal/mol,"theta 45.0, r 2.066"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.0187,0.0,-3.0187,kcal/mol,"theta 45.0, r 2.144"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.5928,0.0,-2.5928,kcal/mol,"theta 45.0, r 2.222"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.9172,0.0,-1.9172,kcal/mol,"theta 45.0, r 2.300"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.3697,0.0,-1.3697,kcal/mol,"theta 52.5, r 1.050"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.1193,0.0,-1.1193,kcal/mol,"theta 52.5, r 1.128"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.0696,0.0,-1.0696,kcal/mol,"theta 52.5, r 1.206"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.1889,0.0,-1.1889,kcal/mol,"theta 52.5, r 1.284"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.438,0.0,-1.438,kcal/mol,"theta 52.5, r 1.363"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.7779,0.0,-1.7779,kcal/mol,"theta 52.5, r 1.441"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.1691,0.0,-2.1691,kcal/mol,"theta 52.5, r 1.519"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.5726,0.0,-2.5726,kcal/mol,"theta 52.5, r 1.597"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.9507,0.0,-2.9507,kcal/mol,"theta 52.5, r 1.675"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.2679,0.0,-3.2679,kcal/mol,"theta 52.5, r 1.753"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.4903,0.0,-3.4903,kcal/mol,"theta 52.5, r 1.831"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.5838,0.0,-3.5838,kcal/mol,"theta 52.5, r 1.909"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.5143,0.0,-3.5143,kcal/mol,"theta 52.5, r 1.987"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.247,0.0,-3.247,kcal/mol,"theta 52.5, r 2.066"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.7474,0.0,-2.7474,kcal/mol,"theta 52.5, r 2.144"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.9823,0.0,-1.9823,kcal/mol,"theta 52.5, r 2.222"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.9209,0.0,-0.9209,kcal/mol,"theta 52.5, r 2.300"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.8453,0.0,-1.8453,kcal/mol,"theta 60.0, r 1.050"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.8406,0.0,-1.8406,kcal/mol,"theta 60.0, r 1.128"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.9723,0.0,-1.9723,kcal/mol,"theta 60.0, r 1.206"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.2155,0.0,-2.2155,kcal/mol,"theta 60.0, r 1.284"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.537,0.0,-2.537,kcal/mol,"theta 60.0, r 1.363"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.9014,0.0,-2.9014,kcal/mol,"theta 60.0, r 1.441"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.2732,0.0,-3.2732,kcal/mol,"theta 60.0, r 1.519"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.618,0.0,-3.618,kcal/mol,"theta 60.0, r 1.597"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.9011,0.0,-3.9011,kcal/mol,"theta 60.0, r 1.675"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-4.088,0.0,-4.088,kcal/mol,"theta 60.0, r 1.753"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-4.1427,0.0,-4.1427,kcal/mol,"theta 60.0, r 1.831"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-4.0277,0.0,-4.0277,kcal/mol,"theta 60.0, r 1.909"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.704,0.0,-3.704,kcal/mol,"theta 60.0, r 1.987"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.1313,0.0,-3.1313,kcal/mol,"theta 60.0, r 2.066"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.2696,0.0,-2.2696,kcal/mol,"theta 60.0, r 2.144"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.0793,0.0,-1.0793,kcal/mol,"theta 60.0, r 2.222"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,0.4773,0.0,0.4773,kcal/mol,"theta 60.0, r 2.300"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.147,0.0,-2.147,kcal/mol,"theta 67.5, r 1.050"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.3814,0.0,-2.3814,kcal/mol,"theta 67.5, r 1.128"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.7017,0.0,-2.7017,kcal/mol,"theta 67.5, r 1.206"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.0816,0.0,-3.0816,kcal/mol,"theta 67.5, r 1.284"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.4912,0.0,-3.4912,kcal/mol,"theta 67.5, r 1.363"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.8982,0.0,-3.8982,kcal/mol,"theta 67.5, r 1.441"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-4.27,0.0,-4.27,kcal/mol,"theta 67.5, r 1.519"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-4.5745,0.0,-4.5745,kcal/mol,"theta 67.5, r 1.597"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-4.7784,0.0,-4.7784,kcal/mol,"theta 67.5, r 1.675"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-4.8456,0.0,-4.8456,kcal/mol,"theta 67.5, r 1.753"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-4.7368,0.0,-4.7368,kcal/mol,"theta 67.5, r 1.831"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-4.4085,0.0,-4.4085,kcal/mol,"theta 67.5, r 1.909"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.8139,0.0,-3.8139,kcal/mol,"theta 67.5, r 1.987"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.9028,0.0,-2.9028,kcal/mol,"theta 67.5, r 2.066"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.6216,0.0,-1.6216,kcal/mol,"theta 67.5, r 2.144"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,0.0851,0.0,0.0851,kcal/mol,"theta 67.5, r 2.222"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,2.2716,0.0,2.2716,kcal/mol,"theta 67.5, r 2.300"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.102,0.0,-2.102,kcal/mol,"theta 75.0, r 1.050"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.5336,0.0,-2.5336,kcal/mol,"theta 75.0, r 1.128"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.026,0.0,-3.026,kcal/mol,"theta 75.0, r 1.206"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.5476,0.0,-3.5476,kcal/mol,"theta 75.0, r 1.284"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-4.0661,0.0,-4.0661,kcal/mol,"theta 75.0, r 1.363"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-4.5491,0.0,-4.5491,kcal/mol,"theta 75.0, r 1.441"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-4.9646,0.0,-4.9646,kcal/mol,"theta 75.0, r 1.519"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-5.2786,0.0,-5.2786,kcal/mol,"theta 75.0, r 1.597"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-5.4555,0.0,-5.4555,kcal/mol,"theta 75.0, r 1.675"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-5.4553,0.0,-5.4553,kcal/mol,"theta 75.0, r 1.753"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-5.2327,0.0,-5.2327,kcal/mol,"theta 75.0, r 1.831"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-4.7362,0.0,-4.7362,kcal/mol,"theta 75.0, r 1.909"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.9056,0.0,-3.9056,kcal/mol,"theta 75.0, r 1.987"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.6707,0.0,-2.6707,kcal/mol,"theta 75.0, r 2.066"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.9504,0.0,-0.9504,kcal/mol,"theta 75.0, r 2.144"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,1.3443,0.0,1.3443,kcal/mol,"theta 75.0, r 2.222"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,4.3004,0.0,4.3004,kcal/mol,"theta 75.0, r 2.300"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.7441,0.0,-1.7441,kcal/mol,"theta 82.5, r 1.050"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.2966,0.0,-2.2966,kcal/mol,"theta 82.5, r 1.128"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.9093,0.0,-2.9093,kcal/mol,"theta 82.5, r 1.206"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.5465,0.0,-3.5465,kcal/mol,"theta 82.5, r 1.284"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-4.1723,0.0,-4.1723,kcal/mol,"theta 82.5, r 1.363"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-4.7513,0.0,-4.7513,kcal/mol,"theta 82.5, r 1.441"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-5.2475,0.0,-5.2475,kcal/mol,"theta 82.5, r 1.519"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-5.6233,0.0,-5.6233,kcal/mol,"theta 82.5, r 1.597"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-5.8387,0.0,-5.8387,kcal/mol,"theta 82.5, r 1.675"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-5.8492,0.0,-5.8492,kcal/mol,"theta 82.5, r 1.753"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-5.6035,0.0,-5.6035,kcal/mol,"theta 82.5, r 1.831"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-5.0384,0.0,-5.0384,kcal/mol,"theta 82.5, r 1.909"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-4.0739,0.0,-4.0739,kcal/mol,"theta 82.5, r 1.987"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.6072,0.0,-2.6072,kcal/mol,"theta 82.5, r 2.066"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.5099,0.0,-0.5099,kcal/mol,"theta 82.5, r 2.144"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.2402,0.0,-1.2402,kcal/mol,"theta 90.0, r 1.050"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.8426,0.0,-1.8426,kcal/mol,"theta 90.0, r 1.128"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.5177,0.0,-2.5177,kcal/mol,"theta 90.0, r 1.206"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.2281,0.0,-3.2281,kcal/mol,"theta 90.0, r 1.284"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.9357,0.0,-3.9357,kcal/mol,"theta 90.0, r 1.363"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-4.6012,0.0,-4.6012,kcal/mol,"theta 90.0, r 1.441"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-5.1845,0.0,-5.1845,kcal/mol,"theta 90.0, r 1.519"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-5.6452,0.0,-5.6452,kcal/mol,"theta 90.0, r 1.597"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-5.9416,0.0,-5.9416,kcal/mol,"theta 90.0, r 1.675"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-6.0286,0.0,-6.0286,kcal/mol,"theta 90.0, r 1.753"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-5.8522,0.0,-5.8522,kcal/mol,"theta 90.0, r 1.831"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-5.3403,0.0,-5.3403,kcal/mol,"theta 90.0, r 1.909"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-4.3918,0.0,-4.3918,kcal/mol,"theta 90.0, r 1.987"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.8644,0.0,-2.8644,kcal/mol,"theta 90.0, r 2.066"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.7598,0.0,-0.7598,kcal/mol,"theta 97.5, r 1.050"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.3678,0.0,-1.3678,kcal/mol,"theta 97.5, r 1.128"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.0661,0.0,-2.0661,kcal/mol,"theta 97.5, r 1.206"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.8162,0.0,-2.8162,kcal/mol,"theta 97.5, r 1.284"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.5763,0.0,-3.5763,kcal/mol,"theta 97.5, r 1.363"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-4.3037,0.0,-4.3037,kcal/mol,"theta 97.5, r 1.441"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-4.956,0.0,-4.956,kcal/mol,"theta 97.5, r 1.519"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-5.4937,0.0,-5.4937,kcal/mol,"theta 97.5, r 1.597"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-5.8786,0.0,-5.8786,kcal/mol,"theta 97.5, r 1.675"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-6.0705,0.0,-6.0705,kcal/mol,"theta 97.5, r 1.753"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-6.0197,0.0,-6.0197,kcal/mol,"theta 97.5, r 1.831"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-5.6535,0.0,-5.6535,kcal/mol,"theta 97.5, r 1.909"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-4.86,0.0,-4.86,kcal/mol,"theta 97.5, r 1.987"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.403,0.0,-0.403,kcal/mol,"theta 105.0, r 1.050"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.9854,0.0,-0.9854,kcal/mol,"theta 105.0, r 1.128"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.6784,0.0,-1.6784,kcal/mol,"theta 105.0, r 1.206"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.441,0.0,-2.441,kcal/mol,"theta 105.0, r 1.284"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.2275,0.0,-3.2275,kcal/mol,"theta 105.0, r 1.363"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.9918,0.0,-3.9918,kcal/mol,"theta 105.0, r 1.441"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-4.6915,0.0,-4.6915,kcal/mol,"theta 105.0, r 1.519"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-5.2903,0.0,-5.2903,kcal/mol,"theta 105.0, r 1.597"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-5.7563,0.0,-5.7563,kcal/mol,"theta 105.0, r 1.675"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-6.057,0.0,-6.057,kcal/mol,"theta 105.0, r 1.753"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-6.1505,0.0,-6.1505,kcal/mol,"theta 105.0, r 1.831"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-5.9717,0.0,-5.9717,kcal/mol,"theta 105.0, r 1.909"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-5.4139,0.0,-5.4139,kcal/mol,"theta 105.0, r 1.987"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.1987,0.0,-0.1987,kcal/mol,"theta 112.5, r 1.050"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.7162,0.0,-0.7162,kcal/mol,"theta 112.5, r 1.128"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.3658,0.0,-1.3658,kcal/mol,"theta 112.5, r 1.206"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.1049,0.0,-2.1049,kcal/mol,"theta 112.5, r 1.284"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.885,0.0,-2.885,kcal/mol,"theta 112.5, r 1.363"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.6597,0.0,-3.6597,kcal/mol,"theta 112.5, r 1.441"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-4.3888,0.0,-4.3888,kcal/mol,"theta 112.5, r 1.519"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-5.0394,0.0,-5.0394,kcal/mol,"theta 112.5, r 1.597"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-5.5839,0.0,-5.5839,kcal/mol,"theta 112.5, r 1.675"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-5.9954,0.0,-5.9954,kcal/mol,"theta 112.5, r 1.753"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-6.2394,0.0,-6.2394,kcal/mol,"theta 112.5, r 1.831"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-6.2609,0.0,-6.2609,kcal/mol,"theta 112.5, r 1.909"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-5.967,0.0,-5.967,kcal/mol,"theta 112.5, r 1.987"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-5.2044,0.0,-5.2044,kcal/mol,"theta 112.5, r 2.066"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.1259,0.0,-0.1259,kcal/mol,"theta 120.0, r 1.050"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.5227,0.0,-0.5227,kcal/mol,"theta 120.0, r 1.128"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.0759,0.0,-1.0759,kcal/mol,"theta 120.0, r 1.206"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.7417,0.0,-1.7417,kcal/mol,"theta 120.0, r 1.284"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.4743,0.0,-2.4743,kcal/mol,"theta 120.0, r 1.363"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.2309,0.0,-3.2309,kcal/mol,"theta 120.0, r 1.441"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.9732,0.0,-3.9732,kcal/mol,"theta 120.0, r 1.519"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-4.6697,0.0,-4.6697,kcal/mol,"theta 120.0, r 1.597"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-5.2938,0.0,-5.2938,kcal/mol,"theta 120.0, r 1.675"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-5.8214,0.0,-5.8214,kcal/mol,"theta 120.0, r 1.753"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-6.2224,0.0,-6.2224,kcal/mol,"theta 120.0, r 1.831"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-6.4505,0.0,-6.4505,kcal/mol,"theta 120.0, r 1.909"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-6.4268,0.0,-6.4268,kcal/mol,"theta 120.0, r 1.987"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-6.0213,0.0,-6.0213,kcal/mol,"theta 120.0, r 2.066"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-5.0339,0.0,-5.0339,kcal/mol,"theta 120.0, r 2.144"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.1485,0.0,-0.1485,kcal/mol,"theta 127.5, r 1.050"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.3569,0.0,-0.3569,kcal/mol,"theta 127.5, r 1.128"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.7531,0.0,-0.7531,kcal/mol,"theta 127.5, r 1.206"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.2953,0.0,-1.2953,kcal/mol,"theta 127.5, r 1.284"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.9426,0.0,-1.9426,kcal/mol,"theta 127.5, r 1.363"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.6551,0.0,-2.6551,kcal/mol,"theta 127.5, r 1.441"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.3952,0.0,-3.3952,kcal/mol,"theta 127.5, r 1.519"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-4.1299,0.0,-4.1299,kcal/mol,"theta 127.5, r 1.597"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-4.8315,0.0,-4.8315,kcal/mol,"theta 127.5, r 1.675"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-5.4759,0.0,-5.4759,kcal/mol,"theta 127.5, r 1.753"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-6.0351,0.0,-6.0351,kcal/mol,"theta 127.5, r 1.831"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-6.4689,0.0,-6.4689,kcal/mol,"theta 127.5, r 1.909"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-6.7108,0.0,-6.7108,kcal/mol,"theta 127.5, r 1.987"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-6.6501,0.0,-6.6501,kcal/mol,"theta 127.5, r 2.066"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-6.1201,0.0,-6.1201,kcal/mol,"theta 127.5, r 2.144"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.251,0.0,-0.251,kcal/mol,"theta 135.0, r 1.050"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.1994,0.0,-0.1994,kcal/mol,"theta 135.0, r 1.128"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.3891,0.0,-0.3891,kcal/mol,"theta 135.0, r 1.206"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.7736,0.0,-0.7736,kcal/mol,"theta 135.0, r 1.284"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.3106,0.0,-1.3106,kcal/mol,"theta 135.0, r 1.363"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.9598,0.0,-1.9598,kcal/mol,"theta 135.0, r 1.441"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.683,0.0,-2.683,kcal/mol,"theta 135.0, r 1.519"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.4449,0.0,-3.4449,kcal/mol,"theta 135.0, r 1.597"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-4.2144,0.0,-4.2144,kcal/mol,"theta 135.0, r 1.675"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-4.9649,0.0,-4.9649,kcal/mol,"theta 135.0, r 1.753"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-5.6701,0.0,-5.6701,kcal/mol,"theta 135.0, r 1.831"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-6.2944,0.0,-6.2944,kcal/mol,"theta 135.0, r 1.909"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-6.7809,0.0,-6.7809,kcal/mol,"theta 135.0, r 1.987"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-7.0353,0.0,-7.0353,kcal/mol,"theta 135.0, r 2.066"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-6.9139,0.0,-6.9139,kcal/mol,"theta 135.0, r 2.144"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-6.2193,0.0,-6.2193,kcal/mol,"theta 135.0, r 2.222"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.085,0.0,-0.085,kcal/mol,"theta 142.5, r 1.128"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.0403,0.0,-0.0403,kcal/mol,"theta 142.5, r 1.206"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.2523,0.0,-0.2523,kcal/mol,"theta 142.5, r 1.284"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.6676,0.0,-0.6676,kcal/mol,"theta 142.5, r 1.363"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.2421,0.0,-1.2421,kcal/mol,"theta 142.5, r 1.441"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.935,0.0,-1.935,kcal/mol,"theta 142.5, r 1.519"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.7077,0.0,-2.7077,kcal/mol,"theta 142.5, r 1.597"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.5261,0.0,-3.5261,kcal/mol,"theta 142.5, r 1.675"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-4.3608,0.0,-4.3608,kcal/mol,"theta 142.5, r 1.753"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-5.186,0.0,-5.186,kcal/mol,"theta 142.5, r 1.831"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-5.97,0.0,-5.97,kcal/mol,"theta 142.5, r 1.909"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-6.6644,0.0,-6.6644,kcal/mol,"theta 142.5, r 1.987"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-7.1866,0.0,-7.1866,kcal/mol,"theta 142.5, r 2.066"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-7.4104,0.0,-7.4104,kcal/mol,"theta 142.5, r 2.144"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-7.1626,0.0,-7.1626,kcal/mol,"theta 142.5, r 2.222"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-6.2306,0.0,-6.2306,kcal/mol,"theta 142.5, r 2.300"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,0.202,0.0,0.202,kcal/mol,"theta 150.0, r 1.206"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,0.1652,0.0,0.1652,kcal/mol,"theta 150.0, r 1.284"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.1268,0.0,-0.1268,kcal/mol,"theta 150.0, r 1.363"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.6195,0.0,-0.6195,kcal/mol,"theta 150.0, r 1.441"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.268,0.0,-1.268,kcal/mol,"theta 150.0, r 1.519"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.0318,0.0,-2.0318,kcal/mol,"theta 150.0, r 1.597"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.8741,0.0,-2.8741,kcal/mol,"theta 150.0, r 1.675"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.7641,0.0,-3.7641,kcal/mol,"theta 150.0, r 1.753"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-4.6748,0.0,-4.6748,kcal/mol,"theta 150.0, r 1.831"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-5.5786,0.0,-5.5786,kcal/mol,"theta 150.0, r 1.909"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-6.4334,0.0,-6.4334,kcal/mol,"theta 150.0, r 1.987"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-7.1668,0.0,-7.1668,kcal/mol,"theta 150.0, r 2.066"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-7.6648,0.0,-7.6648,kcal/mol,"theta 150.0, r 2.144"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-7.7697,0.0,-7.7697,kcal/mol,"theta 150.0, r 2.222"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-7.2888,0.0,-7.2888,kcal/mol,"theta 150.0, r 2.300"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,0.2746,0.0,0.2746,kcal/mol,"theta 157.5, r 1.206"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,0.406,0.0,0.406,kcal/mol,"theta 157.5, r 1.284"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,0.235,0.0,0.235,kcal/mol,"theta 157.5, r 1.363"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.1727,0.0,-0.1727,kcal/mol,"theta 157.5, r 1.441"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.7664,0.0,-0.7664,kcal/mol,"theta 157.5, r 1.519"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.503,0.0,-1.503,kcal/mol,"theta 157.5, r 1.597"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.345,0.0,-2.345,kcal/mol,"theta 157.5, r 1.675"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.26,0.0,-3.26,kcal/mol,"theta 157.5, r 1.753"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-4.2218,0.0,-4.2218,kcal/mol,"theta 157.5, r 1.831"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-5.2048,0.0,-5.2048,kcal/mol,"theta 157.5, r 1.909"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-6.1719,0.0,-6.1719,kcal/mol,"theta 157.5, r 1.987"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-7.0587,0.0,-7.0587,kcal/mol,"theta 157.5, r 2.066"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-7.7595,0.0,-7.7595,kcal/mol,"theta 157.5, r 2.144"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-8.1265,0.0,-8.1265,kcal/mol,"theta 157.5, r 2.222"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-7.9788,0.0,-7.9788,kcal/mol,"theta 157.5, r 2.300"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,0.4771,0.0,0.4771,kcal/mol,"theta 165.0, r 1.284"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,0.4141,0.0,0.4141,kcal/mol,"theta 165.0, r 1.363"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,0.085,0.0,0.085,kcal/mol,"theta 165.0, r 1.441"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.4525,0.0,-0.4525,kcal/mol,"theta 165.0, r 1.519"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.1531,0.0,-1.1531,kcal/mol,"theta 165.0, r 1.597"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.9786,0.0,-1.9786,kcal/mol,"theta 165.0, r 1.675"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.8969,0.0,-2.8969,kcal/mol,"theta 165.0, r 1.753"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.8821,0.0,-3.8821,kcal/mol,"theta 165.0, r 1.831"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-4.9101,0.0,-4.9101,kcal/mol,"theta 165.0, r 1.909"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-5.9477,0.0,-5.9477,kcal/mol,"theta 165.0, r 1.987"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-6.9352,0.0,-6.9352,kcal/mol,"theta 165.0, r 2.066"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-7.7729,0.0,-7.7729,kcal/mol,"theta 165.0, r 2.144"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-8.3186,0.0,-8.3186,kcal/mol,"theta 165.0, r 2.222"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-8.3981,0.0,-8.3981,kcal/mol,"theta 165.0, r 2.300"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,0.4578,0.0,0.4578,kcal/mol,"theta 172.5, r 1.284"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,0.4717,0.0,0.4717,kcal/mol,"theta 172.5, r 1.363"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,0.1996,0.0,0.1996,kcal/mol,"theta 172.5, r 1.441"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.2957,0.0,-0.2957,kcal/mol,"theta 172.5, r 1.519"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.9661,0.0,-0.9661,kcal/mol,"theta 172.5, r 1.597"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.7733,0.0,-1.7733,kcal/mol,"theta 172.5, r 1.675"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.6857,0.0,-2.6857,kcal/mol,"theta 172.5, r 1.753"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.6778,0.0,-3.6778,kcal/mol,"theta 172.5, r 1.831"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-4.7268,0.0,-4.7268,kcal/mol,"theta 172.5, r 1.909"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-5.8013,0.0,-5.8013,kcal/mol,"theta 172.5, r 1.987"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-6.8448,0.0,-6.8448,kcal/mol,"theta 172.5, r 2.066"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-7.7606,0.0,-7.7606,kcal/mol,"theta 172.5, r 2.144"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-8.4096,0.0,-8.4096,kcal/mol,"theta 172.5, r 2.222"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-8.6209,0.0,-8.6209,kcal/mol,"theta 172.5, r 2.300"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,0.439,0.0,0.439,kcal/mol,"theta 180.0, r 1.284"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,0.4811,0.0,0.4811,kcal/mol,"theta 180.0, r 1.363"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,0.2294,0.0,0.2294,kcal/mol,"theta 180.0, r 1.441"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.2502,0.0,-0.2502,kcal/mol,"theta 180.0, r 1.519"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-0.9091,0.0,-0.9091,kcal/mol,"theta 180.0, r 1.597"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-1.7085,0.0,-1.7085,kcal/mol,"theta 180.0, r 1.675"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-2.6173,0.0,-2.6173,kcal/mol,"theta 180.0, r 1.753"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-3.6104,0.0,-3.6104,kcal/mol,"theta 180.0, r 1.831"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-4.6651,0.0,-4.6651,kcal/mol,"theta 180.0, r 1.909"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-5.751,0.0,-5.751,kcal/mol,"theta 180.0, r 1.987"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-6.8123,0.0,-6.8123,kcal/mol,"theta 180.0, r 2.066"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-7.7534,0.0,-7.7534,kcal/mol,"theta 180.0, r 2.144"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-8.4363,0.0,-8.4363,kcal/mol,"theta 180.0, r 2.222"
+fig6,hcn_grid,map error,PBE,def2-SVP,rigid_grid,-8.6905,0.0,-8.6905,kcal/mol,"theta 180.0, r 2.300"

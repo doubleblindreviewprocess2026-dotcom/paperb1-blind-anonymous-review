@@ -1,0 +1,15 @@
+reaction,method,geometry,error_vs_ccsdt_dmp2_kcal
+sn2_ff,Skala-1.1,xTB,0.34514491186336826
+sn2_ff,Skala-1.1,B3LYP,1.6828
+sn2_ff,Skala-1.1,min,1.28
+sn2_ff,wB97M-V,xTB,-2.234625769779136
+sn2_ff,wB97M-V,B3LYP,-1.049
+sn2_ff,wB97M-V,min,-1.258
+sn2_ff,distances,"xTB 1.757/1.896; B3LYP 1.856; min Skala 1.814, wB97M-V 1.827",
+sn2_clcl,Skala-1.1,xTB,2.361744544959283
+sn2_clcl,Skala-1.1,B3LYP,-3.3219
+sn2_clcl,Skala-1.1,min,-4.078
+sn2_clcl,wB97M-V,xTB,0.10278591894410738
+sn2_clcl,wB97M-V,B3LYP,-0.1062
+sn2_clcl,wB97M-V,min,-0.27
+sn2_clcl,distances,"xTB 2.201/2.236; B3LYP 2.348; min Skala 2.423, wB97M-V 2.316",

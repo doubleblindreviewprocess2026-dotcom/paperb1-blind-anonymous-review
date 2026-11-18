@@ -1,0 +1,5 @@
+reaction,functional,minimum_C-X_distance_A,energy_at_minimum_kcal,error_vs_CCSD(T)+MP2_kcal,error_vs_literature_kcal,B3LYP_TS_C-X_distance_A,energy_at_B3LYP_TS_kcal,CCSD(T)+MP2_barrier_kcal,literature_barrier_kcal
+Cl⁻ + CH₃Cl,Skala-1.1,2.4229,9.532,-4.078,-3.878,2.3483,10.287,13.6094,13.41
+Cl⁻ + CH₃Cl,ωB97M-V,2.316,13.34,-0.27,-0.07,2.3483,13.506,13.6094,13.41
+F⁻ + CH₃F,Skala-1.1,1.8137,14.885,1.28,1.505,1.8563,15.28,13.6045,13.38
+F⁻ + CH₃F,ωB97M-V,1.8267,12.347,-1.258,-1.033,1.8563,12.554,13.6045,13.38

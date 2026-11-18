@@ -1,0 +1,12 @@
+# What the GPU notebook (code/notebooks/B1v5_GPU_1h_v3.ipynb) installs on Colab (T4, CUDA 12). The notebook installs these itself.
+# Versions as pinned in code/modules/build_gpu_1h.py and recorded in data/csv/tables/tableS6_software_hardware.csv.
+pyscf==2.12.1
+pyscf-dispersion==1.7.0
+skala-cuda12x==2026.9
+gpu4pyscf-cuda12x==1.8.1
+geometric==1.1.1
+ase==3.29.0
+# Preinstalled on Colab or pulled in by the packages above, NOT forced (version recorded in the run):
+#   python 3.13.16, cupy-cuda12x 14.2.0, torch 2.14.1+cu130, huggingface_hub 1.33.0, skala 2026.9
+# UNPINNED (installed on demand without a version): openpyxl, matplotlib
+# The Skala-1.1 weights come from Hugging Face (microsoft/skala-1.1, revision 99b5ed87e5f69d9216e1f9e30148b922eaea1241), SHA-256 in tableS6.

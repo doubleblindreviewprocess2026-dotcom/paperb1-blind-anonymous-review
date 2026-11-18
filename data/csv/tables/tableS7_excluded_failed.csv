@@ -1,0 +1,13 @@
+system,point,level,method,basis,file,reason
+h2co,TS,own_b3lyp,CCSD(T)-fc,def2-TZVP,phase03_ccsdt.csv,excluded from reference statistics: T1 0.02345 or unstable RHF
+hcn,p03,own_scan,CCSD(T)-fc,def2-TZVP,phase03_ccsdt.csv,excluded from reference statistics: T1 0.0178 or unstable RHF
+hcn,p04,own_scan,CCSD(T)-fc,def2-TZVP,phase03_ccsdt.csv,excluded from reference statistics: T1 0.02675 or unstable RHF
+hcn,p05,own_scan,CCSD(T)-fc,def2-TZVP,phase03_ccsdt.csv,excluded from reference statistics: T1 0.03343 or unstable RHF
+h2co,p05,own_scan,CCSD(T)-fc,def2-TZVP,phase03_ccsdt.csv,excluded from reference statistics: T1 0.02345 or unstable RHF
+h2co,p06,own_scan,CCSD(T)-fc,def2-TZVP,phase03_ccsdt.csv,excluded from reference statistics: T1 0.01834 or unstable RHF
+ch4,p08,own_scan,CCSD(T)-fc,def2-TZVP,phase03_ccsdt.csv,excluded from reference statistics: T1 0.01687 or unstable RHF
+h2co,TS,xtb_gfn2,xTB-GFN2,GFN2,phase04_scout_ref.csv,SCF / calculation not converged
+h2co,TS,xtb_gfn2,CCSD(T)-fc,def2-TZVP,phase04_scout_ref.csv,excluded from reference statistics: T1 0.02345 or unstable RHF
+sn2_fcl,TS,xtb_gfn2,xTB-GFN2,GFN2,phase04_scout_ref.csv,SCF / calculation not converged
+sn2_clcl,TS,own_b3lyp,Skala-1.1,def2-TZVPD,phase11_dft.csv,SCF / calculation not converged
+sn2_clcl,TS,own_b3lyp,Skala-1.1-noD3,def2-TZVPD,phase11_dft.csv,SCF / calculation not converged

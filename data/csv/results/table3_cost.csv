@@ -1,0 +1,7 @@
+method,hardware,points,mean_seconds,median_seconds
+B3LYP-D3BJ, Tesla T4,63,14.5,11.04
+CCSD(T)-fc,CPU,8,24.0,10.63
+PBE, Tesla T4,20,3.08,2.35
+Skala-1.1, Tesla T4,75,14.2,6.32
+r2SCAN, Tesla T4,20,3.41,2.59
+wB97M-V, Tesla T4,72,30.32,22.08

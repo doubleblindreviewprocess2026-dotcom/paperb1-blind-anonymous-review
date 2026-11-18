@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Code | Paper B1 companion</title>
+<meta name="description" content="Colab notebooks, Python modules, run instructions, the SCF rescue ladder and a script that re-checks the published numbers.">
+<meta name="color-scheme" content="light dark">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27%3E%3Crect width=%2716%27 height=%2716%27 rx=%273%27 fill=%27%230b5f78%27/%3E%3Cpath d=%27M2 12 C5 12 6 3 8 3 S11 12 14 12%27 fill=%27none%27 stroke=%27white%27 stroke-width=%271.6%27/%3E%3C/svg%3E">
+<script>try{var t=localStorage.getItem("b1-theme");if(t==="dark"||t==="light")document.documentElement.setAttribute("data-theme",t);}catch(e){}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to the content</a>
+<header class="site"><div class="in">
+<a class="brand" href="../index.html">Paper B1 companion</a>
+<nav aria-label="Main"><a href="../index.html">Home</a><a href="../results/index.html">Results</a><a href="../demos/index.html">Demos</a><a href="../figures/index.html">Figures</a><a href="../data/index.html">Data</a><a href="../code/index.html" aria-current="page">Code</a><a href="../checks/index.html">Checks</a><a href="../about/index.html">About</a></nav>
+<button type="button" class="theme" aria-label="Switch theme">Dark theme</button>
+</div></header>
+<main id="main">
+<h1>Code and notebooks</h1>
+<p class="lead">The calculations ran in Google Colab notebooks. The notebooks are published without outputs; the Python modules they paste into their cells are published as plain files. You can re-run the whole study on Colab, or only re-check the published numbers on your own computer in a few seconds.</p>
+<div data-cfg-warning class="note warn hide"><p>The Colab and GitHub buttons use the repository name set in <code>js/config.js</code>, which still holds a placeholder. Set <code>repo</code> there (see README.md) and the buttons work.</p></div>
+<ul class="toc"><li><a href="#notebooks">Notebooks</a></li><li><a href="#run">How to run</a></li><li><a href="#ladder">SCF rescue ladder</a></li><li><a href="#quirks">Quirks</a></li><li><a href="#recheck">Re-check the numbers</a></li><li><a href="#figbuild">Rebuild the figures</a></li><li><a href="#modules">Modules</a></li><li><a href="#geompack">Geometry pack</a></li></ul>
+
+<h2 id="notebooks">Notebooks</h2>
+<p>Run the CPU notebook first, then the GPU notebook. The two diagnostics and the collector are optional.</p>
+<div class="panel"><h3>CPU notebook (reference side) <span class="tag">B1v5_CPU_1h_v2.ipynb</span></h3><p>Checks the geometry pack, then CCSD(T) (frozen core, T1, RHF stability) at the stationary points and along the paths, the MP2 basis correction, GFN2-xTB scout points, one all-electron CCSD(T) barrier, the HCN grid, and the automatic check.</p><p class="small">Runtime: Colab CPU runtime, 2 vCPU. Time: about 28 minutes for the core, up to 50 minutes with the tail. Writes: phase00 to phase08 CSV files, phase05_hcn_grid.csv, check_report.csv, RUN_SUMMARY.md.</p><div class="btnrow"><a class="btn" data-colab="code/notebooks/B1v5_CPU_1h_v2.ipynb" href="#">Open in Colab</a> <a class="btn alt" data-github="code/notebooks/B1v5_CPU_1h_v2.ipynb" href="#">View on GitHub</a> <a class="btn alt" href="../code/notebooks/B1v5_CPU_1h_v2.ipynb" download>Download .ipynb</a></div></div>
+<div class="panel"><h3>GPU notebook (functionals) <span class="tag">B1v5_GPU_1h_v3.ipynb</span></h3><p>Skala-1.1 (with D3, and without D3 from the same SCF), ωB97M-V, B3LYP-D3(BJ), r²SCAN and PBE at the stationary points, Skala-1.1, ωB97M-V and B3LYP-D3(BJ) along the paths, at GFN2-xTB geometries, def2-QZVPP for HCN, NH₃, H₂CO; then figures, tables, frozen criteria and the check.</p><p class="small">Runtime: Colab GPU runtime, T4 is enough. Time: about 50 minutes (deadline queue). Writes: phase10 to phase13 CSV files, findings_outcome.csv, check_report.csv, figures, tables.</p><div class="btnrow"><a class="btn" data-colab="code/notebooks/B1v5_GPU_1h_v3.ipynb" href="#">Open in Colab</a> <a class="btn alt" data-github="code/notebooks/B1v5_GPU_1h_v3.ipynb" href="#">View on GitHub</a> <a class="btn alt" href="../code/notebooks/B1v5_GPU_1h_v3.ipynb" download>Download .ipynb</a></div></div>
+<div class="panel"><h3>Diagnostic 1: Cl⁻ + CH₃Cl with Skala-1.1 <span class="tag">B1v5_GPU_diag_sn2.ipynb</span></h3><p>Tests whether the Skala-1.1 energy at the transition state is a genuine SCF state (density fitting, other starting densities, xTB geometry).</p><p class="small">Runtime: Colab GPU runtime, T4. Time: about 25 minutes. Writes: diag_sn2_clcl.csv, DIAG_SN2_SUMMARY.md.</p><div class="btnrow"><a class="btn" data-colab="code/notebooks/B1v5_GPU_diag_sn2.ipynb" href="#">Open in Colab</a> <a class="btn alt" data-github="code/notebooks/B1v5_GPU_diag_sn2.ipynb" href="#">View on GitHub</a> <a class="btn alt" href="../code/notebooks/B1v5_GPU_diag_sn2.ipynb" download>Download .ipynb</a></div></div>
+<div class="panel"><h3>Diagnostic 2: symmetric stretch <span class="tag">B1v5_GPU_diag_sym.ipynb</span></h3><p>Scans the symmetric C–X stretch of Cl⁻ + CH₃Cl and F⁻ + CH₃F until the minimum is inside the range, for Skala-1.1 and ωB97M-V (demo 2 on the Demos page).</p><p class="small">Runtime: Colab GPU runtime, T4. Time: 20 to 30 minutes (cap 40). Writes: diag_sn2_clcl.csv (extended), DIAG_SYM_SUMMARY.md, figure.</p><div class="btnrow"><a class="btn" data-colab="code/notebooks/B1v5_GPU_diag_sym.ipynb" href="#">Open in Colab</a> <a class="btn alt" data-github="code/notebooks/B1v5_GPU_diag_sym.ipynb" href="#">View on GitHub</a> <a class="btn alt" href="../code/notebooks/B1v5_GPU_diag_sym.ipynb" download>Download .ipynb</a></div></div>
+<div class="panel"><h3>Collect the results <span class="tag">B1v5_collect_zip.ipynb</span></h3><p>Packs the results folder in Google Drive into one zip and starts the download. Leaves out the cache folder (Skala weights). Changes nothing in Drive.</p><p class="small">Runtime: any Colab runtime. Time: about 1 minute. Writes: one zip file.</p><div class="btnrow"><a class="btn" data-colab="code/notebooks/B1v5_collect_zip.ipynb" href="#">Open in Colab</a> <a class="btn alt" data-github="code/notebooks/B1v5_collect_zip.ipynb" href="#">View on GitHub</a> <a class="btn alt" href="../code/notebooks/B1v5_collect_zip.ipynb" download>Download .ipynb</a></div></div>
+
+<h2 id="run">How to run on Colab</h2>
+<ol class="steps">
+<li>Click <b>Open in Colab</b> for the CPU notebook. (If the button is dashed, <code>js/config.js</code> still holds the placeholder repository name; download the notebook and upload it to Colab instead.)</li>
+<li>Use the default CPU runtime. For the GPU notebook choose <i>Runtime &gt; Change runtime type &gt; GPU</i>; a T4 is enough, an L4 or A100 reaches further down the list of calculations.</li>
+<li>Choose <i>Runtime &gt; Run all</i>. The first cell mounts Google Drive and shows a popup: click <b>Allow</b> at once. The notebook retries the mount up to three times.</li>
+<li>Wait. Every calculation is appended to a CSV file in the Drive folder <code>MyDrive/skala-b1-v5</code> as soon as it finishes, so a disconnect loses nothing.</li>
+<li>If the runtime stops or a calculation was refused by the deadline queue, choose <i>Run all</i> again: finished calculations are skipped and the notebook continues where it stopped.</li>
+<li>Run the GPU notebook after the CPU notebook: its last phases read the coupled-cluster results from the same Drive folder. At the end the folder holds the CSV files that this site publishes in <a href="../data/index.html#results">data / results</a>.</li>
+<li>To fetch the folder, run <code>B1v5_collect_zip</code> and download the zip.</li>
+</ol>
+<p><b>Expected times.</b> CPU notebook: about 28 minutes for the core list and up to 50 minutes with the tail. GPU notebook: about 50 minutes on a T4 (it completes the core list there). Diagnostic 1: about 25 minutes. Diagnostic 2: 20 to 30 minutes. Collector: about a minute. The times are estimates for a free Colab runtime and vary with the hardware you are given.</p>
+<p><b>Outputs.</b> One CSV per phase (<code>phase03_ccsdt.csv</code>, <code>phase11_dft.csv</code>, ...), geometries, <code>check_report.csv</code> and <code>check_report.md</code>, <code>findings_outcome.csv</code>, tables, figures and <code>RUN_SUMMARY.md</code>. The published copies are in <a href="../data/index.html">data</a>.</p>
+<p><b>The deadline queue.</b> Both one-hour notebooks use one ordered list of calculations. Before each calculation the notebook asks whether it can finish before minute 50 (elapsed time plus 1.5 times the running mean time of that kind of calculation must stay below 50 minutes, and the phase must stay inside its own cap). A calculation that does not fit is not started; it is listed as "not run (time)" in <code>RUN_SUMMARY.md</code> and <code>queue_not_run.csv</code>. All of them were completed in a later session of the study.</p>
+
+<h2 id="ladder">SCF rescue ladder</h2>
+<p>When a self-consistent-field calculation does not converge, the notebooks try these steps in order and stop at the first that converges. The energy table records which attempt gave each energy (column <code>attempt</code>).</p>
+<ol class="steps"><li>Default start (the usual initial guess).</li><li>Warm start from the density of a neighbouring point or a related calculation.</li><li>Fresh start with a different initial guess.</li><li>Level shift.</li><li>Start from the PBE density, with a level shift of 0.3 and up to 300 cycles.</li><li>Density fitting, with a level shift of 0.5 and up to 400 cycles.</li></ol>
+<p>The Cl⁻ + CH₃Cl transition state with Skala-1.1 converged only on the last rung. Diagnostic 1 shows that density fitting changes that energy by about 0.05 kcal/mol, and the symmetric-stretch demo shows it with its neighbours. A barrier never mixes density-fitted and unfitted energies (check I14).</p>
+
+<h2 id="quirks">Quirks to know</h2>
+<ul>
+<li><b>Drive first.</b> The mount popup is the only click the notebooks need. If you are late, the mount fails and is retried; if all three attempts fail, the notebook works in a local folder, and the last cell zips and downloads the results instead of releasing the runtime.</li>
+<li><b>The last cell releases the runtime</b> to stop billing, unless Drive was not mounted. Set <code>AUTO_DISCONNECT = False</code> in the settings cell to keep it.</li>
+<li><b>Failed points.</b> Set <code>RETRY_FAILED = True</code> to retry calculations that failed, and <code>FORCE_RERUN = True</code> to recompute finished ones.</li>
+<li><b>Stand-in mode.</b> <code>STANDIN = True</code> runs the whole notebook on a plain CPU with cheap functionals in tiny basis sets, to test the machinery. Its numbers are not results.</li>
+<li><b>Extension items.</b> <code>EXTENSION</code> flags run extra reactions (F⁻ + CH₃Cl and OH⁻ + CH₃F) in a session of their own. They are not part of the paper.</li>
+<li><b>Skala without D3</b> is the same SCF with the stored D3 energy removed; it is not a second calculation.</li>
+<li><b>Geometries are not recomputed.</b> They come from the geometry pack (below); <code>REBUILD_GEOMS = True</code> rebuilds them, which takes hours.</li>
+</ul>
+
+<h2 id="recheck">Re-check the numbers on your computer</h2>
+<p>The automatic check that the notebooks run at the end is a plain Python module. <code>code/recheck_numbers.py</code> runs it again on the published calculation records and compares the result with the published <a href="../data/csv/results/check_report.csv">check_report.csv</a>. Needs Python 3 and numpy.</p>
+<pre><code>git clone &lt;the repository&gt; &amp;&amp; cd &lt;the repository&gt;
+python code/recheck_numbers.py</code></pre>
+<p>Expected output:</p>
+<pre><code>items: 139 (published report: 139)
+counts: PASS 54, WARN 14, FAIL 5, NOT RUN 40, N/A 4, INFO 22
+check_report.csv: identical to the published file</code></pre>
+<p>The result of the check, with every warning and failure explained, is on the <a href="../checks/index.html">Checks page</a>.</p>
+
+<h2 id="figbuild">Rebuild the figures</h2>
+<p>The figures, the tables and their captions are drawn by a Python script that reads only the CSV, JSON and xyz files of this repository (<code>data/</code>). It needs Python 3, numpy, pandas, matplotlib and Pillow (<code>requirements.txt</code>), takes less than a minute, and writes to a new folder, so the published files are not overwritten.</p>
+<pre><code>pip install -r requirements.txt
+python figures/code/build_figures.py
+python figures/code/compare_with_published.py</code></pre>
+<p>The second script compares the rebuilt data files, tables and PNG pixels with the published ones and prints <code>all agree</code>. Files and details: <a href="../figures/code/README.md">figures/code/README.md</a>.</p>
+
+<h2 id="modules">Modules</h2>
+<p>The notebooks contain these files pasted verbatim into their code cells (edit the module, then rebuild the notebook with the matching <code>build_*.py</code>).</p>
+<div class="tablewrap" tabindex="0" role="region" aria-label="Python modules">
+<table class="compact">
+<thead><tr><th scope="col">Module</th><th scope="col">What it does</th></tr></thead>
+<tbody>
+<tr><td><a href="../code/modules/b1v5_common.py">b1v5_common.py</a></td><td>Shared helpers: result tables (one CSV per phase, written after every calculation), marker files, geometry files and the database of the six reactions.</td></tr>
+<tr><td><a href="../code/modules/b1v5_cpu.py">b1v5_cpu.py</a></td><td>CPU calculations: B3LYP-D3(BJ) optimisation, CCSD(T) with T1 and stability, DF-MP2, GFN2-xTB.</td></tr>
+<tr><td><a href="../code/modules/b1v5_gpu.py">b1v5_gpu.py</a></td><td>GPU calculations: the five functionals, the SCF rescue ladder, geometry optimiser, phases G-1 to G4 (full-size notebook).</td></tr>
+<tr><td><a href="../code/modules/b1v5_gpu_figs.py">b1v5_gpu_figs.py</a></td><td>Figures, tables and the frozen-criteria outcome table, regenerated from the CSV files.</td></tr>
+<tr><td><a href="../code/modules/b1v5_1h.py">b1v5_1h.py</a></td><td>The deadline queue and the six-reaction design of the one-hour notebooks.</td></tr>
+<tr><td><a href="../code/modules/b1v5_1h_cpu.py">b1v5_1h_cpu.py</a></td><td>The phases of the one-hour CPU notebook.</td></tr>
+<tr><td><a href="../code/modules/b1v5_1h_gpu.py">b1v5_1h_gpu.py</a></td><td>The phases of the one-hour GPU notebook.</td></tr>
+<tr><td><a href="../code/modules/b1v5_1h_check.py">b1v5_1h_check.py</a></td><td>The automatic check and the frozen criteria for the six-reaction design.</td></tr>
+<tr><td><a href="../code/modules/b1v5_check.py">b1v5_check.py</a></td><td>The automatic check: compares with the literature table, runs the internal sanity checks, writes check_report.csv.</td></tr>
+<tr><td><a href="../code/modules/b1v5_lit_table.py">b1v5_lit_table.py</a></td><td>The literature table: every reference value with its source, zero-point convention and verification status.</td></tr>
+<tr><td><a href="../code/modules/b1v5_v4_stored.py">b1v5_v4_stored.py</a></td><td>Stored numbers of an earlier version of the study, used to check that the code reproduces them.</td></tr>
+<tr><td><a href="../code/modules/b1v5_geompack.py">b1v5_geompack.py</a></td><td>The geometry pack: builder, hash check and installation into the working folder.</td></tr>
+<tr><td><a href="../code/modules/b1v5_diag_sn2.py">b1v5_diag_sn2.py</a></td><td>Diagnostic of the Cl⁻ + CH₃Cl transition state with Skala-1.1 (SCF state, density fitting, symmetric stretch).</td></tr>
+<tr><td><a href="../code/modules/build_cpu_1h.py">build_cpu_1h.py</a></td><td>Builds the CPU notebook from the modules (needs nbformat).</td></tr>
+<tr><td><a href="../code/modules/build_gpu_1h.py">build_gpu_1h.py</a></td><td>Builds the GPU notebook from the modules.</td></tr>
+<tr><td><a href="../code/modules/build_diag_sn2.py">build_diag_sn2.py</a></td><td>Builds the first SN2 diagnostic notebook.</td></tr>
+<tr><td><a href="../code/modules/build_diag_sym.py">build_diag_sym.py</a></td><td>Builds the symmetric-stretch diagnostic notebook.</td></tr>
+<tr><td><a href="../code/modules/build_collect_zip.py">build_collect_zip.py</a></td><td>Builds the notebook that packs the results folder into one zip.</td></tr>
+<tr><td><a href="../code/modules/build_geompack.py">build_geompack.py</a></td><td>Builds the geometry pack (optimisations, Hessians, scans, xTB geometries).</td></tr>
+<tr><td><a href="../code/modules/check_test_synthetic.py">check_test_synthetic.py</a></td><td>Test of the check on synthetic data (made-up energies; no chemistry).</td></tr>
+<tr><td><a href="../code/modules/test_1h_check.py">test_1h_check.py</a></td><td>Test of the one-hour check and frozen criteria on synthetic data.</td></tr>
+<tr><td><a href="../code/modules/test_1h_notebooks.py">test_1h_notebooks.py</a></td><td>Runs the notebooks cell by cell in a stand-in mode that needs no GPU and no Colab.</td></tr>
+<tr><td><a href="../code/modules/run_cells.py">run_cells.py</a></td><td>Runs the code cells of a notebook in one namespace, as Colab does (used by the tests).</td></tr>
+</tbody></table></div>
+
+<h2 id="geompack">Geometry pack</h2>
+<p>The optimisations, transition states (one imaginary mode each), Hessians, zero-point energies, relaxed scans and GFN2-xTB geometries were computed once and are stored in one JSON file that each notebook carries (compressed) and verifies by its SHA-256 before use.</p>
+<dl class="kv"><dt>File</dt><dd><a href="../code/geompack/b1v5_geompack_1h.json">code/geompack/b1v5_geompack_1h.json</a></dd><dt>SHA-256</dt><dd><code>81e4533319f5fc593cc3e81daf93e6e4db4998df01eea275b3c813fc87dafae6</code></dd><dt>Read me</dt><dd><a href="../code/geompack/GEOMPACK_README.md">GEOMPACK_README.md</a> (format, contents, how it was built)</dd></dl>
+<p>Check it yourself: <code>sha256sum code/geompack/b1v5_geompack_1h.json</code> should print the hash above. The same structures are available as xyz files on the <a href="../data/index.html#geometries">Data page</a>.</p>
+
+</main>
+<footer class="site"><div class="in">
+<p>Companion website and data for a study of reaction barriers and reaction paths with Skala-1.1. Code: MIT licence. Data and figures: CC BY 4.0 (see <a href="../about/index.html#licence">About</a>).</p>
+<p data-hide-anon>&copy; <span data-cfg="year"></span> <span data-cfg="holder"></span>. Questions: <span data-cfg="contact"></span>.</p>
+<p data-show-anon>Anonymous copy for review.</p>
+<p>The pages use no external services and set no cookies. The data files are static: every number on this site comes from a CSV file in <a href="../data/index.html">data</a>.</p>
+</div></footer>
+<noscript><div class="note warn" style="max-width:1088px;margin:0 auto 20px"><p>JavaScript is off. The tables and numbers on the pages still show, but the interactive views (sorting, filters, demos) need JavaScript.</p></div></noscript>
+<script src="../js/config.js"></script>
+<script src="../js/common.js"></script>
+</body>
+</html>

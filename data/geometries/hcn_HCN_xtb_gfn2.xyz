@@ -1,0 +1,5 @@
+3
+hcn_HCN_xtb_gfn2 charge=0 {"species": "HCN", "kind": "min", "level": "xtb_gfn2", "opt_converged": true, "basis": "def2-TZVP", "from_pack": true, "
+C  -0.00000000 -0.00000000  0.00406129
+N   0.00000000  0.00000000  1.14170470
+H  -0.00000000 -0.00000000 -1.05442026

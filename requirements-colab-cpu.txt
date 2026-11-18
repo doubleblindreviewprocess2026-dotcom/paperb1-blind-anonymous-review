@@ -1,0 +1,10 @@
+# What the CPU notebook (code/notebooks/B1v5_CPU_1h_v2.ipynb) installs on Colab. The notebook installs these itself; this file is for reference
+# or for an own machine. Versions as pinned in code/modules/build_cpu_1h.py and recorded in data/csv/tables/tableS6_software_hardware.csv.
+pyscf==2.15.0
+pyscf-dispersion==1.7.0
+geometric==1.1.1
+tblite==0.8.0
+ase==3.29.0
+# Preinstalled on Colab, NOT installed by the notebook (version recorded in the run, not forced):
+#   python 3.13.18, numpy 2.4.6, scipy 1.16.3, pandas 2.2.3, torch 2.14.1+cpu
+# UNPINNED (installed on demand without a version): openpyxl, matplotlib, nbformat (only to rebuild a notebook with build_*.py)

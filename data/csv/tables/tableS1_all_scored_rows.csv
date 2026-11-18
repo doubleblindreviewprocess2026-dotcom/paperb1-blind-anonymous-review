@@ -1,0 +1,96 @@
+reaction,lit_id,quantity,is_primary_barrier,in_headline,in_pooled_stats,method,basis_kind,basis,geometry_level,electronic_kcal,zpe_added_kcal,computed_kcal,reference_value_kcal,reference_verified,signed_error_kcal,abs_error_kcal,method_withdrawn_by_check,note
+hcn,L1,barrier_fwd,True,True,True,Skala-1.1,main,def2-TZVP,own_b3lyp,48.3733,0.0,48.3733,48.07,yes,0.3033,0.3033,False,
+hcn,L1,barrier_fwd,True,True,True,Skala-1.1-noD3,main,def2-TZVP,own_b3lyp,48.3673,0.0,48.3673,48.07,yes,0.2973,0.2973,False,
+hcn,L1,barrier_fwd,True,True,True,wB97M-V,main,def2-TZVP,own_b3lyp,44.5348,0.0,44.5348,48.07,yes,-3.5352,3.5352,False,wB97M-V HCN anomaly: error -3.5; cause not identified
+hcn,L1,barrier_fwd,True,True,True,B3LYP-D3BJ,main,def2-TZVP,own_b3lyp,47.6767,0.0,47.6767,48.07,yes,-0.3933,0.3933,False,
+hcn,L1,barrier_fwd,True,True,True,r2SCAN,main,def2-TZVP,own_b3lyp,46.5646,0.0,46.5646,48.07,yes,-1.5054,1.5054,False,
+hcn,L1,barrier_fwd,True,True,True,PBE,main,def2-TZVP,own_b3lyp,45.9378,0.0,45.9378,48.07,yes,-2.1322,2.1322,False,
+hcn,L1,barrier_fwd,True,True,True,CCSD(T)-fc,main,def2-TZVP,own_b3lyp,48.0987,0.0,48.0987,48.07,yes,0.0287,0.0287,False,
+hcn,L1,barrier_fwd,True,True,True,CCSD(T)+dMP2,main,def2-TZVP,own_b3lyp,47.6585,0.0,47.6585,48.07,yes,-0.4115,0.4115,False,
+hcn,L1,barrier_fwd,True,True,True,Skala-1.1,large,def2-QZVPP,own_b3lyp,48.1501,0.0,48.1501,48.07,yes,0.0801,0.0801,False,
+hcn,L1,barrier_fwd,True,True,True,Skala-1.1-noD3,large,def2-QZVPP,own_b3lyp,48.1442,0.0,48.1442,48.07,yes,0.0742,0.0742,False,
+hcn,L1,barrier_fwd,True,True,True,wB97M-V,large,def2-QZVPP,own_b3lyp,44.2766,0.0,44.2766,48.07,yes,-3.7934,3.7934,False,wB97M-V HCN anomaly: error -3.5; cause not identified
+hcn,L2,barrier_rev,False,False,True,Skala-1.1,main,def2-TZVP,own_b3lyp,33.4142,0.0,33.4142,32.82,yes,0.5942,0.5942,False,
+hcn,L2,barrier_rev,False,False,True,Skala-1.1-noD3,main,def2-TZVP,own_b3lyp,33.3127,0.0,33.3127,32.82,yes,0.4927,0.4927,False,
+hcn,L2,barrier_rev,False,False,True,wB97M-V,main,def2-TZVP,own_b3lyp,31.9685,0.0,31.9685,32.82,yes,-0.8515,0.8515,False,wB97M-V HCN anomaly: error -3.5; cause not identified
+hcn,L2,barrier_rev,False,False,True,B3LYP-D3BJ,main,def2-TZVP,own_b3lyp,33.5099,0.0,33.5099,32.82,yes,0.6899,0.6899,False,
+hcn,L2,barrier_rev,False,False,True,r2SCAN,main,def2-TZVP,own_b3lyp,31.8635,0.0,31.8635,32.82,yes,-0.9565,0.9565,False,
+hcn,L2,barrier_rev,False,False,True,PBE,main,def2-TZVP,own_b3lyp,30.7069,0.0,30.7069,32.82,yes,-2.1131,2.1131,False,
+hcn,L2,barrier_rev,False,False,True,CCSD(T)-fc,main,def2-TZVP,own_b3lyp,32.6996,0.0,32.6996,32.82,yes,-0.1204,0.1204,False,
+hcn,L2,barrier_rev,False,False,True,CCSD(T)+dMP2,main,def2-TZVP,own_b3lyp,33.0019,0.0,33.0019,32.82,yes,0.1819,0.1819,False,
+hcn,L2,barrier_rev,False,False,True,Skala-1.1,large,def2-QZVPP,own_b3lyp,33.4758,0.0,33.4758,32.82,yes,0.6558,0.6558,False,
+hcn,L2,barrier_rev,False,False,True,Skala-1.1-noD3,large,def2-QZVPP,own_b3lyp,33.3743,0.0,33.3743,32.82,yes,0.5543,0.5543,False,
+hcn,L2,barrier_rev,False,False,True,wB97M-V,large,def2-QZVPP,own_b3lyp,31.9166,0.0,31.9166,32.82,yes,-0.9034,0.9034,False,wB97M-V HCN anomaly: error -3.5; cause not identified
+hcn,L3,reaction_energy,False,False,False,Skala-1.1,main,def2-TZVP,own_b3lyp,14.9591,0.0,14.9591,15.25,yes,-0.2909,0.2909,False,
+hcn,L3,reaction_energy,False,False,False,Skala-1.1-noD3,main,def2-TZVP,own_b3lyp,15.0546,0.0,15.0546,15.25,yes,-0.1954,0.1954,False,
+hcn,L3,reaction_energy,False,False,False,wB97M-V,main,def2-TZVP,own_b3lyp,12.5663,0.0,12.5663,15.25,yes,-2.6837,2.6837,False,wB97M-V HCN anomaly: error -3.5; cause not identified
+hcn,L3,reaction_energy,False,False,False,B3LYP-D3BJ,main,def2-TZVP,own_b3lyp,14.1668,0.0,14.1668,15.25,yes,-1.0832,1.0832,False,
+hcn,L3,reaction_energy,False,False,False,r2SCAN,main,def2-TZVP,own_b3lyp,14.7011,0.0,14.7011,15.25,yes,-0.5489,0.5489,False,
+hcn,L3,reaction_energy,False,False,False,PBE,main,def2-TZVP,own_b3lyp,15.231,0.0,15.231,15.25,yes,-0.019,0.019,False,
+hcn,L3,reaction_energy,False,False,False,CCSD(T)-fc,main,def2-TZVP,own_b3lyp,15.3991,0.0,15.3991,15.25,yes,0.1491,0.1491,False,
+hcn,L3,reaction_energy,False,False,False,CCSD(T)+dMP2,main,def2-TZVP,own_b3lyp,14.6566,0.0,14.6566,15.25,yes,-0.5934,0.5934,False,
+hcn,L3,reaction_energy,False,False,False,Skala-1.1,large,def2-QZVPP,own_b3lyp,14.6743,0.0,14.6743,15.25,yes,-0.5757,0.5757,False,
+hcn,L3,reaction_energy,False,False,False,Skala-1.1-noD3,large,def2-QZVPP,own_b3lyp,14.7699,0.0,14.7699,15.25,yes,-0.4801,0.4801,False,
+hcn,L3,reaction_energy,False,False,False,wB97M-V,large,def2-QZVPP,own_b3lyp,12.36,0.0,12.36,15.25,yes,-2.89,2.89,False,wB97M-V HCN anomaly: error -3.5; cause not identified
+nh3,L4,barrier_fwd,True,True,True,Skala-1.1,main,def2-TZVP,own_b3lyp,5.9272,0.0,5.9272,5.12,yes,0.8072,0.8072,False,
+nh3,L4,barrier_fwd,True,True,True,Skala-1.1-noD3,main,def2-TZVP,own_b3lyp,5.9254,0.0,5.9254,5.12,yes,0.8054,0.8054,False,
+nh3,L4,barrier_fwd,True,True,True,wB97M-V,main,def2-TZVP,own_b3lyp,4.6069,0.0,4.6069,5.12,yes,-0.5131,0.5131,False,
+nh3,L4,barrier_fwd,True,True,True,B3LYP-D3BJ,main,def2-TZVP,own_b3lyp,4.5228,0.0,4.5228,5.12,yes,-0.5972,0.5972,False,
+nh3,L4,barrier_fwd,True,True,True,r2SCAN,main,def2-TZVP,own_b3lyp,4.8929,0.0,4.8929,5.12,yes,-0.2271,0.2271,False,
+nh3,L4,barrier_fwd,True,True,True,PBE,main,def2-TZVP,own_b3lyp,4.932,0.0,4.932,5.12,yes,-0.188,0.188,False,
+nh3,L4,barrier_fwd,True,True,True,CCSD(T)-fc,main,def2-TZVP,own_b3lyp,5.4678,0.0,5.4678,5.12,yes,0.3478,0.3478,False,
+nh3,L4,barrier_fwd,True,True,True,CCSD(T)+dMP2,main,def2-TZVP,own_b3lyp,5.4494,0.0,5.4494,5.12,yes,0.3294,0.3294,False,
+nh3,L4,barrier_fwd,True,True,True,Skala-1.1,large,def2-QZVPP,own_b3lyp,6.0958,0.0,6.0958,5.12,yes,0.9758,0.9758,False,
+nh3,L4,barrier_fwd,True,True,True,Skala-1.1-noD3,large,def2-QZVPP,own_b3lyp,6.0941,0.0,6.0941,5.12,yes,0.9741,0.9741,False,
+nh3,L4,barrier_fwd,True,True,True,wB97M-V,large,def2-QZVPP,own_b3lyp,4.6747,0.0,4.6747,5.12,yes,-0.4453,0.4453,False,
+h2co,L5,barrier_fwd,True,True,True,Skala-1.1,main,def2-TZVP,own_b3lyp,87.9652,-4.9885,82.9767,81.9,yes,1.0767,1.0767,False,"reference is zero-point INCLUDED: B3LYP harmonic zero-point difference added to the electronic barrier (phase01_stationary.csv, extra.zpe_hartree)"
+h2co,L5,barrier_fwd,True,True,True,Skala-1.1-noD3,main,def2-TZVP,own_b3lyp,88.2194,-4.9885,83.2309,81.9,yes,1.3309,1.3309,False,"reference is zero-point INCLUDED: B3LYP harmonic zero-point difference added to the electronic barrier (phase01_stationary.csv, extra.zpe_hartree)"
+h2co,L5,barrier_fwd,True,True,True,wB97M-V,main,def2-TZVP,own_b3lyp,87.3156,-4.9885,82.3271,81.9,yes,0.4271,0.4271,False,"reference is zero-point INCLUDED: B3LYP harmonic zero-point difference added to the electronic barrier (phase01_stationary.csv, extra.zpe_hartree)"
+h2co,L5,barrier_fwd,True,True,True,B3LYP-D3BJ,main,def2-TZVP,own_b3lyp,84.3178,-4.9885,79.3293,81.9,yes,-2.5707,2.5707,False,"reference is zero-point INCLUDED: B3LYP harmonic zero-point difference added to the electronic barrier (phase01_stationary.csv, extra.zpe_hartree)"
+h2co,L5,barrier_fwd,True,True,True,r2SCAN,main,def2-TZVP,own_b3lyp,82.3275,-4.9885,77.339,81.9,yes,-4.561,4.561,False,"reference is zero-point INCLUDED: B3LYP harmonic zero-point difference added to the electronic barrier (phase01_stationary.csv, extra.zpe_hartree)"
+h2co,L5,barrier_fwd,True,True,True,PBE,main,def2-TZVP,own_b3lyp,78.7339,-4.9885,73.7455,81.9,yes,-8.1545,8.1545,False,"reference is zero-point INCLUDED: B3LYP harmonic zero-point difference added to the electronic barrier (phase01_stationary.csv, extra.zpe_hartree)"
+h2co,L5,barrier_fwd,True,False,False,CCSD(T)-fc,main,def2-TZVP,own_b3lyp,87.4896,-4.9885,82.5011,81.9,yes,0.6011,0.6011,True,"CCSD(T) role withdrawn by check (TS unstable RHF, I3 FAIL): shown for information only, not in any statistic"
+h2co,L5,barrier_fwd,True,False,False,CCSD(T)+dMP2,main,def2-TZVP,own_b3lyp,86.665,-4.9885,81.6765,81.9,yes,-0.2235,0.2235,True,"CCSD(T) role withdrawn by check (TS unstable RHF, I3 FAIL): shown for information only, not in any statistic"
+h2co,L5,barrier_fwd,True,True,True,Skala-1.1,large,def2-QZVPP,own_b3lyp,85.649,-4.9885,80.6605,81.9,yes,-1.2395,1.2395,False,"reference is zero-point INCLUDED: B3LYP harmonic zero-point difference added to the electronic barrier (phase01_stationary.csv, extra.zpe_hartree)"
+h2co,L5,barrier_fwd,True,True,True,Skala-1.1-noD3,large,def2-QZVPP,own_b3lyp,85.9032,-4.9885,80.9147,81.9,yes,-0.9853,0.9853,False,"reference is zero-point INCLUDED: B3LYP harmonic zero-point difference added to the electronic barrier (phase01_stationary.csv, extra.zpe_hartree)"
+h2co,L5,barrier_fwd,True,True,True,wB97M-V,large,def2-QZVPP,own_b3lyp,87.1502,-4.9885,82.1617,81.9,yes,0.2617,0.2617,False,"reference is zero-point INCLUDED: B3LYP harmonic zero-point difference added to the electronic barrier (phase01_stationary.csv, extra.zpe_hartree)"
+ch3nc,L6,barrier_fwd,True,False,False,Skala-1.1,main,def2-TZVP,own_b3lyp,40.1605,0.0,40.1605,38.25,no,1.9105,1.9105,False,reference L6 UNVERIFIED (zero-point convention unknown): excluded from all statistics
+ch3nc,L6,barrier_fwd,True,False,False,Skala-1.1-noD3,main,def2-TZVP,own_b3lyp,40.152,0.0,40.152,38.25,no,1.902,1.902,False,reference L6 UNVERIFIED (zero-point convention unknown): excluded from all statistics
+ch3nc,L6,barrier_fwd,True,False,False,wB97M-V,main,def2-TZVP,own_b3lyp,38.6103,0.0,38.6103,38.25,no,0.3603,0.3603,False,reference L6 UNVERIFIED (zero-point convention unknown): excluded from all statistics
+ch3nc,L6,barrier_fwd,True,False,False,B3LYP-D3BJ,main,def2-TZVP,own_b3lyp,40.8739,0.0,40.8739,38.25,no,2.6239,2.6239,False,reference L6 UNVERIFIED (zero-point convention unknown): excluded from all statistics
+ch3nc,L6,barrier_fwd,True,False,False,r2SCAN,main,def2-TZVP,own_b3lyp,39.2671,0.0,39.2671,38.25,no,1.0171,1.0171,False,reference L6 UNVERIFIED (zero-point convention unknown): excluded from all statistics
+ch3nc,L6,barrier_fwd,True,False,False,PBE,main,def2-TZVP,own_b3lyp,38.7113,0.0,38.7113,38.25,no,0.4613,0.4613,False,reference L6 UNVERIFIED (zero-point convention unknown): excluded from all statistics
+ch3nc,L6,barrier_fwd,True,False,False,CCSD(T)-fc,main,def2-TZVP,own_b3lyp,39.9686,0.0,39.9686,38.25,no,1.7186,1.7186,False,reference L6 UNVERIFIED (zero-point convention unknown): excluded from all statistics
+ch3nc,L6,barrier_fwd,True,False,False,CCSD(T)+dMP2,main,def2-TZVP,own_b3lyp,39.9165,0.0,39.9165,38.25,no,1.6665,1.6665,False,reference L6 UNVERIFIED (zero-point convention unknown): excluded from all statistics
+sn2_ff,L7,barrier_fwd,False,False,True,Skala-1.1,main,def2-TZVPD,own_b3lyp,1.4705,0.0,1.4705,-0.34,yes,1.8105,1.8105,False,
+sn2_ff,L7,barrier_fwd,False,False,True,Skala-1.1-noD3,main,def2-TZVPD,own_b3lyp,2.1631,0.0,2.1631,-0.34,yes,2.5031,2.5031,False,
+sn2_ff,L7,barrier_fwd,False,False,True,wB97M-V,main,def2-TZVPD,own_b3lyp,-0.9523,0.0,-0.9523,-0.34,yes,-0.6123,0.6123,False,
+sn2_ff,L7,barrier_fwd,False,False,True,B3LYP-D3BJ,main,def2-TZVPD,own_b3lyp,-2.8688,0.0,-2.8688,-0.34,yes,-2.5288,2.5288,False,
+sn2_ff,L7,barrier_fwd,False,False,True,r2SCAN,main,def2-TZVPD,own_b3lyp,-5.6464,0.0,-5.6464,-0.34,yes,-5.3064,5.3064,False,
+sn2_ff,L7,barrier_fwd,False,False,True,PBE,main,def2-TZVPD,own_b3lyp,-5.7797,0.0,-5.7797,-0.34,yes,-5.4397,5.4397,False,
+sn2_ff,L7,barrier_fwd,False,False,True,CCSD(T)-fc,main,def2-TZVPD,own_b3lyp,0.6044,0.0,0.6044,-0.34,yes,0.9444,0.9444,False,
+sn2_ff,L7,barrier_fwd,False,False,True,CCSD(T)+dMP2,main,def2-TZVPD,own_b3lyp,-0.0222,0.0,-0.0222,-0.34,yes,0.3178,0.3178,False,
+sn2_ff,L8,barrier_fwd_cplx,True,True,True,Skala-1.1,main,def2-TZVPD,own_b3lyp,15.2873,0.0,15.2873,13.38,yes,1.9073,1.9073,False,
+sn2_ff,L8,barrier_fwd_cplx,True,True,True,Skala-1.1-noD3,main,def2-TZVPD,own_b3lyp,15.3675,0.0,15.3675,13.38,yes,1.9875,1.9875,False,
+sn2_ff,L8,barrier_fwd_cplx,True,True,True,wB97M-V,main,def2-TZVPD,own_b3lyp,12.5555,0.0,12.5555,13.38,yes,-0.8245,0.8245,False,
+sn2_ff,L8,barrier_fwd_cplx,True,True,True,B3LYP-D3BJ,main,def2-TZVPD,own_b3lyp,10.2459,0.0,10.2459,13.38,yes,-3.1341,3.1341,False,
+sn2_ff,L8,barrier_fwd_cplx,True,True,True,r2SCAN,main,def2-TZVPD,own_b3lyp,8.5706,0.0,8.5706,13.38,yes,-4.8094,4.8094,False,
+sn2_ff,L8,barrier_fwd_cplx,True,True,True,PBE,main,def2-TZVPD,own_b3lyp,7.3327,0.0,7.3327,13.38,yes,-6.0473,6.0473,False,
+sn2_ff,L8,barrier_fwd_cplx,True,True,True,CCSD(T)-fc,main,def2-TZVPD,own_b3lyp,13.8005,0.0,13.8005,13.38,yes,0.4205,0.4205,False,
+sn2_ff,L8,barrier_fwd_cplx,True,True,True,CCSD(T)+dMP2,main,def2-TZVPD,own_b3lyp,13.6045,0.0,13.6045,13.38,yes,0.2245,0.2245,False,
+sn2_clcl,L9,barrier_fwd,False,False,True,Skala-1.1,main,def2-TZVPD,own_b3lyp,-0.011,0.0,-0.011,3.1,yes,-3.111,3.111,False,"Skala TS did not converge without density fitting; TS and partner species (Cl-, CH3Cl, RC) from density-fitted rows (@df)"
+sn2_clcl,L9,barrier_fwd,False,False,True,Skala-1.1-noD3,main,def2-TZVPD,own_b3lyp,1.6681,0.0,1.6681,3.1,yes,-1.4319,1.4319,False,"Skala TS did not converge without density fitting; TS and partner species (Cl-, CH3Cl, RC) from density-fitted rows (@df)"
+sn2_clcl,L9,barrier_fwd,False,False,True,wB97M-V,main,def2-TZVPD,own_b3lyp,2.9639,0.0,2.9639,3.1,yes,-0.1361,0.1361,False,
+sn2_clcl,L9,barrier_fwd,False,False,True,B3LYP-D3BJ,main,def2-TZVPD,own_b3lyp,-1.9914,0.0,-1.9914,3.1,yes,-5.0914,5.0914,False,
+sn2_clcl,L9,barrier_fwd,False,False,True,r2SCAN,main,def2-TZVPD,own_b3lyp,-3.1318,0.0,-3.1318,3.1,yes,-6.2318,6.2318,False,
+sn2_clcl,L9,barrier_fwd,False,False,True,PBE,main,def2-TZVPD,own_b3lyp,-3.2097,0.0,-3.2097,3.1,yes,-6.3097,6.3097,False,
+sn2_clcl,L9,barrier_fwd,False,False,True,CCSD(T)-fc,main,def2-TZVPD,own_b3lyp,2.9735,0.0,2.9735,3.1,yes,-0.1265,0.1265,False,
+sn2_clcl,L9,barrier_fwd,False,False,True,CCSD(T)+dMP2,main,def2-TZVPD,own_b3lyp,2.9323,0.0,2.9323,3.1,yes,-0.1677,0.1677,False,
+sn2_clcl,L10,barrier_fwd_cplx,True,True,True,Skala-1.1,main,def2-TZVPD,own_b3lyp,10.2875,0.0,10.2875,13.41,yes,-3.1225,3.1225,False,"Skala TS did not converge without density fitting; TS and partner species (Cl-, CH3Cl, RC) from density-fitted rows (@df)"
+sn2_clcl,L10,barrier_fwd_cplx,True,True,True,Skala-1.1-noD3,main,def2-TZVPD,own_b3lyp,10.622,0.0,10.622,13.41,yes,-2.788,2.788,False,"Skala TS did not converge without density fitting; TS and partner species (Cl-, CH3Cl, RC) from density-fitted rows (@df)"
+sn2_clcl,L10,barrier_fwd_cplx,True,True,True,wB97M-V,main,def2-TZVPD,own_b3lyp,13.5032,0.0,13.5032,13.41,yes,0.0932,0.0932,False,
+sn2_clcl,L10,barrier_fwd_cplx,True,True,True,B3LYP-D3BJ,main,def2-TZVPD,own_b3lyp,8.7931,0.0,8.7931,13.41,yes,-4.6169,4.6169,False,
+sn2_clcl,L10,barrier_fwd_cplx,True,True,True,r2SCAN,main,def2-TZVPD,own_b3lyp,8.0508,0.0,8.0508,13.41,yes,-5.3592,5.3592,False,
+sn2_clcl,L10,barrier_fwd_cplx,True,True,True,PBE,main,def2-TZVPD,own_b3lyp,7.334,0.0,7.334,13.41,yes,-6.076,6.076,False,
+sn2_clcl,L10,barrier_fwd_cplx,True,True,True,CCSD(T)-fc,main,def2-TZVPD,own_b3lyp,13.5345,0.0,13.5345,13.41,yes,0.1245,0.1245,False,
+sn2_clcl,L10,barrier_fwd_cplx,True,True,True,CCSD(T)+dMP2,main,def2-TZVPD,own_b3lyp,13.6094,0.0,13.6094,13.41,yes,0.1994,0.1994,False,

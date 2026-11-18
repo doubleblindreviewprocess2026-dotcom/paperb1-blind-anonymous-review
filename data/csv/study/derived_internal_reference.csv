@@ -1,0 +1,37 @@
+reaction,reaction_name,method,barrier_electronic_kcal,own_ccsdt_dmp2_kcal,signed_error_vs_own_ccsdt_kcal,signed_error_vs_literature_kcal,literature_verified,own_reference_usable
+hcn,HCN to HNC,Skala-1.1,48.3733,47.6585,0.7148,0.3033,yes,True
+hcn,HCN to HNC,Skala-1.1-noD3,48.3673,47.6585,0.7088,0.2973,yes,True
+hcn,HCN to HNC,wB97M-V,44.5348,47.6585,-3.1237,-3.5352,yes,True
+hcn,HCN to HNC,B3LYP-D3BJ,47.6767,47.6585,0.0182,-0.3933,yes,True
+hcn,HCN to HNC,r2SCAN,46.5646,47.6585,-1.0939,-1.5054,yes,True
+hcn,HCN to HNC,PBE,45.9378,47.6585,-1.7207,-2.1322,yes,True
+nh3,NH3 inversion,Skala-1.1,5.9272,5.4494,0.4778,0.8072,yes,True
+nh3,NH3 inversion,Skala-1.1-noD3,5.9254,5.4494,0.476,0.8054,yes,True
+nh3,NH3 inversion,wB97M-V,4.6069,5.4494,-0.8425,-0.5131,yes,True
+nh3,NH3 inversion,B3LYP-D3BJ,4.5228,5.4494,-0.9266,-0.5972,yes,True
+nh3,NH3 inversion,r2SCAN,4.8929,5.4494,-0.5565,-0.2271,yes,True
+nh3,NH3 inversion,PBE,4.932,5.4494,-0.5174,-0.188,yes,True
+h2co,H2CO to H2 + CO,Skala-1.1,87.9652,86.665,1.3002,1.0767,yes,False
+h2co,H2CO to H2 + CO,Skala-1.1-noD3,88.2194,86.665,1.5544,1.3309,yes,False
+h2co,H2CO to H2 + CO,wB97M-V,87.3156,86.665,0.6506,0.4271,yes,False
+h2co,H2CO to H2 + CO,B3LYP-D3BJ,84.3178,86.665,-2.3472,-2.5707,yes,False
+h2co,H2CO to H2 + CO,r2SCAN,82.3275,86.665,-4.3375,-4.561,yes,False
+h2co,H2CO to H2 + CO,PBE,78.7339,86.665,-7.9311,-8.1545,yes,False
+ch3nc,CH3NC to CH3CN,Skala-1.1,40.1605,39.9165,0.244,1.9105,no,True
+ch3nc,CH3NC to CH3CN,Skala-1.1-noD3,40.152,39.9165,0.2355,1.902,no,True
+ch3nc,CH3NC to CH3CN,wB97M-V,38.6103,39.9165,-1.3062,0.3603,no,True
+ch3nc,CH3NC to CH3CN,B3LYP-D3BJ,40.8739,39.9165,0.9574,2.6239,no,True
+ch3nc,CH3NC to CH3CN,r2SCAN,39.2671,39.9165,-0.6494,1.0171,no,True
+ch3nc,CH3NC to CH3CN,PBE,38.7113,39.9165,-1.2052,0.4613,no,True
+sn2_ff,F- + CH3F,Skala-1.1,15.2873,13.6045,1.6828,1.9073,yes,True
+sn2_ff,F- + CH3F,Skala-1.1-noD3,15.3675,13.6045,1.763,1.9875,yes,True
+sn2_ff,F- + CH3F,wB97M-V,12.5555,13.6045,-1.049,-0.8245,yes,True
+sn2_ff,F- + CH3F,B3LYP-D3BJ,10.2459,13.6045,-3.3586,-3.1341,yes,True
+sn2_ff,F- + CH3F,r2SCAN,8.5706,13.6045,-5.0339,-4.8094,yes,True
+sn2_ff,F- + CH3F,PBE,7.3327,13.6045,-6.2718,-6.0473,yes,True
+sn2_clcl,Cl- + CH3Cl,Skala-1.1,10.2875,13.6094,-3.3219,-3.1225,yes,True
+sn2_clcl,Cl- + CH3Cl,Skala-1.1-noD3,10.622,13.6094,-2.9874,-2.788,yes,True
+sn2_clcl,Cl- + CH3Cl,wB97M-V,13.5032,13.6094,-0.1062,0.0932,yes,True
+sn2_clcl,Cl- + CH3Cl,B3LYP-D3BJ,8.7931,13.6094,-4.8163,-4.6169,yes,True
+sn2_clcl,Cl- + CH3Cl,r2SCAN,8.0508,13.6094,-5.5586,-5.3592,yes,True
+sn2_clcl,Cl- + CH3Cl,PBE,7.334,13.6094,-6.2754,-6.076,yes,True

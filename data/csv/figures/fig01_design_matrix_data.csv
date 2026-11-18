@@ -1,0 +1,8 @@
+method,"stationary points, TZVP","QZVPP (HCN, NH₃, H₂CO)",paths,xTB geometries,SN2 stretch
+Skala-1.1,1,1,1.0,1.0,1
+Skala-1.1-noD3,1,1,1.0,1.0,1
+wB97M-V,1,1,1.0,1.0,1
+B3LYP-D3BJ,1,0,1.0,1.0,0
+r2SCAN,1,0,0.0,0.0,0
+PBE,1,0,0.0,0.0,0
+CCSD(T)+dMP2,1,0,0.5,0.5,0

@@ -1,0 +1,16 @@
+{
+ "gradient": {
+  "n": 12,
+  "passed": 12,
+  "failed": 0,
+  "worst_rms": 0.00013310687609695052,
+  "worst_where": "sn2_clcl:TS",
+  "tolerance": 0.0003
+ },
+ "pack_sha256": "81e4533319f5fc593cc3e81daf93e6e4db4998df01eea275b3c813fc87dafae6",
+ "pack_ok": true,
+ "speed_factor": 4.207226523646602,
+ "hardware": "Intel(R) Xeon(R) CPU @ 2.20GHz, 2 cores, 13 GB RAM",
+ "versions": "pyscf=2.15.0;numpy=2.4.6;scipy=1.16.3;pandas=2.2.3;torch=2.14.1+cpu;huggingface_hub=1.33.0;pyscf-dispersion=1.7.0;python=3.13.18",
+ "at": "2026-11-16T09:51:12"
+}

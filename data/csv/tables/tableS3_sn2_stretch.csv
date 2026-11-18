@@ -1,0 +1,40 @@
+reaction,method,point_id,kind,cx_distance_A,density_fitting,converged,energy_hartree,d3_hartree,rel_to_RC_B3LYPgeom_kcal,rel_to_RC_noD3_kcal,attempt,seconds
+sn2_clcl,Skala-1.1,TS_own_DF,own_B3LYP_TS,2.3483,True,1,-960.3942351944044,-0.0065001413179246,10.287471586964402,10.621970868895728,default,43.31
+sn2_clcl,Skala-1.1,RC_own_DF,reaction_complex_B3LYP,,True,1,-960.410629323915,-0.0059670827812993,0.0,0.0,default,12.98
+sn2_clcl,Skala-1.1,RC_xtb_DF,reaction_complex_xtb,,True,1,-960.4090502797668,-0.0063246601328413,0.9908651629779178,1.215248338723971,default,15.36
+sn2_clcl,Skala-1.1,TS_own_noDF_default,scf_state_check_nonDF,2.3483,False,0,-960.3848681909292,-0.0065001413179246,16.165355011219773,16.4998542931511,"default, 60 cycles (not converged)",64.07
+sn2_clcl,Skala-1.1,TS_own_noDF_fromDF,scf_state_check_nonDF,2.3483,False,1,-960.3941620832632,-0.0065001413179246,10.33334952073018,10.667848802661505,start from the density-fitted density,9.39
+sn2_clcl,Skala-1.1,TS_own_noDF_PBEstart,scf_state_check_nonDF,2.3483,,0,,,,,"RuntimeError(""no attempt possible: PBE start + level shift 0.5 crashed CalcTimeout('single calculation longer than 300 s')"")",307.26
+sn2_clcl,Skala-1.1,TS_stretch-0.30_DF,symmetric_stretch_scan,2.048,True,1,-960.3635965854342,-0.0070892585304053,29.513488987884173,30.217664901983344,warm start,11.43
+sn2_clcl,Skala-1.1,TS_stretch-0.20_DF,symmetric_stretch_scan,2.148,True,1,-960.3781249784616,-0.0068697857114035,20.396784720221923,20.963239361082863,warm start,54.11
+sn2_clcl,Skala-1.1,TS_stretch-0.15_DF,symmetric_stretch_scan,2.198,True,1,-960.3823366876752,-0.00676619821752,17.753897286711627,18.25534979377597,default,71.28
+sn2_clcl,Skala-1.1,TS_stretch-0.10_DF,symmetric_stretch_scan,2.248,True,1,-960.3864561030912,-0.0066679821092194,15.168925085588135,15.608746054180491,warm start,26.26
+sn2_clcl,Skala-1.1,TS_stretch-0.05_DF,symmetric_stretch_scan,2.298,True,0,-960.3855299494876,-0.0065772341556682,15.750095246276343,16.132971014264296,warm start (not converged),338.93
+sn2_clcl,Skala-1.1,TS_stretch-0.05_DF,symmetric_stretch_scan,2.298,True,0,-960.385532871666,-0.0065772341556682,15.74826155164786,16.131137319635812,default (not converged),265.34
+sn2_clcl,Skala-1.1,TS_stretch+0.10_DF,symmetric_stretch_scan,2.448,True,1,-960.3953032387212,-0.0064542703495571,9.617263659411304,9.92297847409183,warm start,39.19
+sn2_clcl,Skala-1.1,TS_stretch+0.20_DF,symmetric_stretch_scan,2.548,True,1,-960.3920540541928,-0.0064595124366599,11.6561577339526,11.96516200796921,default,25.12
+sn2_clcl,Skala-1.1,TS_stretch+0.30_DF,symmetric_stretch_scan,2.648,True,1,-960.3860072188598,-0.006316553718814,15.450604193506598,15.669900517639904,default,19.29
+sn2_clcl,Skala-1.1,TS_stretch+0.40_DF,symmetric_stretch_scan,2.748,True,1,-960.3784353649648,-0.0060953179981568,20.202014248841543,20.28248306231378,default,17.89
+sn2_clcl,Skala-1.1,TS_xtb_DF,xtb_TS_geometry,,True,1,-960.3836021368692,-0.0067259936926425,16.95981592855267,17.43603971533735,default,9.88
+sn2_clcl,wB97M-V,TS_own_DF,own_B3LYP_TS,2.3483,True,1,-960.3407885625268,,13.505656178071847,,default,19.93
+sn2_clcl,wB97M-V,RC_own_DF,reaction_complex_B3LYP,,True,1,-960.3623111956284,,0.0,,default,22.52
+sn2_clcl,wB97M-V,TS_stretch-0.20_DF,symmetric_stretch_scan,2.148,True,1,-960.3328182662264,,18.50709261767158,,default,19.87
+sn2_clcl,wB97M-V,TS_stretch-0.10_DF,symmetric_stretch_scan,2.248,True,1,-960.3398821022369,,14.074468597853356,,default,19.84
+sn2_clcl,wB97M-V,TS_stretch-0.05_DF,symmetric_stretch_scan,2.298,True,1,-960.3409713275222,,13.390969411912833,,default,22.6
+sn2_clcl,wB97M-V,TS_stretch+0.05_DF,symmetric_stretch_scan,2.398,True,1,-960.3395552559208,,14.279567757741509,,default,19.84
+sn2_clcl,wB97M-V,TS_stretch+0.10_DF,symmetric_stretch_scan,2.448,True,1,-960.337462536816,,15.59276882254404,,default,19.92
+sn2_ff,Skala-1.1,TS_own_DF,own_B3LYP_TS,1.8563,True,1,-239.5994170336947,-0.0032209902744006,15.280096960054715,15.36037052963229,default,9.41
+sn2_ff,Skala-1.1,RC_own_DF,reaction_complex_B3LYP,,True,1,-239.62376741817752,-0.0030930661985232,0.0,0.0,default,11.19
+sn2_ff,Skala-1.1,TS_stretch-0.10_DF,symmetric_stretch_scan,1.756,True,1,-239.59888902410387,-0.0031279803223349,15.611427980692538,15.633336924174648,warm start,8.12
+sn2_ff,Skala-1.1,TS_stretch-0.05_DF,symmetric_stretch_scan,1.806,True,1,-239.600026078372,-0.0031610562275885,14.897915654918512,14.940580042299455,warm start,7.82
+sn2_ff,Skala-1.1,TS_stretch+0.05_DF,symmetric_stretch_scan,1.906,True,1,-239.59740268481147,-0.0032931583377838,16.544119968344837,16.669679681420067,warm start,6.88
+sn2_ff,Skala-1.1,TS_stretch+0.10_DF,symmetric_stretch_scan,1.956,True,1,-239.5943039273988,-0.0033793818385052,18.488619602646924,18.668285379308447,warm start,5.99
+sn2_ff,Skala-1.1,TS_stretch+0.15_DF,symmetric_stretch_scan,2.006,True,1,-239.59029724597127,-0.003461381376007,21.002850157945627,21.233971421265892,warm start,11.07
+sn2_ff,Skala-1.1,TS_stretch+0.20_DF,symmetric_stretch_scan,2.056,True,1,-239.5855837504028,-0.0035024889493339,23.96061328311304,24.21752993814093,warm start,8.85
+sn2_ff,wB97M-V,TS_own_DF,own_B3LYP_TS,1.8563,True,1,-239.61952843296024,,12.553680263985791,,default,15.12
+sn2_ff,wB97M-V,RC_own_DF,reaction_complex_B3LYP,,True,1,-239.6395339958766,,0.0,,default,16.41
+sn2_ff,wB97M-V,TS_stretch-0.15_DF,symmetric_stretch_scan,1.706,True,1,-239.6139677907443,,16.04303593635445,,warm start,13.75
+sn2_ff,wB97M-V,TS_stretch-0.10_DF,symmetric_stretch_scan,1.756,True,1,-239.6179783757307,,13.526355860860011,,warm start,12.44
+sn2_ff,wB97M-V,TS_stretch-0.05_DF,symmetric_stretch_scan,1.806,True,1,-239.61969682422344,,12.44801315097722,,warm start,12.47
+sn2_ff,wB97M-V,TS_stretch+0.05_DF,symmetric_stretch_scan,1.906,True,1,-239.61782186084395,,13.624570435130169,,warm start,12.48
+sn2_ff,wB97M-V,TS_stretch+0.10_DF,symmetric_stretch_scan,1.956,True,1,-239.6148749861708,,15.47376221140367,,warm start,12.49

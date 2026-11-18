@@ -1,0 +1,16 @@
+item,setting,source
+Skala,"Skala-1.1 (microsoft/skala-1.1, HF revision 99b5ed87e5f69d9216e1f9e30148b922eaea1241); with_dftd3=True; D3 set b3lyp5, D3(BJ), two-body (atm=False); GPU route",dossier A.3
+Skala weights SHA-256,7f3e8622e1eb520ccd88a55464c3e359ac4d7e5ccbd1fb77a26afa1e1c20a5cd,dossier A.3
+Skala without D3,"same SCF, stored D3 energy removed (not an independent calculation)",dossier A.3
+Other DFT,"PBE, r2SCAN, B3LYP-D3(BJ) (pyscf d3bj), wB97M-V (VV10 default nonlocal grid); grid level 3, SCF tolerance 1e-9, no density fitting unless stated",dossier A.3
+CCSD(T),"frozen core, def2-TZVP (def2-TZVPD SN2), RHF reference; T1 and RHF stability stored",dossier A.3
+CCSD(T) + MP2 correction,"CCSD(T) + [DF-MP2/def2-QZVPP(D) minus DF-MP2/def2-TZVP(D)], frozen core, same geometry",dossier A.3
+Geometries,"DF-B3LYP-D3(BJ)/def2-TZVP(D), geomeTRIC, analytic Hessian; geometry pack SHA-256 81e4533319f5fc593cc3e81daf93e6e4db4998df01eea275b3c813fc87dafae6","dossier A.1, A.3"
+xTB,GFN2-xTB (tblite 0.8.0),dossier A.3
+Skala density fitting,Cl- + CH3Cl TS did not converge without density fitting; TS and partners are density-fitted rows,dossier A.3
+"Hardware, geometry pack build","Intel Xeon 2.10 GHz, 4 cores, 16 GB",dossier A.4
+"Software, geometry pack build","pyscf 2.15.0, geometric 1.1.1, tblite 0.8.0, ase 3.29.0, numpy 2.5.4, scipy 1.18.1, pandas 3.1.1, pyscf-dispersion 1.7.0, python 3.13.18",dossier A.4
+"Hardware, CPU notebook (CCSD(T), MP2)","Intel Xeon 2.20 GHz, 2 cores, 13 GB",dossier A.4
+"Software, CPU notebook","pyscf 2.15.0, numpy 2.4.6, scipy 1.16.3, pandas 2.2.3, torch 2.14.1+cpu, pyscf-dispersion 1.7.0, python 3.13.18",dossier A.4
+"Hardware, GPU notebook (all DFT)","Intel Xeon 2.00 GHz, 8 cores, 51 GB, Tesla T4 (15 GB)",dossier A.4
+"Software, GPU notebook","pyscf 2.12.1, geometric 1.1.1, ase 3.29.0, skala 2026.9, skala-cuda12x 2026.9, gpu4pyscf-cuda12x 1.8.1, cupy-cuda12x 14.2.0, torch 2.14.1+cu130, huggingface_hub 1.33.0, pyscf-dispersion 1.7.0, python 3.13.16",dossier A.4

@@ -1,0 +1,229 @@
+reaction,reference,method,point_id,coordinate_deg_or_A,ref_relative_kcal,signed_error_kcal,used_in_reference_stats
+hcn,CCSD(T)+dMP2,Skala-1.1,p00,180.0,0.0,0.0,True
+hcn,CCSD(T)+dMP2,Skala-1.1,p01,171.0,0.456,0.0598,True
+hcn,CCSD(T)+dMP2,Skala-1.1,p02,150.375,4.982,0.3179,True
+hcn,CCSD(T)+dMP2,Skala-1.1,p06,71.518,47.659,0.7507,True
+hcn,CCSD(T)+dMP2,Skala-1.1,p07,67.875,47.286,0.7474,True
+hcn,CCSD(T)+dMP2,Skala-1.1,p08,47.25,37.796,0.2767,True
+hcn,CCSD(T)+dMP2,Skala-1.1,p09,26.625,22.984,1.0618,True
+hcn,CCSD(T)+dMP2,Skala-1.1,p10,6.0,15.04,0.2963,True
+hcn,CCSD(T)+dMP2,Skala-1.1-noD3,p00,180.0,0.0,0.0,True
+hcn,CCSD(T)+dMP2,Skala-1.1-noD3,p01,171.0,0.456,0.0601,True
+hcn,CCSD(T)+dMP2,Skala-1.1-noD3,p02,150.375,4.982,0.3205,True
+hcn,CCSD(T)+dMP2,Skala-1.1-noD3,p06,71.518,47.659,0.7447,True
+hcn,CCSD(T)+dMP2,Skala-1.1-noD3,p07,67.875,47.286,0.7303,True
+hcn,CCSD(T)+dMP2,Skala-1.1-noD3,p08,47.25,37.796,0.357,True
+hcn,CCSD(T)+dMP2,Skala-1.1-noD3,p09,26.625,22.984,1.1645,True
+hcn,CCSD(T)+dMP2,Skala-1.1-noD3,p10,6.0,15.04,0.3923,True
+hcn,CCSD(T)+dMP2,wB97M-V,p00,180.0,0.0,0.0,True
+hcn,CCSD(T)+dMP2,wB97M-V,p01,171.0,0.456,0.0642,True
+hcn,CCSD(T)+dMP2,wB97M-V,p02,150.375,4.982,0.5566,True
+hcn,CCSD(T)+dMP2,wB97M-V,p06,71.518,47.659,-3.1244,True
+hcn,CCSD(T)+dMP2,wB97M-V,p07,67.875,47.286,-3.418,True
+hcn,CCSD(T)+dMP2,wB97M-V,p08,47.25,37.796,-3.5607,True
+hcn,CCSD(T)+dMP2,wB97M-V,p09,26.625,22.984,-2.406,True
+hcn,CCSD(T)+dMP2,wB97M-V,p10,6.0,15.04,-2.0916,True
+hcn,CCSD(T)+dMP2,B3LYP-D3BJ,p00,180.0,0.0,0.0,True
+hcn,CCSD(T)+dMP2,B3LYP-D3BJ,p01,171.0,0.456,0.0556,True
+hcn,CCSD(T)+dMP2,B3LYP-D3BJ,p02,150.375,4.982,0.4699,True
+hcn,CCSD(T)+dMP2,B3LYP-D3BJ,p06,71.518,47.659,0.0177,True
+hcn,CCSD(T)+dMP2,B3LYP-D3BJ,p07,67.875,47.286,0.119,True
+hcn,CCSD(T)+dMP2,B3LYP-D3BJ,p08,47.25,37.796,-0.0487,True
+hcn,CCSD(T)+dMP2,B3LYP-D3BJ,p09,26.625,22.984,-0.7464,True
+hcn,CCSD(T)+dMP2,B3LYP-D3BJ,p10,6.0,15.04,-0.511,True
+hcn,CCSD(T) raw,Skala-1.1,p00,180.0,0.0,0.0,True
+hcn,CCSD(T) raw,Skala-1.1,p01,171.0,0.469,0.047,True
+hcn,CCSD(T) raw,Skala-1.1,p02,150.375,5.063,0.2374,True
+hcn,CCSD(T) raw,Skala-1.1,p03,129.75,14.356,0.5919,True
+hcn,CCSD(T) raw,Skala-1.1,p04,109.125,27.765,0.3267,True
+hcn,CCSD(T) raw,Skala-1.1,p05,88.5,42.372,0.1067,True
+hcn,CCSD(T) raw,Skala-1.1,p06,71.518,48.099,0.3102,True
+hcn,CCSD(T) raw,Skala-1.1,p07,67.875,47.786,0.2466,True
+hcn,CCSD(T) raw,Skala-1.1,p08,47.25,38.54,-0.4673,True
+hcn,CCSD(T) raw,Skala-1.1,p09,26.625,23.767,0.2785,True
+hcn,CCSD(T) raw,Skala-1.1,p10,6.0,15.757,-0.4207,True
+hcn,CCSD(T) raw,Skala-1.1-noD3,p00,180.0,0.0,0.0,True
+hcn,CCSD(T) raw,Skala-1.1-noD3,p01,171.0,0.469,0.0472,True
+hcn,CCSD(T) raw,Skala-1.1-noD3,p02,150.375,5.063,0.24,True
+hcn,CCSD(T) raw,Skala-1.1-noD3,p03,129.75,14.356,0.5983,True
+hcn,CCSD(T) raw,Skala-1.1-noD3,p04,109.125,27.765,0.3368,True
+hcn,CCSD(T) raw,Skala-1.1-noD3,p05,88.5,42.372,0.1175,True
+hcn,CCSD(T) raw,Skala-1.1-noD3,p06,71.518,48.099,0.3042,True
+hcn,CCSD(T) raw,Skala-1.1-noD3,p07,67.875,47.786,0.2295,True
+hcn,CCSD(T) raw,Skala-1.1-noD3,p08,47.25,38.54,-0.3869,True
+hcn,CCSD(T) raw,Skala-1.1-noD3,p09,26.625,23.767,0.3811,True
+hcn,CCSD(T) raw,Skala-1.1-noD3,p10,6.0,15.757,-0.3247,True
+hcn,CCSD(T) raw,wB97M-V,p00,180.0,0.0,0.0,True
+hcn,CCSD(T) raw,wB97M-V,p01,171.0,0.469,0.0514,True
+hcn,CCSD(T) raw,wB97M-V,p02,150.375,5.063,0.4761,True
+hcn,CCSD(T) raw,wB97M-V,p03,129.75,14.356,1.0453,True
+hcn,CCSD(T) raw,wB97M-V,p04,109.125,27.765,0.8936,True
+hcn,CCSD(T) raw,wB97M-V,p05,88.5,42.372,-1.1783,True
+hcn,CCSD(T) raw,wB97M-V,p06,71.518,48.099,-3.5649,True
+hcn,CCSD(T) raw,wB97M-V,p07,67.875,47.786,-3.9188,True
+hcn,CCSD(T) raw,wB97M-V,p08,47.25,38.54,-4.3046,True
+hcn,CCSD(T) raw,wB97M-V,p09,26.625,23.767,-3.1894,True
+hcn,CCSD(T) raw,wB97M-V,p10,6.0,15.757,-2.8087,True
+hcn,CCSD(T) raw,B3LYP-D3BJ,p00,180.0,0.0,0.0,True
+hcn,CCSD(T) raw,B3LYP-D3BJ,p01,171.0,0.469,0.0427,True
+hcn,CCSD(T) raw,B3LYP-D3BJ,p02,150.375,5.063,0.3894,True
+hcn,CCSD(T) raw,B3LYP-D3BJ,p03,129.75,14.356,0.9063,True
+hcn,CCSD(T) raw,B3LYP-D3BJ,p04,109.125,27.765,1.0334,True
+hcn,CCSD(T) raw,B3LYP-D3BJ,p05,88.5,42.372,0.1344,True
+hcn,CCSD(T) raw,B3LYP-D3BJ,p06,71.518,48.099,-0.4228,True
+hcn,CCSD(T) raw,B3LYP-D3BJ,p07,67.875,47.786,-0.3818,True
+hcn,CCSD(T) raw,B3LYP-D3BJ,p08,47.25,38.54,-0.7926,True
+hcn,CCSD(T) raw,B3LYP-D3BJ,p09,26.625,23.767,-1.5297,True
+hcn,CCSD(T) raw,B3LYP-D3BJ,p10,6.0,15.757,-1.228,True
+nh3,CCSD(T)+dMP2,Skala-1.1,p00,-38.3375,0.0,0.0,True
+nh3,CCSD(T)+dMP2,Skala-1.1,p01,-28.7531,1.299,0.0345,True
+nh3,CCSD(T)+dMP2,Skala-1.1,p02,-19.1688,3.376,0.2014,True
+nh3,CCSD(T)+dMP2,Skala-1.1,p03,-9.5844,4.911,0.3931,True
+nh3,CCSD(T)+dMP2,Skala-1.1,p04,0.0,5.449,0.4778,True
+nh3,CCSD(T)+dMP2,Skala-1.1,p05,9.5844,4.911,0.3936,True
+nh3,CCSD(T)+dMP2,Skala-1.1,p06,19.1688,3.374,0.2046,True
+nh3,CCSD(T)+dMP2,Skala-1.1,p07,28.7531,1.309,0.038,True
+nh3,CCSD(T)+dMP2,Skala-1.1,p08,38.3375,-0.0,-0.0006,True
+nh3,CCSD(T)+dMP2,Skala-1.1-noD3,p00,-38.3375,0.0,0.0,True
+nh3,CCSD(T)+dMP2,Skala-1.1-noD3,p01,-28.7531,1.299,0.0337,True
+nh3,CCSD(T)+dMP2,Skala-1.1-noD3,p02,-19.1688,3.376,0.2001,True
+nh3,CCSD(T)+dMP2,Skala-1.1-noD3,p03,-9.5844,4.911,0.3914,True
+nh3,CCSD(T)+dMP2,Skala-1.1-noD3,p04,0.0,5.449,0.476,True
+nh3,CCSD(T)+dMP2,Skala-1.1-noD3,p05,9.5844,4.911,0.392,True
+nh3,CCSD(T)+dMP2,Skala-1.1-noD3,p06,19.1688,3.374,0.2033,True
+nh3,CCSD(T)+dMP2,Skala-1.1-noD3,p07,28.7531,1.309,0.0372,True
+nh3,CCSD(T)+dMP2,Skala-1.1-noD3,p08,38.3375,-0.0,-0.0006,True
+nh3,CCSD(T)+dMP2,wB97M-V,p00,-38.3375,0.0,0.0,True
+nh3,CCSD(T)+dMP2,wB97M-V,p01,-28.7531,1.299,-0.27,True
+nh3,CCSD(T)+dMP2,wB97M-V,p02,-19.1688,3.376,-0.5633,True
+nh3,CCSD(T)+dMP2,wB97M-V,p03,-9.5844,4.911,-0.7712,True
+nh3,CCSD(T)+dMP2,wB97M-V,p04,0.0,5.449,-0.8425,True
+nh3,CCSD(T)+dMP2,wB97M-V,p05,9.5844,4.911,-0.7716,True
+nh3,CCSD(T)+dMP2,wB97M-V,p06,19.1688,3.374,-0.5685,True
+nh3,CCSD(T)+dMP2,wB97M-V,p07,28.7531,1.309,-0.2841,True
+nh3,CCSD(T)+dMP2,wB97M-V,p08,38.3375,-0.0,-0.0001,True
+nh3,CCSD(T)+dMP2,B3LYP-D3BJ,p00,-38.3375,0.0,0.0,True
+nh3,CCSD(T)+dMP2,B3LYP-D3BJ,p01,-28.7531,1.299,-0.315,True
+nh3,CCSD(T)+dMP2,B3LYP-D3BJ,p02,-19.1688,3.376,-0.6331,True
+nh3,CCSD(T)+dMP2,B3LYP-D3BJ,p03,-9.5844,4.911,-0.8523,True
+nh3,CCSD(T)+dMP2,B3LYP-D3BJ,p04,0.0,5.449,-0.9266,True
+nh3,CCSD(T)+dMP2,B3LYP-D3BJ,p05,9.5844,4.911,-0.8528,True
+nh3,CCSD(T)+dMP2,B3LYP-D3BJ,p06,19.1688,3.374,-0.6389,True
+nh3,CCSD(T)+dMP2,B3LYP-D3BJ,p07,28.7531,1.309,-0.3313,True
+nh3,CCSD(T)+dMP2,B3LYP-D3BJ,p08,38.3375,-0.0,0.0003,True
+nh3,CCSD(T) raw,Skala-1.1,p00,-38.3375,0.0,0.0,True
+nh3,CCSD(T) raw,Skala-1.1,p01,-28.7531,1.29,0.044,True
+nh3,CCSD(T) raw,Skala-1.1,p02,-19.1688,3.384,0.1935,True
+nh3,CCSD(T) raw,Skala-1.1,p03,-9.5844,4.928,0.3761,True
+nh3,CCSD(T) raw,Skala-1.1,p04,0.0,5.468,0.4594,True
+nh3,CCSD(T) raw,Skala-1.1,p05,9.5844,4.928,0.3766,True
+nh3,CCSD(T) raw,Skala-1.1,p06,19.1688,3.381,0.1974,True
+nh3,CCSD(T) raw,Skala-1.1,p07,28.7531,1.298,0.0489,True
+nh3,CCSD(T) raw,Skala-1.1,p08,38.3375,0.001,-0.0018,True
+nh3,CCSD(T) raw,Skala-1.1-noD3,p00,-38.3375,0.0,0.0,True
+nh3,CCSD(T) raw,Skala-1.1-noD3,p01,-28.7531,1.29,0.0433,True
+nh3,CCSD(T) raw,Skala-1.1-noD3,p02,-19.1688,3.384,0.1922,True
+nh3,CCSD(T) raw,Skala-1.1-noD3,p03,-9.5844,4.928,0.3744,True
+nh3,CCSD(T) raw,Skala-1.1-noD3,p04,0.0,5.468,0.4576,True
+nh3,CCSD(T) raw,Skala-1.1-noD3,p05,9.5844,4.928,0.3749,True
+nh3,CCSD(T) raw,Skala-1.1-noD3,p06,19.1688,3.381,0.196,True
+nh3,CCSD(T) raw,Skala-1.1-noD3,p07,28.7531,1.298,0.0481,True
+nh3,CCSD(T) raw,Skala-1.1-noD3,p08,38.3375,0.001,-0.0018,True
+nh3,CCSD(T) raw,wB97M-V,p00,-38.3375,0.0,0.0,True
+nh3,CCSD(T) raw,wB97M-V,p01,-28.7531,1.29,-0.2605,True
+nh3,CCSD(T) raw,wB97M-V,p02,-19.1688,3.384,-0.5712,True
+nh3,CCSD(T) raw,wB97M-V,p03,-9.5844,4.928,-0.7882,True
+nh3,CCSD(T) raw,wB97M-V,p04,0.0,5.468,-0.8609,True
+nh3,CCSD(T) raw,wB97M-V,p05,9.5844,4.928,-0.7886,True
+nh3,CCSD(T) raw,wB97M-V,p06,19.1688,3.381,-0.5757,True
+nh3,CCSD(T) raw,wB97M-V,p07,28.7531,1.298,-0.2731,True
+nh3,CCSD(T) raw,wB97M-V,p08,38.3375,0.001,-0.0013,True
+nh3,CCSD(T) raw,B3LYP-D3BJ,p00,-38.3375,0.0,0.0,True
+nh3,CCSD(T) raw,B3LYP-D3BJ,p01,-28.7531,1.29,-0.3054,True
+nh3,CCSD(T) raw,B3LYP-D3BJ,p02,-19.1688,3.384,-0.641,True
+nh3,CCSD(T) raw,B3LYP-D3BJ,p03,-9.5844,4.928,-0.8693,True
+nh3,CCSD(T) raw,B3LYP-D3BJ,p04,0.0,5.468,-0.945,True
+nh3,CCSD(T) raw,B3LYP-D3BJ,p05,9.5844,4.928,-0.8698,True
+nh3,CCSD(T) raw,B3LYP-D3BJ,p06,19.1688,3.381,-0.6462,True
+nh3,CCSD(T) raw,B3LYP-D3BJ,p07,28.7531,1.298,-0.3204,True
+nh3,CCSD(T) raw,B3LYP-D3BJ,p08,38.3375,0.001,-0.0009,True
+h2co,CCSD(T)+dMP2,Skala-1.1,p00,1.85,0.0,0.0,True
+h2co,CCSD(T)+dMP2,Skala-1.1,p01,1.745,1.818,0.0367,True
+h2co,CCSD(T)+dMP2,Skala-1.1,p02,1.64,6.166,0.0659,True
+h2co,CCSD(T)+dMP2,Skala-1.1,p03,1.535,13.071,0.0605,True
+h2co,CCSD(T)+dMP2,Skala-1.1,p04,1.43,22.513,0.0144,True
+h2co,CCSD(T)+dMP2,Skala-1.1,p07,1.115,33.527,1.7361,True
+h2co,CCSD(T)+dMP2,Skala-1.1,p08,1.01,22.546,0.8879,True
+h2co,CCSD(T)+dMP2,Skala-1.1,p09,0.905,12.758,0.3886,True
+h2co,CCSD(T)+dMP2,Skala-1.1,p10,0.8,5.998,0.2431,True
+h2co,CCSD(T)+dMP2,Skala-1.1-noD3,p00,1.85,0.0,0.0,True
+h2co,CCSD(T)+dMP2,Skala-1.1-noD3,p01,1.745,1.818,0.0368,True
+h2co,CCSD(T)+dMP2,Skala-1.1-noD3,p02,1.64,6.166,0.0659,True
+h2co,CCSD(T)+dMP2,Skala-1.1-noD3,p03,1.535,13.071,0.0601,True
+h2co,CCSD(T)+dMP2,Skala-1.1-noD3,p04,1.43,22.513,0.0134,True
+h2co,CCSD(T)+dMP2,Skala-1.1-noD3,p07,1.115,33.527,1.7042,True
+h2co,CCSD(T)+dMP2,Skala-1.1-noD3,p08,1.01,22.546,0.8432,True
+h2co,CCSD(T)+dMP2,Skala-1.1-noD3,p09,0.905,12.758,0.2847,True
+h2co,CCSD(T)+dMP2,Skala-1.1-noD3,p10,0.8,5.998,-0.0955,True
+h2co,CCSD(T)+dMP2,wB97M-V,p00,1.85,0.0,0.0,True
+h2co,CCSD(T)+dMP2,wB97M-V,p01,1.745,1.818,0.0256,True
+h2co,CCSD(T)+dMP2,wB97M-V,p02,1.64,6.166,-0.0028,True
+h2co,CCSD(T)+dMP2,wB97M-V,p03,1.535,13.071,-0.0974,True
+h2co,CCSD(T)+dMP2,wB97M-V,p04,1.43,22.513,-0.2435,True
+h2co,CCSD(T)+dMP2,wB97M-V,p07,1.115,33.527,1.325,True
+h2co,CCSD(T)+dMP2,wB97M-V,p08,1.01,22.546,0.6926,True
+h2co,CCSD(T)+dMP2,wB97M-V,p09,0.905,12.758,0.3129,True
+h2co,CCSD(T)+dMP2,wB97M-V,p10,0.8,5.998,0.1482,True
+h2co,CCSD(T)+dMP2,B3LYP-D3BJ,p00,1.85,0.0,0.0,True
+h2co,CCSD(T)+dMP2,B3LYP-D3BJ,p01,1.745,1.818,0.0309,True
+h2co,CCSD(T)+dMP2,B3LYP-D3BJ,p02,1.64,6.166,0.0082,True
+h2co,CCSD(T)+dMP2,B3LYP-D3BJ,p03,1.535,13.071,-0.0761,True
+h2co,CCSD(T)+dMP2,B3LYP-D3BJ,p04,1.43,22.513,-0.2018,True
+h2co,CCSD(T)+dMP2,B3LYP-D3BJ,p07,1.115,33.527,3.3882,True
+h2co,CCSD(T)+dMP2,B3LYP-D3BJ,p08,1.01,22.546,2.9473,True
+h2co,CCSD(T)+dMP2,B3LYP-D3BJ,p09,0.905,12.758,2.8022,True
+h2co,CCSD(T)+dMP2,B3LYP-D3BJ,p10,0.8,5.998,3.0338,True
+h2co,CCSD(T) raw,Skala-1.1,p00,1.85,0.0,0.0,True
+h2co,CCSD(T) raw,Skala-1.1,p01,1.745,1.921,-0.0661,True
+h2co,CCSD(T) raw,Skala-1.1,p02,1.64,6.382,-0.1499,True
+h2co,CCSD(T) raw,Skala-1.1,p03,1.535,13.408,-0.277,True
+h2co,CCSD(T) raw,Skala-1.1,p04,1.43,22.985,-0.4579,True
+h2co,CCSD(T) raw,Skala-1.1,p05,1.3114,87.398,0.4367,True
+h2co,CCSD(T) raw,Skala-1.1,p06,1.22,43.152,4.3475,True
+h2co,CCSD(T) raw,Skala-1.1,p07,1.115,31.909,3.3541,True
+h2co,CCSD(T) raw,Skala-1.1,p08,1.01,20.792,2.6423,True
+h2co,CCSD(T) raw,Skala-1.1,p09,0.905,10.896,2.2499,True
+h2co,CCSD(T) raw,Skala-1.1,p10,0.8,4.076,2.1651,True
+h2co,CCSD(T) raw,Skala-1.1-noD3,p00,1.85,0.0,0.0,True
+h2co,CCSD(T) raw,Skala-1.1-noD3,p01,1.745,1.921,-0.066,True
+h2co,CCSD(T) raw,Skala-1.1-noD3,p02,1.64,6.382,-0.1499,True
+h2co,CCSD(T) raw,Skala-1.1-noD3,p03,1.535,13.408,-0.2774,True
+h2co,CCSD(T) raw,Skala-1.1-noD3,p04,1.43,22.985,-0.4589,True
+h2co,CCSD(T) raw,Skala-1.1-noD3,p05,1.3114,87.398,0.6908,True
+h2co,CCSD(T) raw,Skala-1.1-noD3,p06,1.22,43.152,4.3231,True
+h2co,CCSD(T) raw,Skala-1.1-noD3,p07,1.115,31.909,3.3221,True
+h2co,CCSD(T) raw,Skala-1.1-noD3,p08,1.01,20.792,2.5976,True
+h2co,CCSD(T) raw,Skala-1.1-noD3,p09,0.905,10.896,2.1461,True
+h2co,CCSD(T) raw,Skala-1.1-noD3,p10,0.8,4.076,1.8265,True
+h2co,CCSD(T) raw,wB97M-V,p00,1.85,0.0,0.0,True
+h2co,CCSD(T) raw,wB97M-V,p01,1.745,1.921,-0.0772,True
+h2co,CCSD(T) raw,wB97M-V,p02,1.64,6.382,-0.2186,True
+h2co,CCSD(T) raw,wB97M-V,p03,1.535,13.408,-0.435,True
+h2co,CCSD(T) raw,wB97M-V,p04,1.43,22.985,-0.7158,True
+h2co,CCSD(T) raw,wB97M-V,p05,1.3114,87.398,-0.1618,True
+h2co,CCSD(T) raw,wB97M-V,p06,1.22,43.152,3.7391,True
+h2co,CCSD(T) raw,wB97M-V,p07,1.115,31.909,2.943,True
+h2co,CCSD(T) raw,wB97M-V,p08,1.01,20.792,2.4471,True
+h2co,CCSD(T) raw,wB97M-V,p09,0.905,10.896,2.1743,True
+h2co,CCSD(T) raw,wB97M-V,p10,0.8,4.076,2.0703,True
+h2co,CCSD(T) raw,B3LYP-D3BJ,p00,1.85,0.0,0.0,True
+h2co,CCSD(T) raw,B3LYP-D3BJ,p01,1.745,1.921,-0.0719,True
+h2co,CCSD(T) raw,B3LYP-D3BJ,p02,1.64,6.382,-0.2076,True
+h2co,CCSD(T) raw,B3LYP-D3BJ,p03,1.535,13.408,-0.4136,True
+h2co,CCSD(T) raw,B3LYP-D3BJ,p04,1.43,22.985,-0.6741,True
+h2co,CCSD(T) raw,B3LYP-D3BJ,p05,1.3114,87.398,-3.1623,True
+h2co,CCSD(T) raw,B3LYP-D3BJ,p06,1.22,43.152,5.5987,True
+h2co,CCSD(T) raw,B3LYP-D3BJ,p07,1.115,31.909,5.0061,True
+h2co,CCSD(T) raw,B3LYP-D3BJ,p08,1.01,20.792,4.7017,True
+h2co,CCSD(T) raw,B3LYP-D3BJ,p09,0.905,10.896,4.6636,True
+h2co,CCSD(T) raw,B3LYP-D3BJ,p10,0.8,4.076,4.9559,True

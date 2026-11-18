@@ -1,0 +1,36 @@
+{
+ "ok": true,
+ "expected_sha256": "81e4533319f5fc593cc3e81daf93e6e4db4998df01eea275b3c813fc87dafae6",
+ "problems": [],
+ "sha256": "81e4533319f5fc593cc3e81daf93e6e4db4998df01eea275b3c813fc87dafae6",
+ "n_verified": 55,
+ "format": "b1v5-geompack-1",
+ "design": "1h core: six reactions + CH4 + ext78 (F- + CH3Cl, OH- + CH3F)",
+ "builder": {
+  "hardware": "Intel(R) Xeon(R) Processor @ 2.10GHz, 4 cores, 16 GB RAM",
+  "python": "3.13.18",
+  "script": "build_geompack.py + b1v5_geompack.py + b1v5_cpu.py",
+  "versions": "pyscf=2.15.0;geometric=1.1.1;tblite=0.8.0;ase=3.29.0;numpy=2.5.4;scipy=1.18.1;pandas=3.1.1;pyscf-dispersion=1.7.0;python=3.13.18"
+ },
+ "installed": {
+  "geoms": 0,
+  "geoms_kept": 33,
+  "paths": 4,
+  "rows": 0
+ },
+ "systems_in_pack": [
+  "hcn",
+  "nh3",
+  "h2co",
+  "ch3nc",
+  "sn2_ff",
+  "sn2_clcl",
+  "ch4",
+  "sn2_fcl",
+  "sn2_ohf"
+ ],
+ "has": {
+  "ext78": true
+ },
+ "at": "2026-11-16T15:24:05"
+}

@@ -1,0 +1,3 @@
+1
+sn2_clcl_Clm_own_b3lyp charge=-1 {"species": "Cl-", "kind": "min", "level": "own_b3lyp", "opt_converged": true, "basis": "def2-TZVPD", "from_pack": true,
+Cl  0.00000000  0.00000000  0.00000000

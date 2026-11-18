@@ -1,0 +1,111 @@
+{
+ "routes": {
+  "PBE": "gpu",
+  "r2SCAN": "gpu",
+  "B3LYP-D3BJ": "gpu",
+  "wB97M-V": "gpu"
+ },
+ "anchor": "wB97M-V",
+ "gate_ok": true,
+ "skala_ok": true,
+ "skala_route": "gpu",
+ "skala_mol_mode": "cpu",
+ "grad_ok": null,
+ "grad_variant": "plain",
+ "weights_short": "7f3e8622e1eb",
+ "started": "2026-11-16T15:09:47",
+ "hardware": "Intel(R) Xeon(R) CPU @ 2.00GHz, 8 cores, 51 GB RAM, GPU Tesla T4",
+ "versions": "pyscf=2.12.1;geometric=1.1.1;ase=3.29.0;numpy=2.4.6;scipy=1.16.3;pandas=2.2.3;skala=2026.9;skala-cuda12x=2026.9;gpu4pyscf-cuda12x=1.8.1;cupy-cuda12x=14.2.0;torch=2.14.1+cu130;huggingface_hub=1.33.0;pyscf-dispersion=1.7.0;python=3.13.16",
+ "gpu_name": "Tesla T4",
+ "gpu_class": "T4",
+ "gpu_mem_gb": 15.0,
+ "standin": false,
+ "design": "1h",
+ "probe": {
+  "PBE": {
+   "method": "PBE",
+   "basis": "def2-SVP",
+   "gpu_ok": true,
+   "cpu_ok": 1.0,
+   "gpu_seconds": 15.3,
+   "cpu_seconds": 2.7,
+   "gpu_cpu_diff": 1.2074963251507143e-10,
+   "error_gpu": "",
+   "error_cpu": "",
+   "e_cpu": -93.2373372209326,
+   "e_gpu": -93.23733722105335,
+   "route": "gpu"
+  },
+  "r2SCAN": {
+   "method": "r2SCAN",
+   "basis": "def2-SVP",
+   "gpu_ok": true,
+   "cpu_ok": 1.0,
+   "gpu_seconds": 1.5,
+   "cpu_seconds": 3.3,
+   "gpu_cpu_diff": 1.2848033748014132e-10,
+   "error_gpu": "",
+   "error_cpu": "",
+   "e_cpu": -93.2920295369371,
+   "e_gpu": -93.29202953706557,
+   "route": "gpu"
+  },
+  "B3LYP-D3BJ": {
+   "method": "B3LYP-D3BJ",
+   "basis": "def2-SVP",
+   "gpu_ok": true,
+   "cpu_ok": 1.0,
+   "gpu_seconds": 3.8,
+   "cpu_seconds": 2.6,
+   "gpu_cpu_diff": 1.1172573977091815e-10,
+   "error_gpu": "",
+   "error_cpu": "",
+   "e_cpu": -93.35337207976724,
+   "e_gpu": -93.35337207987897,
+   "route": "gpu"
+  },
+  "wB97M-V": {
+   "method": "wB97M-V",
+   "basis": "def2-SVP",
+   "gpu_ok": true,
+   "cpu_ok": 1.0,
+   "gpu_seconds": 8.7,
+   "cpu_seconds": 22.7,
+   "gpu_cpu_diff": 1.0648861348272476e-08,
+   "error_gpu": "",
+   "error_cpu": "",
+   "e_cpu": -93.31886619475212,
+   "e_gpu": -93.31886618410326,
+   "route": "gpu"
+  }
+ },
+ "skala": {
+  "basis": "def2-SVP",
+  "tried": [],
+  "route": "gpu",
+  "mol_mode": "cpu",
+  "energy": -93.31028460450065,
+  "seconds": 15.7
+ },
+ "weights_save": "already on Drive",
+ "skala_weights": {
+  "skala_name": "skala-1.1",
+  "standin": false,
+  "file": "9623d93346ed6f4d1b8db66d63f4bda1669f8b2efba3624564f5943e7dcf9849",
+  "sha256": "7f3e8622e1eb520ccd88a55464c3e359ac4d7e5ccbd1fb77a26afa1e1c20a5cd",
+  "package_expected_sha256": "7f3e8622e1eb520ccd88a55464c3e359ac4d7e5ccbd1fb77a26afa1e1c20a5cd",
+  "hash_matches_package_table": true,
+  "huggingface_revision": "99b5ed87e5f69d9216e1f9e30148b922eaea1241",
+  "huggingface_repo": "microsoft/skala-1.1",
+  "expected_d3_settings": "\"b3lyp5\""
+ },
+ "gate": {
+  "max_diff": 1.3389950481723645e-08,
+  "per_method": {
+   "v4-skala": 1.3389950481723645e-08,
+   "v4-pbe": 1.2044822028656199e-08,
+   "v4-b3lyp": 8.106511018013407e-09
+  },
+  "status": "PASS"
+ }
+}

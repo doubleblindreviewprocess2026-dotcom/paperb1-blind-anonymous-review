@@ -1,0 +1,94 @@
+method,basis_kind,basis,lit_id,system,quantity,computed,literature,error,zero_point_convention,geometry_level,verified,in_headline,in_pooled,note
+Skala-1.1,main,def2-TZVP,L1,hcn,barrier_fwd,48.373,48.07,0.303,excluded,own_b3lyp,yes,True,True,electronic energy vs zero-point-excluded reference
+Skala-1.1,main,def2-TZVP,L2,hcn,barrier_rev,33.414,32.82,0.594,excluded,own_b3lyp,yes,False,True,electronic energy vs zero-point-excluded reference
+Skala-1.1,main,def2-TZVP,L3,hcn,reaction_energy,14.959,15.25,-0.291,excluded,own_b3lyp,yes,False,False,electronic energy vs zero-point-excluded reference
+Skala-1.1,main,def2-TZVP,L4,nh3,barrier_fwd,5.927,5.12,0.807,excluded,own_b3lyp,yes,True,True,electronic energy vs zero-point-excluded reference
+Skala-1.1,main,def2-TZVP,L5,h2co,barrier_fwd,82.977,81.9,1.077,included,own_b3lyp,yes,True,True,zero-point difference -4.99 added
+Skala-1.1,main,def2-TZVP,L6,ch3nc,barrier_fwd,40.161,38.25,1.911,unknown,own_b3lyp,no,False,False,"zero-point convention unknown: electronic value shown, not scored"
+Skala-1.1,main,def2-TZVPD,L7,sn2_ff,barrier_fwd,1.47,-0.34,1.81,excluded,own_b3lyp,yes,False,True,electronic energy vs zero-point-excluded reference
+Skala-1.1,main,def2-TZVPD,L8,sn2_ff,barrier_fwd_cplx,15.287,13.38,1.907,excluded,own_b3lyp,yes,True,True,electronic energy vs zero-point-excluded reference
+Skala-1.1,main,def2-TZVPD,L9,sn2_clcl,barrier_fwd,-0.011,3.1,-3.111,excluded,own_b3lyp,yes,False,True,electronic energy vs zero-point-excluded reference
+Skala-1.1,main,def2-TZVPD,L10,sn2_clcl,barrier_fwd_cplx,10.287,13.41,-3.123,excluded,own_b3lyp,yes,True,True,electronic energy vs zero-point-excluded reference
+Skala-1.1,large,def2-QZVPP,L1,hcn,barrier_fwd,48.15,48.07,0.08,excluded,own_b3lyp,yes,True,True,electronic energy vs zero-point-excluded reference
+Skala-1.1,large,def2-QZVPP,L2,hcn,barrier_rev,33.476,32.82,0.656,excluded,own_b3lyp,yes,False,True,electronic energy vs zero-point-excluded reference
+Skala-1.1,large,def2-QZVPP,L3,hcn,reaction_energy,14.674,15.25,-0.576,excluded,own_b3lyp,yes,False,False,electronic energy vs zero-point-excluded reference
+Skala-1.1,large,def2-QZVPP,L4,nh3,barrier_fwd,6.096,5.12,0.976,excluded,own_b3lyp,yes,True,True,electronic energy vs zero-point-excluded reference
+Skala-1.1,large,def2-QZVPP,L5,h2co,barrier_fwd,80.66,81.9,-1.24,included,own_b3lyp,yes,True,True,zero-point difference -4.99 added
+Skala-1.1-noD3,main,def2-TZVP,L1,hcn,barrier_fwd,48.367,48.07,0.297,excluded,own_b3lyp,yes,True,True,electronic energy vs zero-point-excluded reference
+Skala-1.1-noD3,main,def2-TZVP,L2,hcn,barrier_rev,33.313,32.82,0.493,excluded,own_b3lyp,yes,False,True,electronic energy vs zero-point-excluded reference
+Skala-1.1-noD3,main,def2-TZVP,L3,hcn,reaction_energy,15.055,15.25,-0.195,excluded,own_b3lyp,yes,False,False,electronic energy vs zero-point-excluded reference
+Skala-1.1-noD3,main,def2-TZVP,L4,nh3,barrier_fwd,5.925,5.12,0.805,excluded,own_b3lyp,yes,True,True,electronic energy vs zero-point-excluded reference
+Skala-1.1-noD3,main,def2-TZVP,L5,h2co,barrier_fwd,83.231,81.9,1.331,included,own_b3lyp,yes,True,True,zero-point difference -4.99 added
+Skala-1.1-noD3,main,def2-TZVP,L6,ch3nc,barrier_fwd,40.152,38.25,1.902,unknown,own_b3lyp,no,False,False,"zero-point convention unknown: electronic value shown, not scored"
+Skala-1.1-noD3,main,def2-TZVPD,L7,sn2_ff,barrier_fwd,2.163,-0.34,2.503,excluded,own_b3lyp,yes,False,True,electronic energy vs zero-point-excluded reference
+Skala-1.1-noD3,main,def2-TZVPD,L8,sn2_ff,barrier_fwd_cplx,15.368,13.38,1.988,excluded,own_b3lyp,yes,True,True,electronic energy vs zero-point-excluded reference
+Skala-1.1-noD3,main,def2-TZVPD,L9,sn2_clcl,barrier_fwd,1.668,3.1,-1.432,excluded,own_b3lyp,yes,False,True,electronic energy vs zero-point-excluded reference
+Skala-1.1-noD3,main,def2-TZVPD,L10,sn2_clcl,barrier_fwd_cplx,10.622,13.41,-2.788,excluded,own_b3lyp,yes,True,True,electronic energy vs zero-point-excluded reference
+Skala-1.1-noD3,large,def2-QZVPP,L1,hcn,barrier_fwd,48.144,48.07,0.074,excluded,own_b3lyp,yes,True,True,electronic energy vs zero-point-excluded reference
+Skala-1.1-noD3,large,def2-QZVPP,L2,hcn,barrier_rev,33.374,32.82,0.554,excluded,own_b3lyp,yes,False,True,electronic energy vs zero-point-excluded reference
+Skala-1.1-noD3,large,def2-QZVPP,L3,hcn,reaction_energy,14.77,15.25,-0.48,excluded,own_b3lyp,yes,False,False,electronic energy vs zero-point-excluded reference
+Skala-1.1-noD3,large,def2-QZVPP,L4,nh3,barrier_fwd,6.094,5.12,0.974,excluded,own_b3lyp,yes,True,True,electronic energy vs zero-point-excluded reference
+Skala-1.1-noD3,large,def2-QZVPP,L5,h2co,barrier_fwd,80.915,81.9,-0.985,included,own_b3lyp,yes,True,True,zero-point difference -4.99 added
+wB97M-V,main,def2-TZVP,L1,hcn,barrier_fwd,44.535,48.07,-3.535,excluded,own_b3lyp,yes,True,True,electronic energy vs zero-point-excluded reference
+wB97M-V,main,def2-TZVP,L2,hcn,barrier_rev,31.968,32.82,-0.852,excluded,own_b3lyp,yes,False,True,electronic energy vs zero-point-excluded reference
+wB97M-V,main,def2-TZVP,L3,hcn,reaction_energy,12.566,15.25,-2.684,excluded,own_b3lyp,yes,False,False,electronic energy vs zero-point-excluded reference
+wB97M-V,main,def2-TZVP,L4,nh3,barrier_fwd,4.607,5.12,-0.513,excluded,own_b3lyp,yes,True,True,electronic energy vs zero-point-excluded reference
+wB97M-V,main,def2-TZVP,L5,h2co,barrier_fwd,82.327,81.9,0.427,included,own_b3lyp,yes,True,True,zero-point difference -4.99 added
+wB97M-V,main,def2-TZVP,L6,ch3nc,barrier_fwd,38.61,38.25,0.36,unknown,own_b3lyp,no,False,False,"zero-point convention unknown: electronic value shown, not scored"
+wB97M-V,main,def2-TZVPD,L7,sn2_ff,barrier_fwd,-0.952,-0.34,-0.612,excluded,own_b3lyp,yes,False,True,electronic energy vs zero-point-excluded reference
+wB97M-V,main,def2-TZVPD,L8,sn2_ff,barrier_fwd_cplx,12.555,13.38,-0.825,excluded,own_b3lyp,yes,True,True,electronic energy vs zero-point-excluded reference
+wB97M-V,main,def2-TZVPD,L9,sn2_clcl,barrier_fwd,2.964,3.1,-0.136,excluded,own_b3lyp,yes,False,True,electronic energy vs zero-point-excluded reference
+wB97M-V,main,def2-TZVPD,L10,sn2_clcl,barrier_fwd_cplx,13.503,13.41,0.093,excluded,own_b3lyp,yes,True,True,electronic energy vs zero-point-excluded reference
+wB97M-V,large,def2-QZVPP,L1,hcn,barrier_fwd,44.277,48.07,-3.793,excluded,own_b3lyp,yes,True,True,electronic energy vs zero-point-excluded reference
+wB97M-V,large,def2-QZVPP,L2,hcn,barrier_rev,31.917,32.82,-0.903,excluded,own_b3lyp,yes,False,True,electronic energy vs zero-point-excluded reference
+wB97M-V,large,def2-QZVPP,L3,hcn,reaction_energy,12.36,15.25,-2.89,excluded,own_b3lyp,yes,False,False,electronic energy vs zero-point-excluded reference
+wB97M-V,large,def2-QZVPP,L4,nh3,barrier_fwd,4.675,5.12,-0.445,excluded,own_b3lyp,yes,True,True,electronic energy vs zero-point-excluded reference
+wB97M-V,large,def2-QZVPP,L5,h2co,barrier_fwd,82.162,81.9,0.262,included,own_b3lyp,yes,True,True,zero-point difference -4.99 added
+B3LYP-D3BJ,main,def2-TZVP,L1,hcn,barrier_fwd,47.677,48.07,-0.393,excluded,own_b3lyp,yes,True,True,electronic energy vs zero-point-excluded reference
+B3LYP-D3BJ,main,def2-TZVP,L2,hcn,barrier_rev,33.51,32.82,0.69,excluded,own_b3lyp,yes,False,True,electronic energy vs zero-point-excluded reference
+B3LYP-D3BJ,main,def2-TZVP,L3,hcn,reaction_energy,14.167,15.25,-1.083,excluded,own_b3lyp,yes,False,False,electronic energy vs zero-point-excluded reference
+B3LYP-D3BJ,main,def2-TZVP,L4,nh3,barrier_fwd,4.523,5.12,-0.597,excluded,own_b3lyp,yes,True,True,electronic energy vs zero-point-excluded reference
+B3LYP-D3BJ,main,def2-TZVP,L5,h2co,barrier_fwd,79.329,81.9,-2.571,included,own_b3lyp,yes,True,True,zero-point difference -4.99 added
+B3LYP-D3BJ,main,def2-TZVP,L6,ch3nc,barrier_fwd,40.874,38.25,2.624,unknown,own_b3lyp,no,False,False,"zero-point convention unknown: electronic value shown, not scored"
+B3LYP-D3BJ,main,def2-TZVPD,L7,sn2_ff,barrier_fwd,-2.869,-0.34,-2.529,excluded,own_b3lyp,yes,False,True,electronic energy vs zero-point-excluded reference
+B3LYP-D3BJ,main,def2-TZVPD,L8,sn2_ff,barrier_fwd_cplx,10.246,13.38,-3.134,excluded,own_b3lyp,yes,True,True,electronic energy vs zero-point-excluded reference
+B3LYP-D3BJ,main,def2-TZVPD,L9,sn2_clcl,barrier_fwd,-1.991,3.1,-5.091,excluded,own_b3lyp,yes,False,True,electronic energy vs zero-point-excluded reference
+B3LYP-D3BJ,main,def2-TZVPD,L10,sn2_clcl,barrier_fwd_cplx,8.793,13.41,-4.617,excluded,own_b3lyp,yes,True,True,electronic energy vs zero-point-excluded reference
+r2SCAN,main,def2-TZVP,L1,hcn,barrier_fwd,46.565,48.07,-1.505,excluded,own_b3lyp,yes,True,True,electronic energy vs zero-point-excluded reference
+r2SCAN,main,def2-TZVP,L2,hcn,barrier_rev,31.863,32.82,-0.957,excluded,own_b3lyp,yes,False,True,electronic energy vs zero-point-excluded reference
+r2SCAN,main,def2-TZVP,L3,hcn,reaction_energy,14.701,15.25,-0.549,excluded,own_b3lyp,yes,False,False,electronic energy vs zero-point-excluded reference
+r2SCAN,main,def2-TZVP,L4,nh3,barrier_fwd,4.893,5.12,-0.227,excluded,own_b3lyp,yes,True,True,electronic energy vs zero-point-excluded reference
+r2SCAN,main,def2-TZVP,L5,h2co,barrier_fwd,77.339,81.9,-4.561,included,own_b3lyp,yes,True,True,zero-point difference -4.99 added
+r2SCAN,main,def2-TZVP,L6,ch3nc,barrier_fwd,39.267,38.25,1.017,unknown,own_b3lyp,no,False,False,"zero-point convention unknown: electronic value shown, not scored"
+r2SCAN,main,def2-TZVPD,L7,sn2_ff,barrier_fwd,-5.646,-0.34,-5.306,excluded,own_b3lyp,yes,False,True,electronic energy vs zero-point-excluded reference
+r2SCAN,main,def2-TZVPD,L8,sn2_ff,barrier_fwd_cplx,8.571,13.38,-4.809,excluded,own_b3lyp,yes,True,True,electronic energy vs zero-point-excluded reference
+r2SCAN,main,def2-TZVPD,L9,sn2_clcl,barrier_fwd,-3.132,3.1,-6.232,excluded,own_b3lyp,yes,False,True,electronic energy vs zero-point-excluded reference
+r2SCAN,main,def2-TZVPD,L10,sn2_clcl,barrier_fwd_cplx,8.051,13.41,-5.359,excluded,own_b3lyp,yes,True,True,electronic energy vs zero-point-excluded reference
+PBE,main,def2-TZVP,L1,hcn,barrier_fwd,45.938,48.07,-2.132,excluded,own_b3lyp,yes,True,True,electronic energy vs zero-point-excluded reference
+PBE,main,def2-TZVP,L2,hcn,barrier_rev,30.707,32.82,-2.113,excluded,own_b3lyp,yes,False,True,electronic energy vs zero-point-excluded reference
+PBE,main,def2-TZVP,L3,hcn,reaction_energy,15.231,15.25,-0.019,excluded,own_b3lyp,yes,False,False,electronic energy vs zero-point-excluded reference
+PBE,main,def2-TZVP,L4,nh3,barrier_fwd,4.932,5.12,-0.188,excluded,own_b3lyp,yes,True,True,electronic energy vs zero-point-excluded reference
+PBE,main,def2-TZVP,L5,h2co,barrier_fwd,73.745,81.9,-8.155,included,own_b3lyp,yes,True,True,zero-point difference -4.99 added
+PBE,main,def2-TZVP,L6,ch3nc,barrier_fwd,38.711,38.25,0.461,unknown,own_b3lyp,no,False,False,"zero-point convention unknown: electronic value shown, not scored"
+PBE,main,def2-TZVPD,L7,sn2_ff,barrier_fwd,-5.78,-0.34,-5.44,excluded,own_b3lyp,yes,False,True,electronic energy vs zero-point-excluded reference
+PBE,main,def2-TZVPD,L8,sn2_ff,barrier_fwd_cplx,7.333,13.38,-6.047,excluded,own_b3lyp,yes,True,True,electronic energy vs zero-point-excluded reference
+PBE,main,def2-TZVPD,L9,sn2_clcl,barrier_fwd,-3.21,3.1,-6.31,excluded,own_b3lyp,yes,False,True,electronic energy vs zero-point-excluded reference
+PBE,main,def2-TZVPD,L10,sn2_clcl,barrier_fwd_cplx,7.334,13.41,-6.076,excluded,own_b3lyp,yes,True,True,electronic energy vs zero-point-excluded reference
+CCSD(T)+dMP2,main,def2-TZVP,L1,hcn,barrier_fwd,47.658,48.07,-0.412,excluded,own_b3lyp,yes,True,True,electronic energy vs zero-point-excluded reference
+CCSD(T)+dMP2,main,def2-TZVP,L2,hcn,barrier_rev,33.002,32.82,0.182,excluded,own_b3lyp,yes,False,True,electronic energy vs zero-point-excluded reference
+CCSD(T)+dMP2,main,def2-TZVP,L3,hcn,reaction_energy,14.657,15.25,-0.593,excluded,own_b3lyp,yes,False,False,electronic energy vs zero-point-excluded reference
+CCSD(T)+dMP2,main,def2-TZVP,L4,nh3,barrier_fwd,5.449,5.12,0.329,excluded,own_b3lyp,yes,True,True,electronic energy vs zero-point-excluded reference
+CCSD(T)+dMP2,main,def2-TZVP,L6,ch3nc,barrier_fwd,39.916,38.25,1.666,unknown,own_b3lyp,no,False,False,"zero-point convention unknown: electronic value shown, not scored"
+CCSD(T)+dMP2,main,def2-TZVPD,L7,sn2_ff,barrier_fwd,-0.022,-0.34,0.318,excluded,own_b3lyp,yes,False,True,electronic energy vs zero-point-excluded reference
+CCSD(T)+dMP2,main,def2-TZVPD,L8,sn2_ff,barrier_fwd_cplx,13.605,13.38,0.225,excluded,own_b3lyp,yes,True,True,electronic energy vs zero-point-excluded reference
+CCSD(T)+dMP2,main,def2-TZVPD,L9,sn2_clcl,barrier_fwd,2.932,3.1,-0.168,excluded,own_b3lyp,yes,False,True,electronic energy vs zero-point-excluded reference
+CCSD(T)+dMP2,main,def2-TZVPD,L10,sn2_clcl,barrier_fwd_cplx,13.609,13.41,0.199,excluded,own_b3lyp,yes,True,True,electronic energy vs zero-point-excluded reference
+CCSD(T)-fc,main,def2-TZVP,L1,hcn,barrier_fwd,48.099,48.07,0.029,excluded,own_b3lyp,yes,True,True,electronic energy vs zero-point-excluded reference
+CCSD(T)-fc,main,def2-TZVP,L2,hcn,barrier_rev,32.7,32.82,-0.12,excluded,own_b3lyp,yes,False,True,electronic energy vs zero-point-excluded reference
+CCSD(T)-fc,main,def2-TZVP,L3,hcn,reaction_energy,15.399,15.25,0.149,excluded,own_b3lyp,yes,False,False,electronic energy vs zero-point-excluded reference
+CCSD(T)-fc,main,def2-TZVP,L4,nh3,barrier_fwd,5.468,5.12,0.348,excluded,own_b3lyp,yes,True,True,electronic energy vs zero-point-excluded reference
+CCSD(T)-fc,main,def2-TZVP,L6,ch3nc,barrier_fwd,39.969,38.25,1.719,unknown,own_b3lyp,no,False,False,"zero-point convention unknown: electronic value shown, not scored"
+CCSD(T)-fc,main,def2-TZVPD,L7,sn2_ff,barrier_fwd,0.604,-0.34,0.944,excluded,own_b3lyp,yes,False,True,electronic energy vs zero-point-excluded reference
+CCSD(T)-fc,main,def2-TZVPD,L8,sn2_ff,barrier_fwd_cplx,13.8,13.38,0.42,excluded,own_b3lyp,yes,True,True,electronic energy vs zero-point-excluded reference
+CCSD(T)-fc,main,def2-TZVPD,L9,sn2_clcl,barrier_fwd,2.974,3.1,-0.126,excluded,own_b3lyp,yes,False,True,electronic energy vs zero-point-excluded reference
+CCSD(T)-fc,main,def2-TZVPD,L10,sn2_clcl,barrier_fwd_cplx,13.535,13.41,0.125,excluded,own_b3lyp,yes,True,True,electronic energy vs zero-point-excluded reference

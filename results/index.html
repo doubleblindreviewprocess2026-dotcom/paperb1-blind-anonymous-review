@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Results | Paper B1 companion</title>
+<meta name="description" content="Barriers and signed errors of Skala-1.1 and four functionals for five small reactions, with a mean-error calculator.">
+<meta name="color-scheme" content="light dark">
+<link rel="stylesheet" href="../css/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27%3E%3Crect width=%2716%27 height=%2716%27 rx=%273%27 fill=%27%230b5f78%27/%3E%3Cpath d=%27M2 12 C5 12 6 3 8 3 S11 12 14 12%27 fill=%27none%27 stroke=%27white%27 stroke-width=%271.6%27/%3E%3C/svg%3E">
+<script>try{var t=localStorage.getItem("b1-theme");if(t==="dark"||t==="light")document.documentElement.setAttribute("data-theme",t);}catch(e){}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to the content</a>
+<header class="site"><div class="in">
+<a class="brand" href="../index.html">Paper B1 companion</a>
+<nav aria-label="Main"><a href="../index.html">Home</a><a href="../results/index.html" aria-current="page">Results</a><a href="../demos/index.html">Demos</a><a href="../figures/index.html">Figures</a><a href="../data/index.html">Data</a><a href="../code/index.html">Code</a><a href="../checks/index.html">Checks</a><a href="../about/index.html">About</a></nav>
+<button type="button" class="theme" aria-label="Switch theme">Dark theme</button>
+</div></header>
+<main id="main">
+<h1>Results</h1>
+<p class="lead">One row for each reaction and method: the computed barrier, the reference, and the signed error (computed minus reference, kcal/mol). Change the reference, the basis set or the Skala-1.1 variant below; the table and the statistics follow.</p>
+<noscript><p class="note warn">This page needs JavaScript to build its table. The same numbers are in <a href="../data/csv/study/master_errors.csv">master_errors.csv</a>.</p></noscript>
+<div id="results-app" data-src="../data/json/results.json">
+<div class="controls" role="group" aria-label="Settings of the table">
+<fieldset><legend>Reference</legend><div class="opts">
+<label><input type="radio" name="ref" value="lit" checked> Literature value</label>
+<label><input type="radio" name="ref" value="own"> Our CCSD(T)+ΔMP2 (same geometry)</label></div></fieldset>
+<fieldset><legend>Basis set</legend><div class="opts">
+<label><input type="radio" name="basis" value="main" checked> def2-TZVP (TZVPD for SN2)</label>
+<label><input type="radio" name="basis" value="large"> def2-QZVPP (HCN, NH₃, H₂CO only)</label></div></fieldset>
+<fieldset><legend>Skala-1.1</legend><div class="opts">
+<label><input type="radio" name="d3" value="both" checked> with and without D3</label>
+<label><input type="radio" name="d3" value="with"> with D3</label>
+<label><input type="radio" name="d3" value="without"> without D3</label></div></fieldset>
+<fieldset><legend>Other methods</legend><div class="opts" id="method-boxes"></div></fieldset>
+</div>
+<p class="small" id="mode-note" role="status"></p>
+<div class="tablewrap" tabindex="0" role="region" aria-label="Barriers and errors, sortable"><table id="res-table" class="compact">
+<caption>Forward barrier per reaction and method</caption>
+<thead><tr></tr></thead><tbody></tbody></table></div>
+<p class="small" id="table-foot"></p>
+
+<h2 id="calculator">Mean errors for a set of reactions</h2>
+<p>Tick the reactions to include. The mean absolute error (MAE), mean signed error (MSE) and largest absolute error are computed in your browser from the rows above. For the published sets the result is compared with the statistics in <a href="../data/csv/study/summary_stats.csv">summary_stats.csv</a>
+and <a href="../data/csv/study/derived_leave_one_out.csv">derived_leave_one_out.csv</a>. CH₃NC is unticked by default because its literature reference could not be verified; tick it to see its effect.</p>
+<div class="controls" role="group" aria-label="Reactions in the statistics"><fieldset><legend>Reactions</legend><div class="opts" id="rx-boxes"></div></fieldset>
+<div><button type="button" class="btn alt" id="rx-default">Reset to the published set</button></div></div>
+<div class="tablewrap" tabindex="0" role="region" aria-label="Mean errors for the chosen reactions"><table id="stat-table">
+<caption id="stat-cap">Mean errors</caption>
+<thead><tr><th scope="col">Method</th><th scope="col" class="num">n</th><th scope="col" class="num">MAE</th><th scope="col" class="num">MSE</th><th scope="col" class="num">Largest |error|</th><th scope="col">Published value for this set</th></tr></thead>
+<tbody></tbody></table></div>
+<p class="small" id="stat-note" role="status"></p>
+
+<h2 id="scout">GFN2-xTB scout</h2>
+<p>GFN2-xTB is not a functional in the comparison above. It was run as a scout: the same barrier, from GFN2-xTB energies at GFN2-xTB geometries.</p>
+<div class="tablewrap" tabindex="0" role="region" aria-label="GFN2-xTB scout barriers">
+<table>
+<caption>GFN2-xTB scout: barrier from GFN2-xTB energies at GFN2-xTB geometries (kcal/mol)</caption>
+<thead><tr><th scope="col">Reaction</th><th scope="col" class="num">GFN2-xTB barrier at its own geometry</th><th scope="col" class="num">Literature</th><th scope="col" class="num">Difference</th><th scope="col">Note</th></tr></thead>
+<tbody>
+<tr><td>HCN → HNC</td><td class="num">73.19</td><td class="num">48.07</td><td class="num">+25.12</td><td></td></tr>
+<tr><td>NH₃ inversion</td><td class="num">6.11</td><td class="num">5.12</td><td class="num">+0.99</td><td></td></tr>
+<tr><td>H₂CO → H₂ + CO</td><td class="num">–</td><td class="num">81.90</td><td class="num">–</td><td>GFN2-xTB found no peak on the scan</td></tr>
+<tr><td>F⁻ + CH₃F</td><td class="num">3.72</td><td class="num">13.38</td><td class="num">−9.66</td><td></td></tr>
+<tr><td>Cl⁻ + CH₃Cl</td><td class="num">10.59</td><td class="num">13.41</td><td class="num">−2.82</td><td></td></tr>
+<tr><td>CH₃NC → CH₃CN</td><td class="num">64.72</td><td class="num">38.25</td><td class="num">+26.47</td><td>reference unverified</td></tr>
+</tbody></table></div>
+<p class="small">Source: <a href="../data/records/phase13_xtb_barriers.json">data/records/phase13_xtb_barriers.json</a> and the literature values of the table above. The effect of using GFN2-xTB geometries with the functionals is in <a href="../data/csv/results/scout_table.csv">scout_table.csv</a> and Figure 11.</p>
+</div>
+<h2>Where the numbers come from</h2>
+<ul>
+<li>Barriers and errors: <a href="../data/csv/study/master_errors.csv">data/csv/study/master_errors.csv</a> (one row per scored comparison; this page uses the rows with <code>is_primary_barrier = True</code>).</li>
+<li>Errors against our own coupled-cluster value: <a href="../data/csv/study/derived_internal_reference.csv">derived_internal_reference.csv</a>. H₂CO is missing there: the CCSD(T) calculation at its transition state is unreliable (see <a href="../checks/index.html">Checks</a>).</li>
+<li>Reverse barriers, reaction energies and SN2 barriers from separated reactants are in <code>master_errors.csv</code> and <a href="../data/csv/tables/tableS1_all_scored_rows.csv">tableS1_all_scored_rows.csv</a>.</li>
+</ul>
+
+</main>
+<footer class="site"><div class="in">
+<p>Companion website and data for a study of reaction barriers and reaction paths with Skala-1.1. Code: MIT licence. Data and figures: CC BY 4.0 (see <a href="../about/index.html#licence">About</a>).</p>
+<p data-hide-anon>&copy; <span data-cfg="year"></span> <span data-cfg="holder"></span>. Questions: <span data-cfg="contact"></span>.</p>
+<p data-show-anon>Anonymous copy for review.</p>
+<p>The pages use no external services and set no cookies. The data files are static: every number on this site comes from a CSV file in <a href="../data/index.html">data</a>.</p>
+</div></footer>
+<noscript><div class="note warn" style="max-width:1088px;margin:0 auto 20px"><p>JavaScript is off. The tables and numbers on the pages still show, but the interactive views (sorting, filters, demos) need JavaScript.</p></div></noscript>
+<script src="../js/config.js"></script>
+<script src="../js/common.js"></script>
+<script src="../js/plot.js"></script>
+<script src="../js/results.js"></script>
+</body>
+</html>

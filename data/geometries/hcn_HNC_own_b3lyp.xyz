@@ -1,0 +1,5 @@
+3
+hcn_HNC_own_b3lyp charge=0 {"species": "HNC", "kind": "min", "level": "own_b3lyp", "opt_converged": true, "basis": "def2-TZVP", "from_pack": true, 
+C  -0.00000000 -0.00000000  0.00256956
+N  -0.00000000 -0.00000000  1.16661915
+H  -0.00000000  0.00000000  2.16405060

@@ -1,0 +1,149 @@
+[
+ {
+  "id": "fig01_study_design",
+  "label": "Figure 1",
+  "title": "Study design",
+  "caption": "Five reactions with a verified reference value form the headline set; CH₃NC → CH₃CN (grey, dashed) is computed but enters statistics only against our own coupled-cluster value. References in kcal/mol. All energies are single points at B3LYP-D3(BJ) geometries (def2-TZVP; def2-TZVPD for the two SN2 reactions), with GFN2-xTB geometries used only in the scout test. The grid on the right shows which method was run on which set of structures: filled = run for the whole set, hatched = run for part of the set (CCSD(T) with an MP2 basis-set correction on paths: 7 flagged points excluded; on GFN2-xTB geometries: HCN, NH₃ and CH₃NC only), empty = not run. TZVP = def2-TZVP, QZVPP = def2-QZVPP.",
+  "si": false
+ },
+ {
+  "id": "fig04_reference_quality",
+  "label": "Figure 2",
+  "title": "Quality of the reference",
+  "caption": "(a) Our frozen-core CCSD(T)/def2-TZVP barriers (crosses) and the same with an MP2 basis-set correction to def2-QZVPP (plus signs), minus the literature values. Grey symbols (H₂CO, CH₃NC) are not used in any statistic: the H₂CO transition-state reference is unstable and the CH₃NC literature value is unverified. The grey band marks ±0.5 kcal/mol, the tie threshold used for ranks. (b) T1 diagnostic of all 61 CCSD(T) reference points. Circled crosses: points removed from the reference because T1 exceeds 0.03 or the Hartree-Fock solution is unstable (7 points); u marks an unstable Hartree-Fock solution. Dashed lines: T1 = 0.02 and 0.03.",
+  "si": false
+ },
+ {
+  "id": "fig02_signed_errors",
+  "label": "Figure 3",
+  "title": "Signed barrier errors per reaction and method",
+  "caption": "Signed error (computed minus literature reference) of the forward barrier for five reactions at B3LYP-D3(BJ) geometries with the def2-TZVP basis set (def2-TZVPD for the two SN2 reactions). Open circles: Skala-1.1 without the D3 dispersion term. The grey band marks ±1 kcal/mol; the black line at zero is the literature reference. Black plus signs: our CCSD(T) values with an MP2 basis-set correction (not shown for H₂CO, where the coupled-cluster reference is unusable). †The H₂CO reference includes zero-point energy; a B3LYP harmonic zero-point difference of −4.99 kcal/mol was added to every computed H₂CO barrier. n = 5 reactions.",
+  "si": false
+ },
+ {
+  "id": "fig03_summary_stats",
+  "label": "Figure 4",
+  "title": "Summary statistics and their sensitivity to single reactions",
+  "caption": "(a) Mean absolute error (MAE) and (b) mean signed error (MSE) of the five barriers of Fig. 3; the number of negative errors is printed next to each bar in (b). Whiskers in (a): 95% bootstrap interval over the five reactions, a rough guide only. (c) MAE when one reaction is left out (lines join the points only as a guide; Skala-1.1 without D3 omitted). The order Skala-1.1 < B3LYP-D3(BJ) < r²SCAN < PBE holds in every subset. ωB97M-V has the lower MAE than Skala-1.1 in every subset except the one without Cl⁻ + CH₃Cl, and the gap is largest without HCN → HNC. The hatched bar is Skala-1.1 without D3.",
+  "si": false
+ },
+ {
+  "id": "fig06_nh3_path",
+  "label": "Figure 5",
+  "title": "NH₃ inversion path",
+  "caption": "Energies along the umbrella coordinate (9 points, all with a reliable coupled-cluster reference). (a) Relative energies. (b) Signed error against CCSD(T) with the MP2 basis-set correction; Skala-1.1 without D3 is drawn as open circles on top of the filled Skala-1.1 symbols.",
+  "si": false
+ },
+ {
+  "id": "fig05_hcn_path",
+  "label": "Figure 6",
+  "title": "HCN → HNC path",
+  "caption": "Energies along a relaxed B3LYP-D3(BJ) scan of the H-C-N angle. (a) Relative energies: black line with plus signs, CCSD(T) with MP2 basis-set correction (8 points); black dotted line with crosses, CCSD(T)/def2-TZVP (11 points); coloured lines, density functionals evaluated on the 11 scan points and referenced to the first point of the CCSD(T)/def2-TZVP profile. (b) Signed error against CCSD(T) with the MP2 basis-set correction (filled symbols and lines; lines are not drawn across the three missing points). Small open symbols: error against uncorrected CCSD(T) at the three points where the coupled-cluster reference is flagged (unstable Hartree-Fock solution or T1 above 0.03). Skala-1.1 without D3 is shown only with filled-point lines (dashed, open circles). Errors are zero at the first point by construction. The shaded range is flagged; the dashed vertical line marks the transition state (71.5 degrees).",
+  "si": false
+ },
+ {
+  "id": "fig07_sn2_stretch",
+  "label": "Figure 7",
+  "title": "SN2 symmetric-stretch scans",
+  "caption": "Symmetric stretch of both carbon-halogen bonds at the SN2 transition state (TS), with the CH₃ group frozen at its B3LYP geometry and density fitting (def2-TZVPD). (a) Cl⁻ + CH₃Cl and (b) F⁻ + CH₃F: energy relative to the ion-molecule complex. Solid lines with filled symbols: Skala-1.1 and ωB97M-V; dashed line with open circles: Skala-1.1 without D3. Stars: minimum of a three-point parabola (faint curves), labelled with distance and energy. The transition state is a minimum along this coordinate. Crossed circle: SCF not converged. Dashed black line: CCSD(T) barrier with MP2 basis-set correction at the B3LYP TS; thin grey line: literature barrier. Grey star with bar in (a): Skala-1.1 at the GFN2-xTB TS geometry (the bar spans the two unequal C-Cl distances). (c), (d) Skala-1.1 minus ωB97M-V. For Cl⁻ + CH₃Cl it changes by 7.9 kcal/mol over 0.3 Å; for F⁻ + CH₃F it is smooth. The minima are upper bounds for the relaxed transition-state energies.",
+  "si": false
+ },
+ {
+  "id": "fig11_sn2_geometry",
+  "label": "Figure 8",
+  "title": "Geometry sensitivity of the SN2 barriers",
+  "caption": "Dependence of the SN2 barrier on the transition-state geometry used for the single point: (a) F⁻ + CH₃F, (b) Cl⁻ + CH₃Cl. Numbers under the axis: carbon-halogen distances in Å (xTB: the two unequal distances; own minimum: Skala-1.1 / ωB97M-V). Open symbols: minimum of the rigid symmetric stretch of Fig. 7 (an upper bound for a relaxed transition state). Half-filled symbols: GFN2-xTB geometries; the reference there is still the CCSD(T) barrier at the B3LYP geometry, so these points mix geometry and functional error. Grey band: ±1 kcal/mol.",
+  "si": false
+ },
+ {
+  "id": "fig08_basis_sensitivity",
+  "label": "Figure 9",
+  "title": "Basis-set sensitivity",
+  "caption": "Basis-set dependence for the three reactions computed with def2-QZVPP (n = 3). (a) Change of the barrier from def2-TZVP to def2-QZVPP; the rotated numbers give the signed error at the two basis sets (TZVP → QZVPP). Grey band: ±0.5 kcal/mol. Open circles: Skala-1.1 without D3. (b) Change of the total energy of each species. The H₂CO transition state is the only species where the two functionals differ by more than 0.5 kcal/mol (2.2 kcal/mol).",
+  "si": false
+ },
+ {
+  "id": "fig09_d3_contribution",
+  "label": "Figure 10",
+  "title": "D3 contribution to the Skala-1.1 barriers",
+  "caption": "Contribution of the D3(BJ) dispersion term to the Skala-1.1 barriers (barrier with D3 minus barrier without D3, electronic energies). The mean absolute error of the five headline reactions is 1.44 kcal/mol with and without the term. Grey lines mark ±0.5 kcal/mol; CH₃NC (grey label) has an unverified reference and is not in any statistic.",
+  "si": false
+ },
+ {
+  "id": "fig10_scout",
+  "label": "Figure 11",
+  "title": "Scout test: barriers at GFN2-xTB geometries",
+  "caption": "(a) Change of the computed barrier when GFN2-xTB geometries replace B3LYP-D3(BJ) geometries, same functional for the energy. Open symbols: H₂CO, where GFN2-xTB gave no transition state, so the point is not a test. (b) Error of the GFN2-xTB barrier itself (grey stars; none for H₂CO) and of Skala-1.1 single points at GFN2-xTB geometries (circles). Open symbols use our CCSD(T) value with MP2 correction as reference (CH₃NC, literature value unverified).",
+  "si": false
+ },
+ {
+  "id": "fig12_cost_accuracy",
+  "label": "Figure 12",
+  "title": "Cost and accuracy",
+  "caption": "(a) Wall time of one SCF single point on a Tesla T4 for the structures of this study (12 to 156 basis functions; def2-TZVP and def2-TZVPD). The open circle is the Cl⁻ + CH₃Cl transition state with Skala-1.1 (density fitting after an unconverged default attempt, SCF retries). (b) Mean absolute barrier error (n = 5) against median wall time over the 19 structures computed with all five methods. Whiskers: range of the leave-one-out mean absolute errors. Skala-1.1 runs in its own GPU code and the other functionals in gpu4pyscf, so the times compare implementations as well as functionals. The molecules are too small for any statement on scaling. The median ratio of the ωB97M-V to Skala-1.1 wall time is 3.2 (50 def2-TZVP and def2-TZVPD structures).",
+  "si": false
+ },
+ {
+  "id": "figS1_two_references",
+  "label": "Figure S1",
+  "title": "Errors against two references",
+  "caption": "Signed barrier error against our CCSD(T) value with MP2 basis-set correction (same geometry), plotted against the error relative to the literature value. The diagonal is y = x. Open symbols: CH₃NC, whose literature value is unverified; its horizontal position is shown for orientation only and enters no statistic. Letters mark the reactions on the Skala-1.1 symbols (H: HCN; N: NH₃; M: CH₃NC; F: F⁻ + CH₃F; C: Cl⁻ + CH₃Cl). H₂CO is not shown (no usable coupled-cluster value).",
+  "si": true
+ },
+ {
+  "id": "figS2_internal_reference_stats",
+  "label": "Figure S2",
+  "title": "Statistics with the internal reference",
+  "caption": "(a) Mean absolute error and (b) mean signed error against CCSD(T) with MP2 basis-set correction for five reactions (HCN, NH₃, CH₃NC, F⁻ + CH₃F, Cl⁻ + CH₃Cl; n = 5).",
+  "si": true
+ },
+ {
+  "id": "figS3_h2co_path",
+  "label": "Figure S3",
+  "title": "H₂CO path, a failed path",
+  "caption": "H₂CO → H₂ + CO along a relaxed H···H scan. The point at 1.31 Å is the transition state. The scan is not a smooth path there, and the coupled-cluster reference is unstable at 1.31 and 1.22 Å (open symbols in b). The shaded range, 1.43 to 1.115 Å, has no reliable reference. Not used for any conclusion. Symbols as in Fig. 6.",
+  "si": true
+ },
+ {
+  "id": "figS4_wb97mv_deviation",
+  "label": "Figure S4",
+  "title": "ωB97M-V deviation on the HCN → HNC path, without a reference",
+  "caption": "Difference of the ωB97M-V relative energy from B3LYP-D3(BJ) and from Skala-1.1 along the path. No coupled-cluster value enters.",
+  "si": true
+ },
+ {
+  "id": "figS5_hcn_t1_map",
+  "label": "Figure S5",
+  "title": "T1 map of the rigid HCN grid",
+  "caption": "T1 diagnostic of CCSD(T)/def2-SVP on a rigid 25 × 17 grid (θ = 0: H on the C side; r: distance of H from the centre of mass of CN). White solid contour: T1 = 0.02. Black dashed contour: T1 = 0.03. Pink contour: 120 kcal/mol above the minimum; grey cells lie outside this window. Inside the window, 111 of 369 cells have T1 below 0.02.",
+  "si": true
+ },
+ {
+  "id": "figS6_ranks",
+  "label": "Figure S6",
+  "title": "Ranks with and without the tie rule",
+  "caption": "Rank of each functional per reaction by absolute error, (a) with ties (all methods within 0.5 kcal/mol of the best of a group share a rank) and (b) strict. Darker is better. n = 5 reactions.",
+  "si": true
+ },
+ {
+  "id": "figS7_other_quantities",
+  "label": "Figure S7",
+  "title": "Other scored quantities",
+  "caption": "Signed errors of the quantities outside the headline set: reverse barrier and reaction energy of HCN → HNC, and the SN2 barriers from separated reactants. These rows depend on the headline rows of the same reaction.",
+  "si": true
+ },
+ {
+  "id": "figS8_timing_ratios",
+  "label": "Figure S8",
+  "title": "Timing ratios",
+  "caption": "Wall-time ratios per structure against the number of basis functions: (a) ωB97M-V to Skala-1.1, (b) B3LYP-D3(BJ) to Skala-1.1, (c) Skala-1.1 to PBE. Solid line: ratio 1. Dashed line: median over the def2-TZVP and def2-TZVPD structures. The marker fill shows the basis set.",
+  "si": true
+ },
+ {
+  "id": "figS9_large_basis_errors",
+  "label": "Figure S9",
+  "title": "Errors at the two basis sets",
+  "caption": "Signed barrier error with def2-TZVP (filled) and def2-QZVPP (open), with an arrow from one to the other (n = 3 reactions).",
+  "si": true
+ }
+]

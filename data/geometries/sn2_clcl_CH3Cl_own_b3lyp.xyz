@@ -1,0 +1,7 @@
+5
+sn2_clcl_CH3Cl_own_b3lyp charge=0 {"species": "CH3Cl", "kind": "min", "level": "own_b3lyp", "opt_converged": true, "basis": "def2-TZVPD", "from_pack": tru
+C   0.00002267  0.00000000 -0.00519657
+Cl  0.00009834  0.00000000  1.79010192
+H   1.03069284  0.00000000 -0.34617616
+H  -0.51533604  0.89259974 -0.34610838
+H  -0.51533604 -0.89259974 -0.34610838

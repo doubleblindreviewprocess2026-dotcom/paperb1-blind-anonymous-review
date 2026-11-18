@@ -1,0 +1,7 @@
+number,reaction,class,species,literature,source,zero_point_in_reference,reference_verified,in_BH76
+1,HCN to HNC,H shift,"HCN, HNC, TS",L1 barrier_fwd +48.07; L2 barrier_rev +32.82; L3 reaction_energy +15.25,"NHTBH38/08 database page, comp.chem.umn.edu/db/dbs/nhtbh38.html (QCISD",excluded,yes,yes
+2,NH3 inversion,inversion,"NH3, TS",L4 barrier_fwd +5.12,"Lin et al., J. Chem. Phys. 117, 11265 (2002): 1790 cm-1, CCSD(T)/CBS w",excluded,yes,no
+3,H2CO to H2 + CO,elimination,"H2CO, TS, H2, CO",L5 barrier_fwd +81.90 +/- 0.3,"Feller, Dupuis, Garrett, J. Chem. Phys. 113, 218 (2000), theory (abstr",included,yes,no
+4,CH3NC to CH3CN,group shift,"CH3NC, CH3CN, TS","L6 barrier_fwd +38.25 +/- 0.25 [UNVERIFIED, not in statistics]; L19 reaction_energy (value not yet read) [UNVERIFIED, not in statistics]","Nguyen and Stanton, Sanibel 2018 abstract, HEAT-345Q (experiment 38.2 ; Nguyen, Thorpe, Bross, Ruscic, Stanton, J. Phys. Chem. Lett. 2018 (OST",unknown,no,no
+5,F- + CH3F,SN2,"F-, CH3F, RC, TS",L7 barrier_fwd -0.34; L8 barrier_fwd_cplx +13.38,"NHTBH38/08 database page, comp.chem.umn.edu/db/dbs/nhtbh38.html (QCISD",excluded,yes,yes
+6,Cl- + CH3Cl,SN2,"Cl-, CH3Cl, RC, TS",L9 barrier_fwd +3.10; L10 barrier_fwd_cplx +13.41,"NHTBH38/08 database page, comp.chem.umn.edu/db/dbs/nhtbh38.html (QCISD",excluded,yes,yes

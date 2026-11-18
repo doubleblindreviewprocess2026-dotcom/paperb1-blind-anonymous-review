@@ -1,0 +1,6 @@
+system,key,tier,quantity,max_T1,rhf_stable_all,frozen_core,all_electron_minus_frozen_core,CCSDT_raw,CCSDT_plus_dMP2,literature,literature_verified,raw_minus_literature,corrected_minus_literature,geometry_level
+HCN to HNC,hcn,A,barrier_fwd,0.0259,True,True,0.355,48.09870142790265,47.658,48.07,yes,0.029,-0.412,own_b3lyp
+NH3 inversion,nh3,A,barrier_fwd,0.0064,True,True,,5.467787948643277,5.449,5.12,yes,0.348,0.329,own_b3lyp
+H2CO to H2 + CO,h2co,A,barrier_fwd,0.0234,False,True,,,,81.9,yes,,,
+CH3NC to CH3CN,ch3nc,B,barrier_fwd,0.0233,True,True,,39.96855032962902,39.916,38.25,no,1.719,1.666,own_b3lyp
+F- + CH3F,sn2_ff,B,barrier_fwd_cplx,0.0227,True,True,,13.800471708123826,13.605,13.38,yes,0.42,0.225,own_b3lyp

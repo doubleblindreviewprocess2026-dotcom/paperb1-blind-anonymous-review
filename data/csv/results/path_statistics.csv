@@ -1,0 +1,25 @@
+system,key,method,reference,n_points,mean_abs_error,max_abs_error,max_at_coordinate,max_location,error_min,error_max,error_range
+HCN to HNC,hcn,Skala-1.1,CCSD(T)+dMP2,8,0.439,1.062,26.625,after the TS,0.0,1.062,1.062
+HCN to HNC,hcn,Skala-1.1-noD3,CCSD(T)+dMP2,8,0.471,1.165,26.625,after the TS,0.0,1.165,1.165
+HCN to HNC,hcn,wB97M-V,CCSD(T)+dMP2,8,1.903,3.561,47.25,after the TS,-3.561,0.557,4.117
+HCN to HNC,hcn,B3LYP-D3BJ,CCSD(T)+dMP2,8,0.246,0.746,26.625,after the TS,-0.746,0.47,1.216
+HCN to HNC,hcn,Skala-1.1,CCSD(T) raw,11,0.276,0.592,129.75,before the TS,-0.467,0.592,1.059
+HCN to HNC,hcn,Skala-1.1-noD3,CCSD(T) raw,11,0.27,0.598,129.75,before the TS,-0.387,0.598,0.985
+HCN to HNC,hcn,wB97M-V,CCSD(T) raw,11,1.948,4.305,47.25,after the TS,-4.305,1.045,5.35
+HCN to HNC,hcn,B3LYP-D3BJ,CCSD(T) raw,11,0.624,1.53,26.625,after the TS,-1.53,1.033,2.563
+NH3 inversion,nh3,Skala-1.1,CCSD(T)+dMP2,9,0.194,0.478,0.0,at the TS (+/- 1 point),-0.001,0.478,0.478
+NH3 inversion,nh3,Skala-1.1-noD3,CCSD(T)+dMP2,9,0.193,0.476,0.0,at the TS (+/- 1 point),-0.001,0.476,0.477
+NH3 inversion,nh3,wB97M-V,CCSD(T)+dMP2,9,0.452,0.843,0.0,at the TS (+/- 1 point),-0.843,0.0,0.843
+NH3 inversion,nh3,B3LYP-D3BJ,CCSD(T)+dMP2,9,0.506,0.927,0.0,at the TS (+/- 1 point),-0.927,0.0,0.927
+NH3 inversion,nh3,Skala-1.1,CCSD(T) raw,9,0.189,0.459,0.0,at the TS (+/- 1 point),-0.002,0.459,0.461
+NH3 inversion,nh3,Skala-1.1-noD3,CCSD(T) raw,9,0.188,0.458,0.0,at the TS (+/- 1 point),-0.002,0.458,0.459
+NH3 inversion,nh3,wB97M-V,CCSD(T) raw,9,0.458,0.861,0.0,at the TS (+/- 1 point),-0.861,0.0,0.861
+NH3 inversion,nh3,B3LYP-D3BJ,CCSD(T) raw,9,0.511,0.945,0.0,at the TS (+/- 1 point),-0.945,0.0,0.945
+H2CO to H2 + CO,h2co,Skala-1.1,CCSD(T)+dMP2,9,0.381,1.736,1.115,at the TS (+/- 1 point),0.0,1.736,1.736
+H2CO to H2 + CO,h2co,Skala-1.1-noD3,CCSD(T)+dMP2,9,0.345,1.704,1.115,at the TS (+/- 1 point),-0.096,1.704,1.8
+H2CO to H2 + CO,h2co,wB97M-V,CCSD(T)+dMP2,9,0.316,1.325,1.115,at the TS (+/- 1 point),-0.243,1.325,1.569
+H2CO to H2 + CO,h2co,B3LYP-D3BJ,CCSD(T)+dMP2,9,1.388,3.388,1.115,at the TS (+/- 1 point),-0.202,3.388,3.59
+H2CO to H2 + CO,h2co,Skala-1.1,CCSD(T) raw,11,1.468,4.348,1.22,at the TS (+/- 1 point),-0.458,4.348,4.805
+H2CO to H2 + CO,h2co,Skala-1.1-noD3,CCSD(T) raw,11,1.442,4.323,1.22,at the TS (+/- 1 point),-0.459,4.323,4.782
+H2CO to H2 + CO,h2co,wB97M-V,CCSD(T) raw,11,1.362,3.739,1.22,at the TS (+/- 1 point),-0.716,3.739,4.455
+H2CO to H2 + CO,h2co,B3LYP-D3BJ,CCSD(T) raw,11,2.678,5.599,1.22,at the TS (+/- 1 point),-3.162,5.599,8.761

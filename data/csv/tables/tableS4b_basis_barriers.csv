@@ -1,0 +1,10 @@
+reaction,method,basis_main,barrier_main_electronic_kcal,zpe_added_kcal,barrier_main_used_kcal,basis_large,barrier_large_used_kcal,shift_main_to_large_kcal,signed_error_main_kcal,signed_error_large_kcal
+hcn,Skala-1.1,def2-TZVP,48.3733,0.0,48.3733,def2-QZVPP,48.1501,-0.2232,0.3033,0.0801
+hcn,Skala-1.1-noD3,def2-TZVP,48.3673,0.0,48.3673,def2-QZVPP,48.1442,-0.2231,0.2973,0.0742
+hcn,wB97M-V,def2-TZVP,44.5348,0.0,44.5348,def2-QZVPP,44.2766,-0.2582,-3.5352,-3.7934
+nh3,Skala-1.1,def2-TZVP,5.9272,0.0,5.9272,def2-QZVPP,6.0958,0.1686,0.8072,0.9758
+nh3,Skala-1.1-noD3,def2-TZVP,5.9254,0.0,5.9254,def2-QZVPP,6.0941,0.1687,0.8054,0.9741
+nh3,wB97M-V,def2-TZVP,4.6069,0.0,4.6069,def2-QZVPP,4.6747,0.0678,-0.5131,-0.4453
+h2co,Skala-1.1,def2-TZVP,87.9652,-4.9885,82.9767,def2-QZVPP,80.6605,-2.3162,1.0767,-1.2395
+h2co,Skala-1.1-noD3,def2-TZVP,88.2194,-4.9885,83.2309,def2-QZVPP,80.9147,-2.3162,1.3309,-0.9853
+h2co,wB97M-V,def2-TZVP,87.3156,-4.9885,82.3271,def2-QZVPP,82.1617,-0.1654,0.4271,0.2617

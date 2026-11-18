@@ -1,0 +1,7 @@
+system,key,quantity,geometry_level,skala_with_D3,skala_without_D3,D3_contribution,literature,literature_verified,error_with_D3,error_without_D3,CCSDT_reference,reference_is_basis_corrected
+HCN to HNC,hcn,barrier_fwd,own_b3lyp,48.373,48.367,0.006,48.07,True,0.303,0.297,47.658,True
+NH3 inversion,nh3,barrier_fwd,own_b3lyp,5.927,5.925,0.002,5.12,True,0.807,0.805,5.449,True
+H2CO to H2 + CO,h2co,barrier_fwd,own_b3lyp,87.965,88.219,-0.254,81.9,True,6.065,6.319,,
+CH3NC to CH3CN,ch3nc,barrier_fwd,own_b3lyp,40.161,40.152,0.009,38.25,False,,,39.916,True
+F- + CH3F,sn2_ff,barrier_fwd_cplx,own_b3lyp,15.287,15.368,-0.08,13.38,True,1.907,1.988,13.605,True
+Cl- + CH3Cl,sn2_clcl,barrier_fwd_cplx,own_b3lyp,10.287,10.622,-0.334,13.41,True,-3.123,-2.788,13.609,True
